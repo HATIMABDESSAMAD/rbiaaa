@@ -1,4 +1,5 @@
 /inat dataset/
+/fichiers_exclus_github/
 /1 - Copie - Copie/github_export_bioclip2_best_model/.git-parent-backup/
 *.zip
 *.safetensors
