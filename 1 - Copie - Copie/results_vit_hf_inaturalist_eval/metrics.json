@@ -1,0 +1,27 @@
+{
+  "args": {
+    "data": "Bases de données photos Dr Taleb",
+    "backend": "hf",
+    "model": "bryanzhou008/vit-base-patch16-224-in21k-finetuned-inaturalist",
+    "checkpoint": null,
+    "output_dir": "results_vit_hf_inaturalist_eval",
+    "batch_size": 16,
+    "workers": 0,
+    "test_size": 0.3,
+    "seed": 42,
+    "device": null,
+    "c": 1.0,
+    "max_iter": 2000,
+    "class_weight_balanced": true
+  },
+  "metrics": {
+    "accuracy": 0.32124352331606215,
+    "balanced_accuracy": 0.3079710144927536,
+    "precision_macro": 0.25376121463077983,
+    "recall_macro": 0.3079710144927536,
+    "f1_macro": 0.2648493213710605,
+    "precision_weighted": 0.2696274364668147,
+    "recall_weighted": 0.32124352331606215,
+    "f1_weighted": 0.27771198289333004
+  }
+}

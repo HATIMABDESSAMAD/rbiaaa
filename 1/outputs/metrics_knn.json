@@ -1,0 +1,8 @@
+{
+  "classifier": "knn",
+  "samples": 631,
+  "classes": 138,
+  "top1_accuracy": 0.6117274167987322,
+  "top5_accuracy": 0.6228209191759112,
+  "macro_f1": 0.5414832172185113
+}

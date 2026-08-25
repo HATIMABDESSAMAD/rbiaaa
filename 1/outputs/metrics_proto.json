@@ -1,0 +1,8 @@
+{
+  "classifier": "proto",
+  "samples": 631,
+  "classes": 138,
+  "top1_accuracy": 0.5182250396196514,
+  "top5_accuracy": 0.7290015847860539,
+  "macro_f1": 0.46223855469548025
+}

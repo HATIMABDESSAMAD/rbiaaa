@@ -1,0 +1,6 @@
+{
+  "mode": "white_crop",
+  "images": 631,
+  "output": "preprocessed\\bg_white_crop",
+  "mean_foreground_ratio": null
+}

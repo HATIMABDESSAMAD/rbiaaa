@@ -1,0 +1,691 @@
+seed,class_id,class_name,selected_prompt,selected_template
+42,0,Abutilon theophrasti L,binomial_photo,a photo of {binomial}
+42,1,Adonis annua L,binomial_photo,a photo of {binomial}
+42,2,Amaranthus blitoides S. Watson,binomial_photo,a photo of {binomial}
+42,3,Amaranthus deflexus L,binomial_closeup,a close-up photo of {binomial}
+42,4,Amaranthus retroflexus L,binomial_photo,a photo of {binomial}
+42,5,Ammi majus L,binomial_photo,a photo of {binomial}
+42,6,Ammi visnaga (L.) Lam,binomial_weed,a field photo of the weed species {binomial}
+42,7,Anacyclus radiatus Loisel,binomial_weed,a field photo of the weed species {binomial}
+42,8,Anagallis arvensis L,binomial_photo,a photo of {binomial}
+42,9,Anchusa azurea Miller,binomial_leaf,a photo of the leaf of {binomial}
+42,10,Arisarum simorrhinum Durieu,binomial_photo,a photo of {binomial}
+42,11,Aster squamatus  (Spreng.) Hieron,binomial_photo,a photo of {binomial}
+42,12,Astragalus boeticus L,binomial_photo,a photo of {binomial}
+42,13,Avena sterilis L,binomial_photo,a photo of {binomial}
+42,14,Beta macrocarpa Guss,binomial_photo,a photo of {binomial}
+42,15,Bifora testiculata L,binomial_photo,a photo of {binomial}
+42,16,Borago officinalis L,binomial_photo,a photo of {binomial}
+42,17,Bromus rigidus,binomial_photo,a photo of {binomial}
+42,18,Bromus rubens L,binomial_photo,a photo of {binomial}
+42,19,Buglossoides arvensis (L.) I. M. Johnson,binomial_photo,a photo of {binomial}
+42,20,Bupleurum lancifolium Hornem,binomial_seedling,a photo of the seedling of {binomial}
+42,21,Calendula arvensis L,binomial_photo,a photo of {binomial}
+42,22,Capsella bursa-pastoris (L.) Medicus,binomial_photo,a photo of {binomial}
+42,23,Cardaria draba (Cav) Desv,binomial_photo,a photo of {binomial}
+42,24,Carduus pycnocephalus L,binomial_photo,a photo of {binomial}
+42,25,Carlina racemosa L,binomial_photo,a photo of {binomial}
+42,26,Centaurea diluta Aïton,binomial_photo,a photo of {binomial}
+42,27,Centaurea eriophora L,binomial_photo,a photo of {binomial}
+42,28,Chamaemelum fuscatum L,binomial_photo,a photo of {binomial}
+42,29,Chamaemelum mixtum (L.) All,binomial_weed,a field photo of the weed species {binomial}
+42,30,Chenopodium album L,binomial_photo,a photo of {binomial}
+42,31,Chenopodium murale L,binomial_closeup,a close-up photo of {binomial}
+42,32,Chenopodium vulvaria L,binomial_plant,a photo of the plant {binomial}
+42,33,Chrozophora tinctoria (L). A. Juss,binomial_photo,a photo of {binomial}
+42,34,Chrysanthemum coronarium L,binomial_plant,a photo of the plant {binomial}
+42,35,Chrysanthemum segetum L,binomial_photo,a photo of {binomial}
+42,36,Cichorium endivia L,binomial_photo,a photo of {binomial}
+42,37,Convolvulus altaeoides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+42,38,Convolvulus arvensis L,binomial_flower,a photo of the flower of {binomial}
+42,39,Convolvulus gharbensis Batt. & Pitard,binomial_photo,a photo of {binomial}
+42,40,Convolvulus tricolor L,binomial_photo,a photo of {binomial}
+42,41,Conyza canadensis (L.) Cronq,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+42,42,Coronilla scorpioides (L.) Koch,binomial_photo,a photo of {binomial}
+42,43,Coronopus squamatus (Forsk.) Ascherson,binomial_botanical,a botanical photo of {binomial}
+42,44,Cynodon dactylon (L.) Pers,binomial_photo,a photo of {binomial}
+42,45,Cyperus rotundus L,binomial_photo,a photo of {binomial}
+42,46,Datura stramonium L,binomial_photo,a photo of {binomial}
+42,47,Daucus carota L,binomial_weed,a field photo of the weed species {binomial}
+42,48,Digitaria sanguinalis,binomial_photo,a photo of {binomial}
+42,49,Diplotaxis catholica (L.) DC,binomial_photo,a photo of {binomial}
+42,50,Diplotaxis tenuisiliqua delile,binomial_photo,a photo of {binomial}
+42,51,Ecballium elaterium  (L.) A. Rich,binomial_photo,a photo of {binomial}
+42,52,Echinochloa crus-galli (L.) Beauv,binomial_photo,a photo of {binomial}
+42,53,Emex spinosa (L.) Campd,binomial_photo,a photo of {binomial}
+42,54,Eryngium ilicifolium Lam,binomial_photo,a photo of {binomial}
+42,55,Euphorbia medicaginea Boiss,binomial_photo,a photo of {binomial}
+42,56,Fallopia convolvulus (L.) A. Löve,binomial_photo,a photo of {binomial}
+42,57,Fedia cornucopiae (L.) Gaertner,binomial_photo,a photo of {binomial}
+42,58,Fumaria agraria Lag,binomial_photo,a photo of {binomial}
+42,59,Fumaria parviflora Lam,binomial_photo,a photo of {binomial}
+42,60,Galium tricornutum Dandy,binomial_plant,a photo of the plant {binomial}
+42,61,Galium verrucosum Hudson,binomial_photo,a photo of {binomial}
+42,62,Geropogon hybridus  (L.) Sch.Bip,binomial_inflorescence,a photo of the inflorescence of {binomial}
+42,63,Gladiolus italicus Miller,binomial_plant,a photo of the plant {binomial}
+42,64,Glaucium corniculatum (L.) J. H. Rudolph,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+42,65,Heliotropium europaeum L,binomial_photo,a photo of {binomial}
+42,66,Hibiscus trionum L,binomial_photo,a photo of {binomial}
+42,67,Hirschfeldia incana (L.) Lagrèze-Fossat,binomial_photo,a photo of {binomial}
+42,68,Hordeum murinum L,binomial_botanical,a botanical photo of {binomial}
+42,69,Lactuca scariola L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+42,70,Lamium amplexicaule L,binomial_photo,a photo of {binomial}
+42,71,Lathyrus cicera L,binomial_photo,a photo of {binomial}
+42,72,Lathyrus clymenum L,binomial_photo,a photo of {binomial}
+42,73,Lathyrus ochrus (L.) DC,binomial_photo,a photo of {binomial}
+42,74,Lavatera trimestris L,binomial_weed,a field photo of the weed species {binomial}
+42,75,Lolium multiflorum Lam,full_botanical,a botanical photo of {name}
+42,76,Lolium rigidum Gaudin,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+42,77,Lupinus angustifolius L,binomial_photo,a photo of {binomial}
+42,78,Lupinus hirsutus L,binomial_photo,a photo of {binomial}
+42,79,Lupinus luteus L,binomial_weed,a field photo of the weed species {binomial}
+42,80,Malope trifida Cav,binomial_plant,a photo of the plant {binomial}
+42,81,Malva parviflora L,binomial_photo,a photo of {binomial}
+42,82,Medicago polymorpha L,binomial_photo,a photo of {binomial}
+42,83,Melilotus sulcata Desf,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+42,84,Mercurialis annua L,binomial_photo,a photo of {binomial}
+42,85,Misopates orontium (L.) Rafin,binomial_photo,a photo of {binomial}
+42,86,Onopordon macracanthum L,binomial_plant,a photo of the plant {binomial}
+42,87,Orobanche crenata Forsk,binomial_photo,a photo of {binomial}
+42,88,Oxalis pes-caprae L,binomial_photo,a photo of {binomial}
+42,89,Papaver hybridum L,binomial_photo,a photo of {binomial}
+42,90,Papaver rhoeas L,binomial_photo,a photo of {binomial}
+42,91,Phalaris brachystachys Link,binomial_weed,a field photo of the weed species {binomial}
+42,92,Phalaris minor Retz,binomial_seedling,a photo of the seedling of {binomial}
+42,93,Phalaris paradoxa L,binomial_photo,a photo of {binomial}
+42,94,Phragmites australis L,binomial_photo,a photo of {binomial}
+42,95,Picris echioides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+42,96,Plantago afra L,binomial_photo,a photo of {binomial}
+42,97,Poa annua L,binomial_photo,a photo of {binomial}
+42,98,Polygonum aviculare L,binomial_weed,a field photo of the weed species {binomial}
+42,99,Portulaca oleracea L,binomial_photo,a photo of {binomial}
+42,100,Ranunculus muricatus L,binomial_photo,a photo of {binomial}
+42,101,Ranunculus sardous L,binomial_photo,a photo of {binomial}
+42,102,Raphanus raphanistrum L,binomial_photo,a photo of {binomial}
+42,103,Reseda alba L,binomial_photo,a photo of {binomial}
+42,104,Rhagadiolus stellatus (L.) Gaertner,binomial_photo,a photo of {binomial}
+42,105,Ricinus communis L,binomial_photo,a photo of {binomial}
+42,106,Ridolfia segetum Moris,binomial_plant,a photo of the plant {binomial}
+42,107,Rumex pulcher L,binomial_photo,a photo of {binomial}
+42,108,Scandix pecten-veneris L,binomial_photo,a photo of {binomial}
+42,109,Scolymus hispanicus L,binomial_photo,a photo of {binomial}
+42,110,Scolymus maculatus L,binomial_plant,a photo of the plant {binomial}
+42,111,Scorpiurus muricatus L,binomial_photo,a photo of {binomial}
+42,112,Senecio vulgaris L,binomial_photo,a photo of {binomial}
+42,113,Silene gallica L,binomial_plant,a photo of the plant {binomial}
+42,114,Silene vulgaris (Moench) Garcke,binomial_seedling,a photo of the seedling of {binomial}
+42,115,Silybum marianum (L.)  Gaertn,binomial_photo,a photo of {binomial}
+42,116,Sinapis alba L,binomial_photo,a photo of {binomial}
+42,117,Sinapis arvensis L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+42,118,Solanum elaeagnifolium Cav,binomial_photo,a photo of {binomial}
+42,119,Solanum nigrum L,binomial_photo,a photo of {binomial}
+42,120,Sonchus asper (L.) Hill,binomial_photo,a photo of {binomial}
+42,121,Sonchus oleraceus L,binomial_photo,a photo of {binomial}
+42,122,Sorghum halepense L,binomial_photo,a photo of {binomial}
+42,123,Stachys arvensis L,binomial_photo,a photo of {binomial}
+42,124,Stellaria media (L.)Vill,binomial_photo,a photo of {binomial}
+42,125,Torilis nodosa (L.) Gaertner,binomial_photo,a photo of {binomial}
+42,126,Tragopogon hybridus L,binomial_weed,a field photo of the weed species {binomial}
+42,127,Tribulus terrestris L,binomial_photo,a photo of {binomial}
+42,128,Urtica urens L,binomial_photo,a photo of {binomial}
+42,129,Vaccaria hispanica (Miller) Rauscher,full_botanical,a botanical photo of {name}
+42,130,Verbesina encelioides (Cav.) Benth. ex A. Gray,binomial_photo,a photo of {binomial}
+42,131,Veronica hederifolia L,binomial_photo,a photo of {binomial}
+42,132,Veronica polita Fries,binomial_photo,a photo of {binomial}
+42,133,Vicia benghalensis L,binomial_photo,a photo of {binomial}
+42,134,Vicia lutea L,binomial_seedling,a photo of the seedling of {binomial}
+42,135,Vicia sativa L,binomial_photo,a photo of {binomial}
+42,136,Xanthium brasilicum Vellasco,binomial_photo,a photo of {binomial}
+42,137,Xanthium spinosum L,binomial_photo,a photo of {binomial}
+43,0,Abutilon theophrasti L,binomial_photo,a photo of {binomial}
+43,1,Adonis annua L,binomial_photo,a photo of {binomial}
+43,2,Amaranthus blitoides S. Watson,binomial_photo,a photo of {binomial}
+43,3,Amaranthus deflexus L,binomial_closeup,a close-up photo of {binomial}
+43,4,Amaranthus retroflexus L,binomial_photo,a photo of {binomial}
+43,5,Ammi majus L,binomial_photo,a photo of {binomial}
+43,6,Ammi visnaga (L.) Lam,binomial_weed,a field photo of the weed species {binomial}
+43,7,Anacyclus radiatus Loisel,binomial_weed,a field photo of the weed species {binomial}
+43,8,Anagallis arvensis L,binomial_photo,a photo of {binomial}
+43,9,Anchusa azurea Miller,binomial_photo,a photo of {binomial}
+43,10,Arisarum simorrhinum Durieu,binomial_photo,a photo of {binomial}
+43,11,Aster squamatus  (Spreng.) Hieron,binomial_photo,a photo of {binomial}
+43,12,Astragalus boeticus L,binomial_photo,a photo of {binomial}
+43,13,Avena sterilis L,binomial_photo,a photo of {binomial}
+43,14,Beta macrocarpa Guss,binomial_photo,a photo of {binomial}
+43,15,Bifora testiculata L,binomial_photo,a photo of {binomial}
+43,16,Borago officinalis L,binomial_photo,a photo of {binomial}
+43,17,Bromus rigidus,binomial_photo,a photo of {binomial}
+43,18,Bromus rubens L,binomial_photo,a photo of {binomial}
+43,19,Buglossoides arvensis (L.) I. M. Johnson,binomial_photo,a photo of {binomial}
+43,20,Bupleurum lancifolium Hornem,binomial_seedling,a photo of the seedling of {binomial}
+43,21,Calendula arvensis L,binomial_photo,a photo of {binomial}
+43,22,Capsella bursa-pastoris (L.) Medicus,binomial_photo,a photo of {binomial}
+43,23,Cardaria draba (Cav) Desv,binomial_photo,a photo of {binomial}
+43,24,Carduus pycnocephalus L,binomial_photo,a photo of {binomial}
+43,25,Carlina racemosa L,binomial_plant,a photo of the plant {binomial}
+43,26,Centaurea diluta Aïton,binomial_photo,a photo of {binomial}
+43,27,Centaurea eriophora L,binomial_photo,a photo of {binomial}
+43,28,Chamaemelum fuscatum L,binomial_photo,a photo of {binomial}
+43,29,Chamaemelum mixtum (L.) All,binomial_weed,a field photo of the weed species {binomial}
+43,30,Chenopodium album L,binomial_photo,a photo of {binomial}
+43,31,Chenopodium murale L,binomial_closeup,a close-up photo of {binomial}
+43,32,Chenopodium vulvaria L,binomial_plant,a photo of the plant {binomial}
+43,33,Chrozophora tinctoria (L). A. Juss,binomial_seedling,a photo of the seedling of {binomial}
+43,34,Chrysanthemum coronarium L,binomial_plant,a photo of the plant {binomial}
+43,35,Chrysanthemum segetum L,binomial_photo,a photo of {binomial}
+43,36,Cichorium endivia L,binomial_photo,a photo of {binomial}
+43,37,Convolvulus altaeoides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+43,38,Convolvulus arvensis L,binomial_photo,a photo of {binomial}
+43,39,Convolvulus gharbensis Batt. & Pitard,binomial_photo,a photo of {binomial}
+43,40,Convolvulus tricolor L,binomial_photo,a photo of {binomial}
+43,41,Conyza canadensis (L.) Cronq,binomial_photo,a photo of {binomial}
+43,42,Coronilla scorpioides (L.) Koch,binomial_weed,a field photo of the weed species {binomial}
+43,43,Coronopus squamatus (Forsk.) Ascherson,binomial_botanical,a botanical photo of {binomial}
+43,44,Cynodon dactylon (L.) Pers,binomial_photo,a photo of {binomial}
+43,45,Cyperus rotundus L,binomial_photo,a photo of {binomial}
+43,46,Datura stramonium L,binomial_photo,a photo of {binomial}
+43,47,Daucus carota L,binomial_weed,a field photo of the weed species {binomial}
+43,48,Digitaria sanguinalis,binomial_photo,a photo of {binomial}
+43,49,Diplotaxis catholica (L.) DC,binomial_photo,a photo of {binomial}
+43,50,Diplotaxis tenuisiliqua delile,binomial_photo,a photo of {binomial}
+43,51,Ecballium elaterium  (L.) A. Rich,binomial_photo,a photo of {binomial}
+43,52,Echinochloa crus-galli (L.) Beauv,binomial_photo,a photo of {binomial}
+43,53,Emex spinosa (L.) Campd,binomial_photo,a photo of {binomial}
+43,54,Eryngium ilicifolium Lam,binomial_photo,a photo of {binomial}
+43,55,Euphorbia medicaginea Boiss,binomial_photo,a photo of {binomial}
+43,56,Fallopia convolvulus (L.) A. Löve,binomial_photo,a photo of {binomial}
+43,57,Fedia cornucopiae (L.) Gaertner,binomial_plant,a photo of the plant {binomial}
+43,58,Fumaria agraria Lag,binomial_photo,a photo of {binomial}
+43,59,Fumaria parviflora Lam,binomial_photo,a photo of {binomial}
+43,60,Galium tricornutum Dandy,binomial_plant,a photo of the plant {binomial}
+43,61,Galium verrucosum Hudson,binomial_photo,a photo of {binomial}
+43,62,Geropogon hybridus  (L.) Sch.Bip,binomial_photo,a photo of {binomial}
+43,63,Gladiolus italicus Miller,binomial_photo,a photo of {binomial}
+43,64,Glaucium corniculatum (L.) J. H. Rudolph,binomial_photo,a photo of {binomial}
+43,65,Heliotropium europaeum L,binomial_photo,a photo of {binomial}
+43,66,Hibiscus trionum L,binomial_photo,a photo of {binomial}
+43,67,Hirschfeldia incana (L.) Lagrèze-Fossat,binomial_photo,a photo of {binomial}
+43,68,Hordeum murinum L,binomial_botanical,a botanical photo of {binomial}
+43,69,Lactuca scariola L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+43,70,Lamium amplexicaule L,binomial_photo,a photo of {binomial}
+43,71,Lathyrus cicera L,binomial_photo,a photo of {binomial}
+43,72,Lathyrus clymenum L,binomial_photo,a photo of {binomial}
+43,73,Lathyrus ochrus (L.) DC,binomial_photo,a photo of {binomial}
+43,74,Lavatera trimestris L,binomial_weed,a field photo of the weed species {binomial}
+43,75,Lolium multiflorum Lam,binomial_photo,a photo of {binomial}
+43,76,Lolium rigidum Gaudin,binomial_photo,a photo of {binomial}
+43,77,Lupinus angustifolius L,binomial_photo,a photo of {binomial}
+43,78,Lupinus hirsutus L,binomial_photo,a photo of {binomial}
+43,79,Lupinus luteus L,binomial_weed,a field photo of the weed species {binomial}
+43,80,Malope trifida Cav,binomial_plant,a photo of the plant {binomial}
+43,81,Malva parviflora L,binomial_photo,a photo of {binomial}
+43,82,Medicago polymorpha L,binomial_photo,a photo of {binomial}
+43,83,Melilotus sulcata Desf,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+43,84,Mercurialis annua L,binomial_closeup,a close-up photo of {binomial}
+43,85,Misopates orontium (L.) Rafin,binomial_photo,a photo of {binomial}
+43,86,Onopordon macracanthum L,binomial_plant,a photo of the plant {binomial}
+43,87,Orobanche crenata Forsk,binomial_photo,a photo of {binomial}
+43,88,Oxalis pes-caprae L,binomial_photo,a photo of {binomial}
+43,89,Papaver hybridum L,binomial_photo,a photo of {binomial}
+43,90,Papaver rhoeas L,binomial_photo,a photo of {binomial}
+43,91,Phalaris brachystachys Link,full_photo,a photo of {name}
+43,92,Phalaris minor Retz,binomial_photo,a photo of {binomial}
+43,93,Phalaris paradoxa L,binomial_photo,a photo of {binomial}
+43,94,Phragmites australis L,binomial_photo,a photo of {binomial}
+43,95,Picris echioides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+43,96,Plantago afra L,binomial_photo,a photo of {binomial}
+43,97,Poa annua L,binomial_photo,a photo of {binomial}
+43,98,Polygonum aviculare L,binomial_weed,a field photo of the weed species {binomial}
+43,99,Portulaca oleracea L,binomial_photo,a photo of {binomial}
+43,100,Ranunculus muricatus L,binomial_photo,a photo of {binomial}
+43,101,Ranunculus sardous L,binomial_photo,a photo of {binomial}
+43,102,Raphanus raphanistrum L,binomial_photo,a photo of {binomial}
+43,103,Reseda alba L,binomial_photo,a photo of {binomial}
+43,104,Rhagadiolus stellatus (L.) Gaertner,full_botanical,a botanical photo of {name}
+43,105,Ricinus communis L,binomial_photo,a photo of {binomial}
+43,106,Ridolfia segetum Moris,binomial_plant,a photo of the plant {binomial}
+43,107,Rumex pulcher L,binomial_photo,a photo of {binomial}
+43,108,Scandix pecten-veneris L,binomial_photo,a photo of {binomial}
+43,109,Scolymus hispanicus L,binomial_photo,a photo of {binomial}
+43,110,Scolymus maculatus L,binomial_plant,a photo of the plant {binomial}
+43,111,Scorpiurus muricatus L,binomial_photo,a photo of {binomial}
+43,112,Senecio vulgaris L,binomial_photo,a photo of {binomial}
+43,113,Silene gallica L,binomial_plant,a photo of the plant {binomial}
+43,114,Silene vulgaris (Moench) Garcke,binomial_photo,a photo of {binomial}
+43,115,Silybum marianum (L.)  Gaertn,binomial_photo,a photo of {binomial}
+43,116,Sinapis alba L,binomial_photo,a photo of {binomial}
+43,117,Sinapis arvensis L,binomial_photo,a photo of {binomial}
+43,118,Solanum elaeagnifolium Cav,binomial_photo,a photo of {binomial}
+43,119,Solanum nigrum L,binomial_photo,a photo of {binomial}
+43,120,Sonchus asper (L.) Hill,binomial_photo,a photo of {binomial}
+43,121,Sonchus oleraceus L,binomial_photo,a photo of {binomial}
+43,122,Sorghum halepense L,binomial_photo,a photo of {binomial}
+43,123,Stachys arvensis L,binomial_photo,a photo of {binomial}
+43,124,Stellaria media (L.)Vill,binomial_photo,a photo of {binomial}
+43,125,Torilis nodosa (L.) Gaertner,binomial_photo,a photo of {binomial}
+43,126,Tragopogon hybridus L,binomial_weed,a field photo of the weed species {binomial}
+43,127,Tribulus terrestris L,binomial_photo,a photo of {binomial}
+43,128,Urtica urens L,binomial_photo,a photo of {binomial}
+43,129,Vaccaria hispanica (Miller) Rauscher,full_botanical,a botanical photo of {name}
+43,130,Verbesina encelioides (Cav.) Benth. ex A. Gray,binomial_photo,a photo of {binomial}
+43,131,Veronica hederifolia L,binomial_photo,a photo of {binomial}
+43,132,Veronica polita Fries,binomial_photo,a photo of {binomial}
+43,133,Vicia benghalensis L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+43,134,Vicia lutea L,binomial_photo,a photo of {binomial}
+43,135,Vicia sativa L,binomial_photo,a photo of {binomial}
+43,136,Xanthium brasilicum Vellasco,binomial_photo,a photo of {binomial}
+43,137,Xanthium spinosum L,binomial_photo,a photo of {binomial}
+44,0,Abutilon theophrasti L,binomial_photo,a photo of {binomial}
+44,1,Adonis annua L,binomial_photo,a photo of {binomial}
+44,2,Amaranthus blitoides S. Watson,binomial_photo,a photo of {binomial}
+44,3,Amaranthus deflexus L,binomial_closeup,a close-up photo of {binomial}
+44,4,Amaranthus retroflexus L,binomial_photo,a photo of {binomial}
+44,5,Ammi majus L,binomial_photo,a photo of {binomial}
+44,6,Ammi visnaga (L.) Lam,binomial_weed,a field photo of the weed species {binomial}
+44,7,Anacyclus radiatus Loisel,binomial_weed,a field photo of the weed species {binomial}
+44,8,Anagallis arvensis L,binomial_photo,a photo of {binomial}
+44,9,Anchusa azurea Miller,binomial_leaf,a photo of the leaf of {binomial}
+44,10,Arisarum simorrhinum Durieu,binomial_photo,a photo of {binomial}
+44,11,Aster squamatus  (Spreng.) Hieron,binomial_photo,a photo of {binomial}
+44,12,Astragalus boeticus L,binomial_photo,a photo of {binomial}
+44,13,Avena sterilis L,binomial_photo,a photo of {binomial}
+44,14,Beta macrocarpa Guss,binomial_photo,a photo of {binomial}
+44,15,Bifora testiculata L,binomial_photo,a photo of {binomial}
+44,16,Borago officinalis L,binomial_photo,a photo of {binomial}
+44,17,Bromus rigidus,binomial_photo,a photo of {binomial}
+44,18,Bromus rubens L,binomial_photo,a photo of {binomial}
+44,19,Buglossoides arvensis (L.) I. M. Johnson,binomial_photo,a photo of {binomial}
+44,20,Bupleurum lancifolium Hornem,binomial_seedling,a photo of the seedling of {binomial}
+44,21,Calendula arvensis L,binomial_photo,a photo of {binomial}
+44,22,Capsella bursa-pastoris (L.) Medicus,binomial_photo,a photo of {binomial}
+44,23,Cardaria draba (Cav) Desv,binomial_photo,a photo of {binomial}
+44,24,Carduus pycnocephalus L,binomial_photo,a photo of {binomial}
+44,25,Carlina racemosa L,binomial_photo,a photo of {binomial}
+44,26,Centaurea diluta Aïton,binomial_photo,a photo of {binomial}
+44,27,Centaurea eriophora L,binomial_photo,a photo of {binomial}
+44,28,Chamaemelum fuscatum L,binomial_photo,a photo of {binomial}
+44,29,Chamaemelum mixtum (L.) All,binomial_weed,a field photo of the weed species {binomial}
+44,30,Chenopodium album L,binomial_photo,a photo of {binomial}
+44,31,Chenopodium murale L,binomial_plant,a photo of the plant {binomial}
+44,32,Chenopodium vulvaria L,binomial_photo,a photo of {binomial}
+44,33,Chrozophora tinctoria (L). A. Juss,binomial_seedling,a photo of the seedling of {binomial}
+44,34,Chrysanthemum coronarium L,binomial_plant,a photo of the plant {binomial}
+44,35,Chrysanthemum segetum L,binomial_photo,a photo of {binomial}
+44,36,Cichorium endivia L,binomial_photo,a photo of {binomial}
+44,37,Convolvulus altaeoides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+44,38,Convolvulus arvensis L,binomial_flower,a photo of the flower of {binomial}
+44,39,Convolvulus gharbensis Batt. & Pitard,binomial_photo,a photo of {binomial}
+44,40,Convolvulus tricolor L,binomial_photo,a photo of {binomial}
+44,41,Conyza canadensis (L.) Cronq,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+44,42,Coronilla scorpioides (L.) Koch,binomial_weed,a field photo of the weed species {binomial}
+44,43,Coronopus squamatus (Forsk.) Ascherson,binomial_botanical,a botanical photo of {binomial}
+44,44,Cynodon dactylon (L.) Pers,binomial_photo,a photo of {binomial}
+44,45,Cyperus rotundus L,binomial_photo,a photo of {binomial}
+44,46,Datura stramonium L,binomial_photo,a photo of {binomial}
+44,47,Daucus carota L,binomial_weed,a field photo of the weed species {binomial}
+44,48,Digitaria sanguinalis,binomial_photo,a photo of {binomial}
+44,49,Diplotaxis catholica (L.) DC,binomial_photo,a photo of {binomial}
+44,50,Diplotaxis tenuisiliqua delile,binomial_photo,a photo of {binomial}
+44,51,Ecballium elaterium  (L.) A. Rich,binomial_photo,a photo of {binomial}
+44,52,Echinochloa crus-galli (L.) Beauv,binomial_photo,a photo of {binomial}
+44,53,Emex spinosa (L.) Campd,binomial_photo,a photo of {binomial}
+44,54,Eryngium ilicifolium Lam,binomial_photo,a photo of {binomial}
+44,55,Euphorbia medicaginea Boiss,binomial_photo,a photo of {binomial}
+44,56,Fallopia convolvulus (L.) A. Löve,binomial_photo,a photo of {binomial}
+44,57,Fedia cornucopiae (L.) Gaertner,binomial_plant,a photo of the plant {binomial}
+44,58,Fumaria agraria Lag,binomial_weed,a field photo of the weed species {binomial}
+44,59,Fumaria parviflora Lam,binomial_photo,a photo of {binomial}
+44,60,Galium tricornutum Dandy,binomial_plant,a photo of the plant {binomial}
+44,61,Galium verrucosum Hudson,binomial_photo,a photo of {binomial}
+44,62,Geropogon hybridus  (L.) Sch.Bip,binomial_photo,a photo of {binomial}
+44,63,Gladiolus italicus Miller,binomial_plant,a photo of the plant {binomial}
+44,64,Glaucium corniculatum (L.) J. H. Rudolph,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+44,65,Heliotropium europaeum L,binomial_photo,a photo of {binomial}
+44,66,Hibiscus trionum L,binomial_photo,a photo of {binomial}
+44,67,Hirschfeldia incana (L.) Lagrèze-Fossat,binomial_photo,a photo of {binomial}
+44,68,Hordeum murinum L,binomial_botanical,a botanical photo of {binomial}
+44,69,Lactuca scariola L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+44,70,Lamium amplexicaule L,binomial_photo,a photo of {binomial}
+44,71,Lathyrus cicera L,binomial_photo,a photo of {binomial}
+44,72,Lathyrus clymenum L,binomial_photo,a photo of {binomial}
+44,73,Lathyrus ochrus (L.) DC,binomial_photo,a photo of {binomial}
+44,74,Lavatera trimestris L,binomial_weed,a field photo of the weed species {binomial}
+44,75,Lolium multiflorum Lam,binomial_photo,a photo of {binomial}
+44,76,Lolium rigidum Gaudin,binomial_photo,a photo of {binomial}
+44,77,Lupinus angustifolius L,binomial_photo,a photo of {binomial}
+44,78,Lupinus hirsutus L,binomial_photo,a photo of {binomial}
+44,79,Lupinus luteus L,binomial_weed,a field photo of the weed species {binomial}
+44,80,Malope trifida Cav,binomial_photo,a photo of {binomial}
+44,81,Malva parviflora L,binomial_photo,a photo of {binomial}
+44,82,Medicago polymorpha L,binomial_photo,a photo of {binomial}
+44,83,Melilotus sulcata Desf,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+44,84,Mercurialis annua L,binomial_closeup,a close-up photo of {binomial}
+44,85,Misopates orontium (L.) Rafin,binomial_photo,a photo of {binomial}
+44,86,Onopordon macracanthum L,binomial_plant,a photo of the plant {binomial}
+44,87,Orobanche crenata Forsk,binomial_photo,a photo of {binomial}
+44,88,Oxalis pes-caprae L,binomial_photo,a photo of {binomial}
+44,89,Papaver hybridum L,binomial_photo,a photo of {binomial}
+44,90,Papaver rhoeas L,binomial_photo,a photo of {binomial}
+44,91,Phalaris brachystachys Link,binomial_weed,a field photo of the weed species {binomial}
+44,92,Phalaris minor Retz,binomial_seedling,a photo of the seedling of {binomial}
+44,93,Phalaris paradoxa L,binomial_photo,a photo of {binomial}
+44,94,Phragmites australis L,binomial_photo,a photo of {binomial}
+44,95,Picris echioides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+44,96,Plantago afra L,binomial_photo,a photo of {binomial}
+44,97,Poa annua L,binomial_photo,a photo of {binomial}
+44,98,Polygonum aviculare L,binomial_weed,a field photo of the weed species {binomial}
+44,99,Portulaca oleracea L,binomial_photo,a photo of {binomial}
+44,100,Ranunculus muricatus L,binomial_photo,a photo of {binomial}
+44,101,Ranunculus sardous L,binomial_photo,a photo of {binomial}
+44,102,Raphanus raphanistrum L,binomial_photo,a photo of {binomial}
+44,103,Reseda alba L,binomial_photo,a photo of {binomial}
+44,104,Rhagadiolus stellatus (L.) Gaertner,binomial_weed,a field photo of the weed species {binomial}
+44,105,Ricinus communis L,binomial_photo,a photo of {binomial}
+44,106,Ridolfia segetum Moris,binomial_closeup,a close-up photo of {binomial}
+44,107,Rumex pulcher L,binomial_photo,a photo of {binomial}
+44,108,Scandix pecten-veneris L,binomial_photo,a photo of {binomial}
+44,109,Scolymus hispanicus L,binomial_photo,a photo of {binomial}
+44,110,Scolymus maculatus L,binomial_plant,a photo of the plant {binomial}
+44,111,Scorpiurus muricatus L,binomial_photo,a photo of {binomial}
+44,112,Senecio vulgaris L,binomial_photo,a photo of {binomial}
+44,113,Silene gallica L,binomial_plant,a photo of the plant {binomial}
+44,114,Silene vulgaris (Moench) Garcke,binomial_seedling,a photo of the seedling of {binomial}
+44,115,Silybum marianum (L.)  Gaertn,binomial_photo,a photo of {binomial}
+44,116,Sinapis alba L,binomial_photo,a photo of {binomial}
+44,117,Sinapis arvensis L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+44,118,Solanum elaeagnifolium Cav,binomial_photo,a photo of {binomial}
+44,119,Solanum nigrum L,binomial_photo,a photo of {binomial}
+44,120,Sonchus asper (L.) Hill,binomial_photo,a photo of {binomial}
+44,121,Sonchus oleraceus L,binomial_photo,a photo of {binomial}
+44,122,Sorghum halepense L,binomial_photo,a photo of {binomial}
+44,123,Stachys arvensis L,binomial_photo,a photo of {binomial}
+44,124,Stellaria media (L.)Vill,binomial_photo,a photo of {binomial}
+44,125,Torilis nodosa (L.) Gaertner,binomial_photo,a photo of {binomial}
+44,126,Tragopogon hybridus L,binomial_weed,a field photo of the weed species {binomial}
+44,127,Tribulus terrestris L,binomial_photo,a photo of {binomial}
+44,128,Urtica urens L,binomial_photo,a photo of {binomial}
+44,129,Vaccaria hispanica (Miller) Rauscher,full_botanical,a botanical photo of {name}
+44,130,Verbesina encelioides (Cav.) Benth. ex A. Gray,binomial_photo,a photo of {binomial}
+44,131,Veronica hederifolia L,binomial_photo,a photo of {binomial}
+44,132,Veronica polita Fries,binomial_photo,a photo of {binomial}
+44,133,Vicia benghalensis L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+44,134,Vicia lutea L,binomial_seedling,a photo of the seedling of {binomial}
+44,135,Vicia sativa L,binomial_photo,a photo of {binomial}
+44,136,Xanthium brasilicum Vellasco,binomial_photo,a photo of {binomial}
+44,137,Xanthium spinosum L,binomial_photo,a photo of {binomial}
+45,0,Abutilon theophrasti L,binomial_photo,a photo of {binomial}
+45,1,Adonis annua L,binomial_photo,a photo of {binomial}
+45,2,Amaranthus blitoides S. Watson,binomial_photo,a photo of {binomial}
+45,3,Amaranthus deflexus L,binomial_photo,a photo of {binomial}
+45,4,Amaranthus retroflexus L,binomial_photo,a photo of {binomial}
+45,5,Ammi majus L,binomial_photo,a photo of {binomial}
+45,6,Ammi visnaga (L.) Lam,binomial_weed,a field photo of the weed species {binomial}
+45,7,Anacyclus radiatus Loisel,binomial_flower,a photo of the flower of {binomial}
+45,8,Anagallis arvensis L,binomial_photo,a photo of {binomial}
+45,9,Anchusa azurea Miller,binomial_leaf,a photo of the leaf of {binomial}
+45,10,Arisarum simorrhinum Durieu,binomial_photo,a photo of {binomial}
+45,11,Aster squamatus  (Spreng.) Hieron,binomial_photo,a photo of {binomial}
+45,12,Astragalus boeticus L,binomial_photo,a photo of {binomial}
+45,13,Avena sterilis L,binomial_photo,a photo of {binomial}
+45,14,Beta macrocarpa Guss,binomial_photo,a photo of {binomial}
+45,15,Bifora testiculata L,binomial_photo,a photo of {binomial}
+45,16,Borago officinalis L,binomial_photo,a photo of {binomial}
+45,17,Bromus rigidus,binomial_photo,a photo of {binomial}
+45,18,Bromus rubens L,binomial_photo,a photo of {binomial}
+45,19,Buglossoides arvensis (L.) I. M. Johnson,binomial_photo,a photo of {binomial}
+45,20,Bupleurum lancifolium Hornem,binomial_photo,a photo of {binomial}
+45,21,Calendula arvensis L,binomial_photo,a photo of {binomial}
+45,22,Capsella bursa-pastoris (L.) Medicus,binomial_photo,a photo of {binomial}
+45,23,Cardaria draba (Cav) Desv,binomial_photo,a photo of {binomial}
+45,24,Carduus pycnocephalus L,binomial_photo,a photo of {binomial}
+45,25,Carlina racemosa L,binomial_plant,a photo of the plant {binomial}
+45,26,Centaurea diluta Aïton,binomial_photo,a photo of {binomial}
+45,27,Centaurea eriophora L,binomial_photo,a photo of {binomial}
+45,28,Chamaemelum fuscatum L,binomial_photo,a photo of {binomial}
+45,29,Chamaemelum mixtum (L.) All,binomial_weed,a field photo of the weed species {binomial}
+45,30,Chenopodium album L,binomial_photo,a photo of {binomial}
+45,31,Chenopodium murale L,binomial_closeup,a close-up photo of {binomial}
+45,32,Chenopodium vulvaria L,binomial_plant,a photo of the plant {binomial}
+45,33,Chrozophora tinctoria (L). A. Juss,binomial_photo,a photo of {binomial}
+45,34,Chrysanthemum coronarium L,binomial_plant,a photo of the plant {binomial}
+45,35,Chrysanthemum segetum L,binomial_photo,a photo of {binomial}
+45,36,Cichorium endivia L,binomial_photo,a photo of {binomial}
+45,37,Convolvulus altaeoides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+45,38,Convolvulus arvensis L,binomial_flower,a photo of the flower of {binomial}
+45,39,Convolvulus gharbensis Batt. & Pitard,binomial_photo,a photo of {binomial}
+45,40,Convolvulus tricolor L,binomial_photo,a photo of {binomial}
+45,41,Conyza canadensis (L.) Cronq,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+45,42,Coronilla scorpioides (L.) Koch,binomial_weed,a field photo of the weed species {binomial}
+45,43,Coronopus squamatus (Forsk.) Ascherson,binomial_botanical,a botanical photo of {binomial}
+45,44,Cynodon dactylon (L.) Pers,binomial_photo,a photo of {binomial}
+45,45,Cyperus rotundus L,binomial_photo,a photo of {binomial}
+45,46,Datura stramonium L,binomial_photo,a photo of {binomial}
+45,47,Daucus carota L,binomial_weed,a field photo of the weed species {binomial}
+45,48,Digitaria sanguinalis,binomial_photo,a photo of {binomial}
+45,49,Diplotaxis catholica (L.) DC,binomial_photo,a photo of {binomial}
+45,50,Diplotaxis tenuisiliqua delile,binomial_photo,a photo of {binomial}
+45,51,Ecballium elaterium  (L.) A. Rich,binomial_photo,a photo of {binomial}
+45,52,Echinochloa crus-galli (L.) Beauv,binomial_photo,a photo of {binomial}
+45,53,Emex spinosa (L.) Campd,binomial_photo,a photo of {binomial}
+45,54,Eryngium ilicifolium Lam,binomial_photo,a photo of {binomial}
+45,55,Euphorbia medicaginea Boiss,binomial_photo,a photo of {binomial}
+45,56,Fallopia convolvulus (L.) A. Löve,binomial_photo,a photo of {binomial}
+45,57,Fedia cornucopiae (L.) Gaertner,binomial_plant,a photo of the plant {binomial}
+45,58,Fumaria agraria Lag,binomial_photo,a photo of {binomial}
+45,59,Fumaria parviflora Lam,binomial_photo,a photo of {binomial}
+45,60,Galium tricornutum Dandy,binomial_plant,a photo of the plant {binomial}
+45,61,Galium verrucosum Hudson,binomial_photo,a photo of {binomial}
+45,62,Geropogon hybridus  (L.) Sch.Bip,binomial_photo,a photo of {binomial}
+45,63,Gladiolus italicus Miller,binomial_photo,a photo of {binomial}
+45,64,Glaucium corniculatum (L.) J. H. Rudolph,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+45,65,Heliotropium europaeum L,binomial_photo,a photo of {binomial}
+45,66,Hibiscus trionum L,binomial_photo,a photo of {binomial}
+45,67,Hirschfeldia incana (L.) Lagrèze-Fossat,binomial_photo,a photo of {binomial}
+45,68,Hordeum murinum L,binomial_photo,a photo of {binomial}
+45,69,Lactuca scariola L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+45,70,Lamium amplexicaule L,binomial_photo,a photo of {binomial}
+45,71,Lathyrus cicera L,binomial_photo,a photo of {binomial}
+45,72,Lathyrus clymenum L,binomial_photo,a photo of {binomial}
+45,73,Lathyrus ochrus (L.) DC,binomial_photo,a photo of {binomial}
+45,74,Lavatera trimestris L,binomial_weed,a field photo of the weed species {binomial}
+45,75,Lolium multiflorum Lam,full_botanical,a botanical photo of {name}
+45,76,Lolium rigidum Gaudin,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+45,77,Lupinus angustifolius L,binomial_photo,a photo of {binomial}
+45,78,Lupinus hirsutus L,binomial_photo,a photo of {binomial}
+45,79,Lupinus luteus L,binomial_weed,a field photo of the weed species {binomial}
+45,80,Malope trifida Cav,binomial_plant,a photo of the plant {binomial}
+45,81,Malva parviflora L,binomial_photo,a photo of {binomial}
+45,82,Medicago polymorpha L,binomial_photo,a photo of {binomial}
+45,83,Melilotus sulcata Desf,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+45,84,Mercurialis annua L,binomial_closeup,a close-up photo of {binomial}
+45,85,Misopates orontium (L.) Rafin,binomial_photo,a photo of {binomial}
+45,86,Onopordon macracanthum L,binomial_plant,a photo of the plant {binomial}
+45,87,Orobanche crenata Forsk,binomial_photo,a photo of {binomial}
+45,88,Oxalis pes-caprae L,binomial_photo,a photo of {binomial}
+45,89,Papaver hybridum L,binomial_photo,a photo of {binomial}
+45,90,Papaver rhoeas L,binomial_photo,a photo of {binomial}
+45,91,Phalaris brachystachys Link,binomial_weed,a field photo of the weed species {binomial}
+45,92,Phalaris minor Retz,binomial_plant,a photo of the plant {binomial}
+45,93,Phalaris paradoxa L,binomial_photo,a photo of {binomial}
+45,94,Phragmites australis L,binomial_photo,a photo of {binomial}
+45,95,Picris echioides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+45,96,Plantago afra L,binomial_photo,a photo of {binomial}
+45,97,Poa annua L,binomial_photo,a photo of {binomial}
+45,98,Polygonum aviculare L,binomial_weed,a field photo of the weed species {binomial}
+45,99,Portulaca oleracea L,binomial_photo,a photo of {binomial}
+45,100,Ranunculus muricatus L,binomial_photo,a photo of {binomial}
+45,101,Ranunculus sardous L,binomial_photo,a photo of {binomial}
+45,102,Raphanus raphanistrum L,binomial_photo,a photo of {binomial}
+45,103,Reseda alba L,binomial_photo,a photo of {binomial}
+45,104,Rhagadiolus stellatus (L.) Gaertner,full_botanical,a botanical photo of {name}
+45,105,Ricinus communis L,binomial_photo,a photo of {binomial}
+45,106,Ridolfia segetum Moris,binomial_plant,a photo of the plant {binomial}
+45,107,Rumex pulcher L,binomial_photo,a photo of {binomial}
+45,108,Scandix pecten-veneris L,binomial_photo,a photo of {binomial}
+45,109,Scolymus hispanicus L,binomial_photo,a photo of {binomial}
+45,110,Scolymus maculatus L,binomial_plant,a photo of the plant {binomial}
+45,111,Scorpiurus muricatus L,binomial_photo,a photo of {binomial}
+45,112,Senecio vulgaris L,binomial_photo,a photo of {binomial}
+45,113,Silene gallica L,binomial_plant,a photo of the plant {binomial}
+45,114,Silene vulgaris (Moench) Garcke,binomial_seedling,a photo of the seedling of {binomial}
+45,115,Silybum marianum (L.)  Gaertn,binomial_photo,a photo of {binomial}
+45,116,Sinapis alba L,binomial_photo,a photo of {binomial}
+45,117,Sinapis arvensis L,binomial_photo,a photo of {binomial}
+45,118,Solanum elaeagnifolium Cav,binomial_photo,a photo of {binomial}
+45,119,Solanum nigrum L,binomial_photo,a photo of {binomial}
+45,120,Sonchus asper (L.) Hill,binomial_photo,a photo of {binomial}
+45,121,Sonchus oleraceus L,binomial_photo,a photo of {binomial}
+45,122,Sorghum halepense L,binomial_photo,a photo of {binomial}
+45,123,Stachys arvensis L,binomial_photo,a photo of {binomial}
+45,124,Stellaria media (L.)Vill,binomial_photo,a photo of {binomial}
+45,125,Torilis nodosa (L.) Gaertner,binomial_photo,a photo of {binomial}
+45,126,Tragopogon hybridus L,binomial_weed,a field photo of the weed species {binomial}
+45,127,Tribulus terrestris L,binomial_photo,a photo of {binomial}
+45,128,Urtica urens L,binomial_photo,a photo of {binomial}
+45,129,Vaccaria hispanica (Miller) Rauscher,binomial_photo,a photo of {binomial}
+45,130,Verbesina encelioides (Cav.) Benth. ex A. Gray,binomial_photo,a photo of {binomial}
+45,131,Veronica hederifolia L,binomial_photo,a photo of {binomial}
+45,132,Veronica polita Fries,binomial_photo,a photo of {binomial}
+45,133,Vicia benghalensis L,binomial_photo,a photo of {binomial}
+45,134,Vicia lutea L,binomial_seedling,a photo of the seedling of {binomial}
+45,135,Vicia sativa L,binomial_photo,a photo of {binomial}
+45,136,Xanthium brasilicum Vellasco,binomial_photo,a photo of {binomial}
+45,137,Xanthium spinosum L,binomial_photo,a photo of {binomial}
+46,0,Abutilon theophrasti L,binomial_photo,a photo of {binomial}
+46,1,Adonis annua L,binomial_photo,a photo of {binomial}
+46,2,Amaranthus blitoides S. Watson,binomial_photo,a photo of {binomial}
+46,3,Amaranthus deflexus L,binomial_closeup,a close-up photo of {binomial}
+46,4,Amaranthus retroflexus L,binomial_photo,a photo of {binomial}
+46,5,Ammi majus L,binomial_photo,a photo of {binomial}
+46,6,Ammi visnaga (L.) Lam,binomial_weed,a field photo of the weed species {binomial}
+46,7,Anacyclus radiatus Loisel,binomial_weed,a field photo of the weed species {binomial}
+46,8,Anagallis arvensis L,binomial_photo,a photo of {binomial}
+46,9,Anchusa azurea Miller,binomial_leaf,a photo of the leaf of {binomial}
+46,10,Arisarum simorrhinum Durieu,binomial_photo,a photo of {binomial}
+46,11,Aster squamatus  (Spreng.) Hieron,binomial_photo,a photo of {binomial}
+46,12,Astragalus boeticus L,binomial_photo,a photo of {binomial}
+46,13,Avena sterilis L,binomial_photo,a photo of {binomial}
+46,14,Beta macrocarpa Guss,binomial_photo,a photo of {binomial}
+46,15,Bifora testiculata L,binomial_photo,a photo of {binomial}
+46,16,Borago officinalis L,binomial_photo,a photo of {binomial}
+46,17,Bromus rigidus,binomial_photo,a photo of {binomial}
+46,18,Bromus rubens L,binomial_photo,a photo of {binomial}
+46,19,Buglossoides arvensis (L.) I. M. Johnson,binomial_photo,a photo of {binomial}
+46,20,Bupleurum lancifolium Hornem,binomial_seedling,a photo of the seedling of {binomial}
+46,21,Calendula arvensis L,binomial_photo,a photo of {binomial}
+46,22,Capsella bursa-pastoris (L.) Medicus,binomial_photo,a photo of {binomial}
+46,23,Cardaria draba (Cav) Desv,binomial_photo,a photo of {binomial}
+46,24,Carduus pycnocephalus L,binomial_photo,a photo of {binomial}
+46,25,Carlina racemosa L,binomial_plant,a photo of the plant {binomial}
+46,26,Centaurea diluta Aïton,binomial_photo,a photo of {binomial}
+46,27,Centaurea eriophora L,binomial_photo,a photo of {binomial}
+46,28,Chamaemelum fuscatum L,binomial_photo,a photo of {binomial}
+46,29,Chamaemelum mixtum (L.) All,binomial_weed,a field photo of the weed species {binomial}
+46,30,Chenopodium album L,binomial_photo,a photo of {binomial}
+46,31,Chenopodium murale L,binomial_closeup,a close-up photo of {binomial}
+46,32,Chenopodium vulvaria L,binomial_plant,a photo of the plant {binomial}
+46,33,Chrozophora tinctoria (L). A. Juss,binomial_seedling,a photo of the seedling of {binomial}
+46,34,Chrysanthemum coronarium L,binomial_plant,a photo of the plant {binomial}
+46,35,Chrysanthemum segetum L,binomial_photo,a photo of {binomial}
+46,36,Cichorium endivia L,binomial_photo,a photo of {binomial}
+46,37,Convolvulus altaeoides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,38,Convolvulus arvensis L,binomial_flower,a photo of the flower of {binomial}
+46,39,Convolvulus gharbensis Batt. & Pitard,binomial_photo,a photo of {binomial}
+46,40,Convolvulus tricolor L,binomial_photo,a photo of {binomial}
+46,41,Conyza canadensis (L.) Cronq,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,42,Coronilla scorpioides (L.) Koch,binomial_photo,a photo of {binomial}
+46,43,Coronopus squamatus (Forsk.) Ascherson,binomial_botanical,a botanical photo of {binomial}
+46,44,Cynodon dactylon (L.) Pers,binomial_photo,a photo of {binomial}
+46,45,Cyperus rotundus L,binomial_photo,a photo of {binomial}
+46,46,Datura stramonium L,binomial_photo,a photo of {binomial}
+46,47,Daucus carota L,binomial_weed,a field photo of the weed species {binomial}
+46,48,Digitaria sanguinalis,binomial_photo,a photo of {binomial}
+46,49,Diplotaxis catholica (L.) DC,binomial_photo,a photo of {binomial}
+46,50,Diplotaxis tenuisiliqua delile,binomial_photo,a photo of {binomial}
+46,51,Ecballium elaterium  (L.) A. Rich,binomial_photo,a photo of {binomial}
+46,52,Echinochloa crus-galli (L.) Beauv,binomial_photo,a photo of {binomial}
+46,53,Emex spinosa (L.) Campd,binomial_photo,a photo of {binomial}
+46,54,Eryngium ilicifolium Lam,binomial_photo,a photo of {binomial}
+46,55,Euphorbia medicaginea Boiss,binomial_photo,a photo of {binomial}
+46,56,Fallopia convolvulus (L.) A. Löve,binomial_photo,a photo of {binomial}
+46,57,Fedia cornucopiae (L.) Gaertner,binomial_photo,a photo of {binomial}
+46,58,Fumaria agraria Lag,binomial_weed,a field photo of the weed species {binomial}
+46,59,Fumaria parviflora Lam,binomial_photo,a photo of {binomial}
+46,60,Galium tricornutum Dandy,binomial_plant,a photo of the plant {binomial}
+46,61,Galium verrucosum Hudson,binomial_photo,a photo of {binomial}
+46,62,Geropogon hybridus  (L.) Sch.Bip,binomial_inflorescence,a photo of the inflorescence of {binomial}
+46,63,Gladiolus italicus Miller,binomial_plant,a photo of the plant {binomial}
+46,64,Glaucium corniculatum (L.) J. H. Rudolph,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,65,Heliotropium europaeum L,binomial_photo,a photo of {binomial}
+46,66,Hibiscus trionum L,binomial_photo,a photo of {binomial}
+46,67,Hirschfeldia incana (L.) Lagrèze-Fossat,binomial_photo,a photo of {binomial}
+46,68,Hordeum murinum L,binomial_botanical,a botanical photo of {binomial}
+46,69,Lactuca scariola L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,70,Lamium amplexicaule L,binomial_photo,a photo of {binomial}
+46,71,Lathyrus cicera L,binomial_photo,a photo of {binomial}
+46,72,Lathyrus clymenum L,binomial_photo,a photo of {binomial}
+46,73,Lathyrus ochrus (L.) DC,binomial_photo,a photo of {binomial}
+46,74,Lavatera trimestris L,binomial_weed,a field photo of the weed species {binomial}
+46,75,Lolium multiflorum Lam,full_botanical,a botanical photo of {name}
+46,76,Lolium rigidum Gaudin,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,77,Lupinus angustifolius L,binomial_photo,a photo of {binomial}
+46,78,Lupinus hirsutus L,binomial_photo,a photo of {binomial}
+46,79,Lupinus luteus L,binomial_photo,a photo of {binomial}
+46,80,Malope trifida Cav,binomial_plant,a photo of the plant {binomial}
+46,81,Malva parviflora L,binomial_photo,a photo of {binomial}
+46,82,Medicago polymorpha L,binomial_photo,a photo of {binomial}
+46,83,Melilotus sulcata Desf,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,84,Mercurialis annua L,binomial_closeup,a close-up photo of {binomial}
+46,85,Misopates orontium (L.) Rafin,binomial_photo,a photo of {binomial}
+46,86,Onopordon macracanthum L,binomial_plant,a photo of the plant {binomial}
+46,87,Orobanche crenata Forsk,binomial_photo,a photo of {binomial}
+46,88,Oxalis pes-caprae L,binomial_photo,a photo of {binomial}
+46,89,Papaver hybridum L,binomial_photo,a photo of {binomial}
+46,90,Papaver rhoeas L,binomial_photo,a photo of {binomial}
+46,91,Phalaris brachystachys Link,binomial_weed,a field photo of the weed species {binomial}
+46,92,Phalaris minor Retz,binomial_plant,a photo of the plant {binomial}
+46,93,Phalaris paradoxa L,binomial_photo,a photo of {binomial}
+46,94,Phragmites australis L,binomial_photo,a photo of {binomial}
+46,95,Picris echioides L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,96,Plantago afra L,binomial_photo,a photo of {binomial}
+46,97,Poa annua L,binomial_photo,a photo of {binomial}
+46,98,Polygonum aviculare L,binomial_weed,a field photo of the weed species {binomial}
+46,99,Portulaca oleracea L,binomial_photo,a photo of {binomial}
+46,100,Ranunculus muricatus L,binomial_photo,a photo of {binomial}
+46,101,Ranunculus sardous L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,102,Raphanus raphanistrum L,binomial_photo,a photo of {binomial}
+46,103,Reseda alba L,binomial_photo,a photo of {binomial}
+46,104,Rhagadiolus stellatus (L.) Gaertner,binomial_photo,a photo of {binomial}
+46,105,Ricinus communis L,binomial_photo,a photo of {binomial}
+46,106,Ridolfia segetum Moris,binomial_closeup,a close-up photo of {binomial}
+46,107,Rumex pulcher L,binomial_photo,a photo of {binomial}
+46,108,Scandix pecten-veneris L,binomial_photo,a photo of {binomial}
+46,109,Scolymus hispanicus L,binomial_photo,a photo of {binomial}
+46,110,Scolymus maculatus L,binomial_plant,a photo of the plant {binomial}
+46,111,Scorpiurus muricatus L,binomial_photo,a photo of {binomial}
+46,112,Senecio vulgaris L,binomial_photo,a photo of {binomial}
+46,113,Silene gallica L,binomial_plant,a photo of the plant {binomial}
+46,114,Silene vulgaris (Moench) Garcke,binomial_photo,a photo of {binomial}
+46,115,Silybum marianum (L.)  Gaertn,binomial_photo,a photo of {binomial}
+46,116,Sinapis alba L,binomial_photo,a photo of {binomial}
+46,117,Sinapis arvensis L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,118,Solanum elaeagnifolium Cav,binomial_photo,a photo of {binomial}
+46,119,Solanum nigrum L,binomial_photo,a photo of {binomial}
+46,120,Sonchus asper (L.) Hill,binomial_photo,a photo of {binomial}
+46,121,Sonchus oleraceus L,binomial_photo,a photo of {binomial}
+46,122,Sorghum halepense L,binomial_photo,a photo of {binomial}
+46,123,Stachys arvensis L,binomial_photo,a photo of {binomial}
+46,124,Stellaria media (L.)Vill,binomial_photo,a photo of {binomial}
+46,125,Torilis nodosa (L.) Gaertner,binomial_photo,a photo of {binomial}
+46,126,Tragopogon hybridus L,binomial_weed,a field photo of the weed species {binomial}
+46,127,Tribulus terrestris L,binomial_photo,a photo of {binomial}
+46,128,Urtica urens L,binomial_photo,a photo of {binomial}
+46,129,Vaccaria hispanica (Miller) Rauscher,full_botanical,a botanical photo of {name}
+46,130,Verbesina encelioides (Cav.) Benth. ex A. Gray,binomial_photo,a photo of {binomial}
+46,131,Veronica hederifolia L,binomial_photo,a photo of {binomial}
+46,132,Veronica polita Fries,binomial_photo,a photo of {binomial}
+46,133,Vicia benghalensis L,binomial_leaf_flower,a close-up photo of the leaves or flowers of {binomial}
+46,134,Vicia lutea L,binomial_photo,a photo of {binomial}
+46,135,Vicia sativa L,binomial_photo,a photo of {binomial}
+46,136,Xanthium brasilicum Vellasco,binomial_photo,a photo of {binomial}
+46,137,Xanthium spinosum L,binomial_photo,a photo of {binomial}

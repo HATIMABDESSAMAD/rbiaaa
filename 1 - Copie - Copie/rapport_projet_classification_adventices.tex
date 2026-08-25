@@ -1,0 +1,749 @@
+\documentclass[11pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{microtype}
+
+\geometry{margin=2.3cm}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!55!black,
+  urlcolor=blue!55!black,
+  pdftitle={Rapport detaille du projet de classification des adventices},
+  pdfauthor={Analyse du projet}
+}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\renewcommand{\arraystretch}{1.18}
+\setlist[itemize]{leftmargin=1.5em}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  columns=fullflexible
+}
+
+\newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\pct}[1]{#1\,\%}
+
+\title{\textbf{Rapport détaillé du projet de classification automatique des adventices}\\
+\large Analyse étape par étape des données, méthodes, expériences et résultats}
+\author{Projet basé sur la base photographique du Dr Taleb}
+\date{Analyse du dépôt au 4 juin 2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\listoftables
+
+\chapter*{Résumé exécutif}
+\addcontentsline{toc}{chapter}{Résumé exécutif}
+
+Ce projet étudie la reconnaissance automatique de 138 espèces d'adventices à partir
+d'une petite base photographique organisée par espèce. Le travail a progressé depuis
+l'audit de la base jusqu'à la comparaison de plusieurs familles de méthodes:
+Vision Transformers pré-entraînés, transfert par sonde linéaire, évaluation directe
+iNaturalist, fine-tuning supervisé, puis BioCLIP et BioCLIP2 en zero-shot et en
+apprentissage léger.
+
+L'audit retrouve \textbf{642 images valides} réparties dans \textbf{138 classes},
+soit seulement \textbf{4,65 images par classe en moyenne}. Les classes contiennent
+entre 2 et 8 images. Le fichier de comptage initial annonce 752 photos; l'écart de
+110 éléments correspond exactement à 110 fichiers \code{desktop.ini}, qui ne sont
+pas des images. Cette faible quantité de données explique l'intérêt des modèles
+pré-entraînés et la difficulté du fine-tuning profond.
+
+Le meilleur résultat global sur les 642 images est obtenu par \textbf{BioCLIP2
+zero-shot avec prompts binomiaux}: \textbf{72,59\% de top-1}, \textbf{92,68\% de
+top-5} et \textbf{68,90\% de F1 macro}. Dans le protocole plus strict où une image
+par classe est réservée au test et où l'expérience est répétée cinq fois, la
+meilleure moyenne est de \textbf{71,88\% d'accuracy}, obtenue à la fois par la
+sonde logistique BioCLIP2 avec $C=1$ et par le baseline zero-shot à prompts
+binomiaux. L'évaluation directe iNaturalist atteint \textbf{89,83\%}, mais uniquement
+sur les 59 classes qui peuvent être associées aux étiquettes iNaturalist et lorsque
+la décision est restreinte à ces classes; ce résultat n'est donc pas directement
+comparable aux expériences sur les 138 classes.
+
+\chapter{Objectif et périmètre du projet}
+
+\section{Problème traité}
+
+Le projet vise à identifier automatiquement l'espèce d'une adventice à partir
+d'une photographie. Chaque sous-dossier de la base représente une classe
+botanique, dont le nom est généralement un nom scientifique complet, par exemple
+\emph{Ammi majus L} ou \emph{Cynodon dactylon (L.) Pers}.
+
+La tâche est difficile pour quatre raisons principales:
+\begin{itemize}
+  \item le nombre de classes est élevé: 138 espèces;
+  \item chaque classe possède très peu d'exemples: 2 à 8 images;
+  \item plusieurs espèces sont visuellement proches;
+  \item les noms complets comprennent auteurs, parenthèses et variantes
+  taxonomiques, alors que les modèles pré-entraînés connaissent souvent seulement
+  le binôme genre--espèce.
+\end{itemize}
+
+\section{Organisation générale du dépôt}
+
+Le dépôt contient:
+\begin{itemize}
+  \item la base extraite \code{Bases de données photos Dr Taleb};
+  \item une archive source d'environ 1,26 Go;
+  \item deux tableaux d'audit: \code{analyse_classes.csv} et
+  \code{dataset_audit_counts.csv};
+  \item sept scripts Python couvrant les différentes méthodes;
+  \item quinze dossiers de résultats expérimentaux;
+  \item deux articles PDF conservés comme ressources bibliographiques.
+\end{itemize}
+
+\begin{table}[ht]
+\centering
+\caption{Scripts principaux et rôle}
+\begin{tabularx}{\textwidth}{>{\ttfamily\small}p{5.2cm}X}
+\toprule
+\normalfont Script & Rôle \\
+\midrule
+evaluate_vit.py & Extraction de caractéristiques ViT et classification par régression logistique. \\
+direct_eval_timm_inat21.py & Évaluation directe d'un ViT iNaturalist-2021 sur les classes taxonomiquement associées. \\
+finetune_vit_one_test_per_class.py & Fine-tuning supervisé d'un ViT avec une image de test par classe. \\
+eval_bioclip_zeroshot.py & Classification zero-shot BioCLIP/BioCLIP2 par similarité image--texte. \\
+eval_bioclip_prompt_experiments.py & Comparaison systématique de plusieurs ensembles de prompts. \\
+eval_bioclip_linear_probe.py & Sonde logistique et classifieur au centroïde sur les embeddings BioCLIP2. \\
+eval_bioclip_advanced_cv.py & Validation croisée répétée, prompts adaptatifs par classe et fusion avec centroïdes. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\chapter{Étape 1: constitution et audit de la base}
+
+\section{Structure de la base}
+
+La base suit le format \emph{ImageFolder}: un dossier racine, puis un sous-dossier
+par espèce. Les noms de dossiers servent directement d'étiquettes de classe. Les
+scripts utilisent une classe \code{SafeImageFolder} ou une variante équivalente
+pour:
+\begin{itemize}
+  \item accepter les extensions \code{jpg}, \code{jpeg}, \code{png},
+  \code{bmp}, \code{webp} et \code{jfif};
+  \item convertir les images en RGB;
+  \item tolérer les images tronquées;
+  \item remplacer une image illisible par une image noire plutôt que d'arrêter
+  toute l'expérience.
+\end{itemize}
+
+\section{Résultat de l'audit}
+
+\begin{table}[ht]
+\centering
+\caption{Statistiques consolidées de la base}
+\begin{tabular}{lr}
+\toprule
+Indicateur & Valeur \\
+\midrule
+Nombre de classes & 138 \\
+Nombre annoncé dans \code{analyse_classes.csv} & 752 \\
+Images réellement valides & 642 \\
+Fichiers \code{desktop.ini} ignorés & 110 \\
+Autres fichiers parasites comptés par l'audit & 0 \\
+Classes sans différence entre annonce et images & 28 \\
+Classes avec un \code{desktop.ini} en plus & 110 \\
+Minimum d'images par classe & 2 \\
+Maximum d'images par classe & 8 \\
+Moyenne d'images par classe & 4,65 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Les 642 images valides comprennent 623 fichiers JPEG, 17 PNG et 2 JFIF.
+Les classes les moins représentées possèdent deux images, par exemple
+\emph{Chenopodium album L}, \emph{Sinapis arvensis L},
+\emph{Centaurea eriophora L}, \emph{Bromus rubens L} et
+\emph{Cardaria draba (Cav) Desv}. Plusieurs classes atteignent huit images,
+notamment \emph{Oxalis pes-caprae L}, \emph{Stellaria media (L.)Vill},
+\emph{Urtica urens L}, \emph{Reseda alba L} et \emph{Senecio vulgaris L}.
+
+\section{Conclusion de l'étape}
+
+Le résultat essentiel de cette étape est la mise en évidence d'un problème de
+\textbf{classification à très faible nombre d'exemples}. Un apprentissage profond
+complet à partir de zéro n'est pas réaliste. La suite du projet s'oriente donc
+logiquement vers le transfert d'apprentissage et les modèles vision--langage
+pré-entraînés.
+
+\chapter{Étape 2: première référence ViT avec sonde linéaire}
+
+\section{Méthode}
+
+Le script \code{evaluate_vit.py} utilise un modèle pré-entraîné comme extracteur
+figé de caractéristiques. Deux backends sont prévus: \code{timm} et Hugging Face.
+Les images sont transformées avec le prétraitement propre au modèle, puis les
+vecteurs extraits sont classifiés par une régression logistique équilibrée.
+
+La séparation utilise \pct{30} des images pour le test, avec la graine 42. Elle
+est stratifiée car chaque classe contient au moins deux images. La régression
+logistique utilise $C=1$, un maximum de 2000 itérations et
+\code{class_weight=balanced}.
+
+\section{Expériences et résultats}
+
+\begin{table}[ht]
+\centering
+\caption{Résultats des sondes linéaires ViT}
+\begin{tabular}{p{5.2cm}rrrr}
+\toprule
+Backbone & Accuracy & Acc. équilibrée & F1 macro & F1 pondéré \\
+\midrule
+ViT Base AugReg IN21K puis IN1K & \pct{52,85} & \pct{50,00} & \pct{45,21} & \pct{48,55} \\
+ViT Base pré-entraîné iNaturalist & \pct{32,12} & \pct{30,80} & \pct{26,48} & \pct{27,77} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Interprétation}
+
+Le ViT généraliste pré-entraîné sur ImageNet obtient ici une meilleure sonde
+linéaire que le ViT Hugging Face spécialisé iNaturalist. Cela ne signifie pas
+nécessairement qu'ImageNet est plus pertinent: les couches, le prétraitement et
+la qualité des embeddings utilisés comme représentation figée peuvent différer.
+Le résultat de \pct{52,85} constitue une première référence supervisée, mais reste
+nettement inférieur aux meilleurs résultats BioCLIP2 obtenus ensuite.
+
+\chapter{Étape 3: évaluation directe d'un modèle iNaturalist-2021}
+
+\section{Méthode}
+
+Le script \code{direct_eval_timm_inat21.py} charge le modèle
+\code{vit_large_patch14_clip_336.laion2b_ft_augreg_inat21}. Ce modèle possède
+10\,000 étiquettes iNaturalist-2021. Le script normalise les noms, extrait le
+binôme genre--espèce et construit une correspondance entre les noms du dataset
+et les noms iNaturalist.
+
+Deux décisions sont calculées:
+\begin{itemize}
+  \item une prédiction parmi les 10\,000 étiquettes originales;
+  \item une prédiction restreinte aux classes iNaturalist effectivement associées
+  à la base locale.
+\end{itemize}
+
+Une image par classe associée est sélectionnée avec la graine 42.
+
+\section{Résultat}
+
+\begin{table}[ht]
+\centering
+\caption{Évaluation directe iNaturalist-2021}
+\begin{tabular}{lr}
+\toprule
+Indicateur & Valeur \\
+\midrule
+Classes locales totales & 138 \\
+Classes associées à iNaturalist-2021 & 59 \\
+Classes absentes/non associées & 79 \\
+Images évaluées & 59 \\
+Accuracy parmi les 10\,000 étiquettes & \pct{74,58} \\
+Accuracy restreinte aux 59 classes associées & \pct{89,83} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Interprétation}
+
+Le résultat démontre la forte valeur d'un modèle déjà entraîné à reconnaître des
+taxons. Cependant, il couvre seulement 59 classes sur 138. L'accuracy restreinte
+de \pct{89,83} est excellente mais bénéficie d'un espace de décision fortement
+réduit; elle ne doit pas être présentée comme une accuracy sur la base complète.
+Le fichier \code{missing_classes.txt} documente les 79 classes non couvertes.
+
+\chapter{Étape 4: fine-tuning supervisé du ViT iNaturalist}
+
+\section{Protocole}
+
+Le script \code{finetune_vit_one_test_per_class.py} réserve exactement une image
+par classe au test. Le découpage contient donc:
+\[
+N_{\text{test}}=138,\qquad N_{\text{train}}=642-138=504.
+\]
+
+Les augmentations d'entraînement comprennent un recadrage redimensionné aléatoire,
+un retournement horizontal, une variation de couleur et éventuellement un
+\emph{random erasing}. L'optimiseur est AdamW avec un scheduler cosinus. Le modèle
+est évalué à chaque epoch et l'état ayant le meilleur F1 macro est sauvegardé.
+
+\section{Variantes exécutées}
+
+\begin{table}[ht]
+\centering
+\caption{Configurations de fine-tuning}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Variante & LR & WD & Lissage & Dropout & Attn. drop. & Blocs libres & Effacement \\
+\midrule
+Initiale & $2\cdot10^{-5}$ & 0,05 & non enregistré & non enregistré & non enregistré & non enregistré & non enregistré \\
+Régularisée forte & $10^{-5}$ & 0,10 & 0,10 & 0,15 & 0,10 & 2 & non enregistré \\
+Régularisée légère & $2\cdot10^{-5}$ & 0,10 & 0,05 & 0,05 & 0,00 & 12 & 0,10 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+Toutes les variantes utilisent 12 epochs, des images $224\times224$, un batch de
+8 et la graine 42.
+
+\section{Résultats}
+
+\begin{table}[ht]
+\centering
+\caption{Résultats du fine-tuning ViT}
+\begin{tabular}{lrrr}
+\toprule
+Variante & Meilleur epoch & Accuracy & F1 macro \\
+\midrule
+Initiale & 10 & \pct{20,29} & \pct{14,65} \\
+Régularisée forte, 2 derniers blocs & 7 & \pct{2,17} & \pct{1,04} \\
+Régularisée légère, 12 blocs & 10 & \pct{20,29} & \pct{14,45} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Interprétation}
+
+Le fine-tuning est beaucoup moins performant que l'utilisation de représentations
+figées. Avec seulement 504 images d'entraînement pour 138 classes, le modèle ne
+dispose en moyenne que de 3,65 images d'entraînement par classe. La variante
+fortement régularisée et presque entièrement gelée sous-apprend clairement.
+Libérer davantage de blocs remonte l'accuracy à \pct{20,29}, mais le résultat reste
+faible.
+
+Il existe aussi une limite méthodologique: le jeu de test est évalué à chaque
+epoch et sert à choisir le meilleur état. Il joue donc partiellement le rôle d'un
+jeu de validation. Une évaluation finale rigoureuse nécessiterait un troisième
+jeu indépendant ou une validation croisée imbriquée.
+
+\chapter{Étape 5: passage à BioCLIP puis BioCLIP2 en zero-shot}
+
+\section{Principe}
+
+BioCLIP associe images et textes dans un même espace vectoriel. Pour une image
+$x$ et une classe décrite par un texte $t_c$, le score est calculé par similarité:
+\[
+s_c = 100\,\frac{f_I(x)}{\lVert f_I(x)\rVert}
+\cdot
+\frac{f_T(t_c)}{\lVert f_T(t_c)\rVert}.
+\]
+La classe prédite est celle dont le score est maximal. Aucun classifieur n'est
+entraîné sur les images locales dans le mode zero-shot.
+
+\section{Première expérience BioCLIP}
+
+Avec BioCLIP première version, cinq prompts fondés sur le nom complet sont moyennés.
+Une image par classe est évaluée.
+
+\begin{table}[ht]
+\centering
+\caption{Comparaison BioCLIP et BioCLIP2 sur une image par classe}
+\begin{tabular}{lrrrr}
+\toprule
+Modèle & Top-1 & Top-5 & Accuracy équilibrée & F1 macro \\
+\midrule
+BioCLIP & \pct{36,96} & \pct{64,49} & \pct{36,96} & \pct{28,56} \\
+BioCLIP2 & \pct{65,94} & \pct{89,86} & \pct{65,94} & \pct{59,22} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Le passage à BioCLIP2 produit un gain majeur de près de 29 points de top-1 sur le
+même type de protocole.
+
+\section{Évaluation BioCLIP2 sur toute la base}
+
+Avec les prompts fondés sur le nom complet et les 642 images, BioCLIP2 atteint:
+\begin{itemize}
+  \item top-1: \pct{68,38};
+  \item top-5: \pct{91,59};
+  \item accuracy équilibrée: \pct{67,03};
+  \item F1 macro: \pct{63,90}.
+\end{itemize}
+
+\chapter{Étape 6: étude systématique des prompts BioCLIP2}
+
+\section{Motivation}
+
+Les noms de dossiers contiennent souvent les auteurs botaniques, alors que
+l'information la plus discriminante et la plus standard est généralement le
+binôme genre--espèce. Le script \code{eval_bioclip_prompt_experiments.py} compare
+donc cinq stratégies sur les 642 images.
+
+\begin{table}[ht]
+\centering
+\caption{Résultats des stratégies de prompts BioCLIP2}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+Jeu de prompts & Top-1 & Top-5 & Accuracy équilibrée & F1 macro \\
+\midrule
+Nom complet, prompt simple & \pct{68,38} & \pct{90,65} & \pct{66,92} & \pct{62,62} \\
+Nom complet, cinq prompts plante & \pct{68,38} & \pct{91,59} & \pct{67,03} & \pct{63,90} \\
+Binôme, prompt simple & \pct{71,18} & \pct{92,37} & \pct{70,27} & \pct{66,66} \\
+Binôme, cinq prompts plante & \textbf{\pct{72,59}} & \textbf{\pct{92,68}} & \textbf{\pct{71,52}} & \textbf{\pct{68,90}} \\
+Ensemble nom complet + binôme & \pct{72,12} & \pct{92,06} & \pct{71,02} & \pct{67,96} \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\section{Résultat de l'étape}
+
+Le meilleur jeu est \code{binomial_plant_templates}. Il retire les auteurs
+botaniques et utilise cinq formulations:
+\begin{itemize}
+  \item photo du binôme;
+  \item photo de la plante;
+  \item photo de terrain de l'espèce adventice;
+  \item photo botanique;
+  \item gros plan des feuilles ou fleurs.
+\end{itemize}
+
+Cette modification fait progresser le top-1 de \pct{68,38} à \pct{72,59}.
+Le résultat confirme que la normalisation taxonomique des étiquettes est une
+partie déterminante du système.
+
+\section{Analyse par classe}
+
+Avec les prompts binomiaux, plusieurs classes obtiennent un F1 de 1, notamment
+\emph{Borago officinalis L}, \emph{Heliotropium europaeum L},
+\emph{Lamium amplexicaule L}, \emph{Fallopia convolvulus (L.) A. Löve} et
+\emph{Senecio vulgaris L}. À l'inverse, certaines classes ont un F1 nul, par
+exemple \emph{Chamaemelum mixtum (L.) All}, \emph{Lavatera trimestris L},
+\emph{Lathyrus cicera L}, \emph{Geropogon hybridus (L.) Sch.Bip} et
+\emph{Aster squamatus (Spreng.) Hieron}. Ces classes constituent des priorités
+pour l'enrichissement de la base et l'analyse des confusions.
+
+\chapter{Étape 7: sonde linéaire et centroïdes sur BioCLIP2}
+
+\section{Méthode}
+
+Le script \code{eval_bioclip_linear_probe.py} extrait une seule fois les embeddings
+BioCLIP2 des 642 images. Pour chacune des graines 42 à 46, une image par classe est
+réservée au test. Le protocole contient donc 504 images d'entraînement et 138
+images de test à chaque répétition.
+
+Deux classifieurs sont comparés:
+\begin{itemize}
+  \item un pipeline \code{StandardScaler} + régression logistique équilibrée,
+  avec $C\in\{0{,}01;0{,}1;1;10\}$;
+  \item un classifieur au centroïde le plus proche, utilisant la similarité cosinus.
+\end{itemize}
+
+\section{Résultats répétés}
+
+\begin{table}[ht]
+\centering
+\caption{Sondes BioCLIP2, moyenne et écart-type sur cinq découpages}
+\begin{tabular}{lrrr}
+\toprule
+Méthode & Accuracy moyenne & Écart-type & F1 macro moyen \\
+\midrule
+Logistique, $C=0{,}01$ & \pct{70,58} & \pct{2,77} & \pct{65,08} \\
+Logistique, $C=0{,}1$ & \pct{71,01} & \pct{2,47} & \pct{65,17} \\
+Logistique, $C=1$ & \textbf{\pct{71,88}} & \pct{2,69} & \textbf{\pct{66,17}} \\
+Logistique, $C=10$ & \pct{70,43} & \pct{2,53} & \pct{64,64} \\
+Centroïde le plus proche & \pct{63,33} & \pct{2,36} & \pct{57,71} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Pour $C=1$, les cinq accuracies individuelles sont \pct{75,36}, \pct{68,12},
+\pct{69,57}, \pct{73,91} et \pct{72,46}. La répétition montre que la performance
+dépend sensiblement du choix de l'unique image de test de chaque classe.
+
+\section{Conclusion de l'étape}
+
+La sonde logistique BioCLIP2 atteint la même accuracy moyenne que le meilleur
+baseline zero-shot répété, avec un F1 macro légèrement supérieur. Elle est simple,
+rapide et mieux adaptée à la petite base qu'un fine-tuning profond.
+
+\chapter{Étape 8: validation croisée avancée et prompts adaptatifs}
+
+\section{Méthodes testées}
+
+Le script \code{eval_bioclip_advanced_cv.py} reprend les cinq découpages précédents
+et compare:
+\begin{enumerate}
+  \item le baseline de cinq prompts binomiaux moyennés;
+  \item la sélection, pour chaque classe, du meilleur prompt parmi 13 candidats
+  à partir des images d'entraînement;
+  \item une fusion entre le prompt adaptatif et le centroïde visuel de la classe.
+\end{enumerate}
+
+Pour la fusion, un coefficient $\alpha$ est choisi parmi 21 valeurs de 0 à 1:
+\[
+p_{\text{fusion}} =
+\alpha\,p_{\text{texte}}+(1-\alpha)\,p_{\text{centroïde}}.
+\]
+Les scores de centroïdes utilisés pour choisir $\alpha$ sur l'entraînement sont
+calculés en leave-one-out afin de réduire l'optimisme.
+
+\section{Résultats}
+
+\begin{table}[ht]
+\centering
+\caption{Validation croisée avancée BioCLIP2}
+\begin{tabular}{lrrr}
+\toprule
+Méthode & Accuracy moyenne & Écart-type & F1 macro moyen \\
+\midrule
+Baseline prompts binomiaux & \textbf{\pct{71,88}} & \pct{3,59} & \textbf{\pct{65,89}} \\
+Prompts adaptatifs par classe & \pct{68,12} & \pct{3,34} & \pct{61,01} \\
+Prompts adaptatifs + centroïdes & \pct{70,14} & \pct{2,65} & \pct{63,48} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Les coefficients texte choisis pour la fusion sont 0,55; 0,85; 0,55; 0,65 et
+0,55 selon les cinq découpages.
+
+\section{Interprétation}
+
+La sélection adaptative n'améliore pas le baseline. Avec seulement quelques
+images d'entraînement par classe, choisir un prompt distinct pour chaque espèce
+sur-apprend facilement les exemples disponibles. La fusion avec les centroïdes
+réduit l'écart-type et récupère une partie de la performance, mais reste en dessous
+du baseline binomial simple. Cette expérience négative est utile: elle montre que
+la simplicité est ici plus robuste.
+
+\chapter{Synthèse comparative}
+
+\begin{longtable}{p{5.9cm}p{3.2cm}rr}
+\caption{Vue d'ensemble des principaux résultats}\label{tab:synthese}\\
+\toprule
+Méthode & Protocole & Accuracy/top-1 & F1 macro \\
+\midrule
+\endfirsthead
+\toprule
+Méthode & Protocole & Accuracy/top-1 & F1 macro \\
+\midrule
+\endhead
+ViT AugReg + sonde logistique & split test \pct{30} & \pct{52,85} & \pct{45,21} \\
+ViT iNaturalist + sonde logistique & split test \pct{30} & \pct{32,12} & \pct{26,48} \\
+ViT iNat21 direct, 10\,000 sorties & 59 classes associées & \pct{74,58} & -- \\
+ViT iNat21 direct, sorties restreintes & 59 classes associées & \pct{89,83} & -- \\
+Fine-tuning ViT initial & 1 test/classe & \pct{20,29} & \pct{14,65} \\
+BioCLIP zero-shot & 1 test/classe & \pct{36,96} & \pct{28,56} \\
+BioCLIP2 zero-shot, noms complets & 1 test/classe & \pct{65,94} & \pct{59,22} \\
+BioCLIP2 zero-shot, noms complets & toutes les images & \pct{68,38} & \pct{63,90} \\
+BioCLIP2 zero-shot, binômes & toutes les images & \textbf{\pct{72,59}} & \textbf{\pct{68,90}} \\
+BioCLIP2 sonde logistique $C=1$ & 5 fois 1 test/classe & \pct{71,88} & \pct{66,17} \\
+BioCLIP2 baseline binomial & 5 fois 1 test/classe & \pct{71,88} & \pct{65,89} \\
+\bottomrule
+\end{longtable}
+
+\section{Réponse principale du projet}
+
+Pour les 138 espèces et avec la quantité actuelle de données, la stratégie la plus
+efficace est d'exploiter \textbf{BioCLIP2} et de décrire les classes par leur
+\textbf{binôme taxonomique}. Le fine-tuning profond n'est pas adapté au volume
+actuel. Une sonde logistique sur embeddings BioCLIP2 est compétitive dans un
+protocole supervisé; le zero-shot binomial reste particulièrement intéressant car
+il ne nécessite aucun entraînement local.
+
+\chapter{Productions et traçabilité}
+
+\section{Fichiers produits par expérience}
+
+Les scripts sauvegardent systématiquement les paramètres, métriques et détails
+nécessaires à l'analyse:
+\begin{itemize}
+  \item \code{metrics.json}: paramètres et métriques globales;
+  \item \code{classification_report.json}: précision, rappel et F1 par classe;
+  \item \code{confusion_matrix.csv}: matrice de confusion;
+  \item \code{predictions.csv}: prédiction individuelle de chaque image;
+  \item \code{classes.txt}: correspondance indice--classe;
+  \item \code{split_train.csv}, \code{split_test_one_per_class.csv} ou
+  \code{split_eval.csv}: traçabilité des découpages;
+  \item fichiers \code{*_runs.csv} et \code{*_summary.csv}: résultats détaillés
+  et agrégés des expériences répétées;
+  \item dossiers \code{best_model}: poids et configuration des ViT fine-tunés.
+\end{itemize}
+
+\section{Chronologie expérimentale reconstruite}
+
+D'après les scripts, les paramètres enregistrés et les dates des dossiers de
+résultats, la démarche réalisée est la suivante:
+\begin{enumerate}
+  \item préparation et audit de la base photographique;
+  \item création d'une référence ViT généraliste avec sonde linéaire;
+  \item test d'un ViT Hugging Face spécialisé iNaturalist;
+  \item évaluation directe d'un grand ViT iNaturalist-2021;
+  \item essais successifs de fine-tuning, puis ajout de régularisation;
+  \item première évaluation BioCLIP en zero-shot;
+  \item passage à BioCLIP2, avec fort gain de performance;
+  \item évaluation BioCLIP2 sur toute la base;
+  \item comparaison de plusieurs formulations textuelles;
+  \item adoption des noms binomiaux comme meilleure stratégie de prompts;
+  \item apprentissage de sondes logistiques BioCLIP2 sur cinq découpages;
+  \item comparaison à un classifieur par centroïdes;
+  \item validation croisée avancée avec prompts adaptatifs et fusion multimodale.
+\end{enumerate}
+
+\chapter{Limites et points de vigilance}
+
+\section{Taille et diversité de la base}
+
+La limite dominante reste la quantité de données. Deux à huit images par classe
+ne suffisent pas pour mesurer correctement la variabilité réelle d'une espèce:
+stade de croissance, saison, organe photographié, éclairage, arrière-plan et
+appareil. Les résultats peuvent aussi être optimistes si plusieurs images sont
+très proches ou proviennent de la même plante.
+
+\section{Comparabilité des protocoles}
+
+Les résultats ne sont pas tous directement comparables:
+\begin{itemize}
+  \item le split ViT utilise \pct{30} de test;
+  \item plusieurs expériences utilisent exactement une image de test par classe;
+  \item les résultats zero-shot sur toute la base évaluent les 642 images;
+  \item l'évaluation directe iNaturalist couvre seulement 59 classes;
+  \item les expériences répétées donnent une moyenne plus fiable qu'un unique split.
+\end{itemize}
+
+\section{Validation et sélection de modèles}
+
+Le choix du meilleur epoch de fine-tuning à partir du jeu de test introduit une
+fuite de validation. De même, les valeurs de $C$ de la sonde logistique sont
+comparées sur les mêmes cinq jeux de test; une validation imbriquée serait plus
+rigoureuse pour annoncer une performance finale sans biais de sélection.
+
+\section{Qualité taxonomique}
+
+Le projet montre que les chaînes de caractères des noms d'espèces influencent
+fortement BioCLIP2 et le mapping iNaturalist. Des fautes de frappe, synonymes ou
+noms anciens peuvent diminuer la performance. Une validation taxonomique externe
+des 138 noms et l'utilisation d'identifiants taxonomiques stables amélioreraient
+la robustesse.
+
+\section{Mesures manquantes}
+
+Le dépôt ne contient pas de mesure indépendante sur des photos de terrain
+entièrement nouvelles, ni d'analyse explicite des doublons visuels. Il ne contient
+pas non plus de fichier d'environnement fixant précisément les versions de Python,
+PyTorch, Transformers, timm, OpenCLIP et scikit-learn. Ces éléments sont importants
+pour reproduire exactement les résultats.
+
+\chapter{Recommandations pour la suite}
+
+\begin{enumerate}
+  \item Enrichir chaque classe jusqu'à plusieurs dizaines d'images réellement
+  indépendantes, avec différents stades et conditions de prise de vue.
+  \item Vérifier et normaliser les 138 noms taxonomiques, puis conserver pour
+  chaque classe le nom original, le binôme accepté et un identifiant taxonomique.
+  \item Détecter les doublons et groupes de photos d'une même plante, puis séparer
+  les groupes plutôt que les images entre entraînement et test.
+  \item Conserver BioCLIP2 à prompts binomiaux comme baseline principale.
+  \item Évaluer la sonde logistique BioCLIP2 avec validation croisée imbriquée.
+  \item Réserver un jeu de test final jamais utilisé pendant le développement.
+  \item Tester un regroupement hiérarchique famille--genre--espèce et utiliser le
+  top-5, déjà supérieur à \pct{92}, dans une interface d'aide à l'identification.
+  \item Ajouter un fichier \code{requirements.txt} ou un environnement Conda et
+  documenter les commandes exactes de reproduction.
+\end{enumerate}
+
+\chapter{Conclusion générale}
+
+Le projet a exploré de façon progressive et cohérente plusieurs solutions de
+classification botanique dans un contexte de données extrêmement limitées.
+Les premières expériences ViT ont établi des références, l'évaluation iNaturalist
+a montré l'intérêt de la connaissance taxonomique pré-apprise, et les essais de
+fine-tuning ont démontré les limites de l'apprentissage profond supervisé sur
+seulement quelques images par classe.
+
+La contribution expérimentale la plus importante est l'identification de BioCLIP2
+et des prompts binomiaux comme meilleure combinaison actuelle. Elle atteint
+\pct{72,59} de top-1 et \pct{92,68} de top-5 sur l'ensemble des 642 images.
+Les expériences répétées confirment une accuracy moyenne proche de \pct{72}.
+Le projet produit également une traçabilité riche grâce aux prédictions,
+matrices de confusion, rapports par classe et résumés de validation croisée.
+
+La prochaine amélioration décisive ne viendra probablement pas d'un modèle plus
+complexe, mais d'une base plus grande, mieux normalisée taxonomiquement et évaluée
+sur un jeu externe indépendant.
+
+\appendix
+\chapter{Inventaire détaillé des dossiers de résultats}
+
+\begin{longtable}{p{7.4cm}p{7.1cm}}
+\toprule
+Dossier & Contenu/interprétation \\
+\midrule
+\endfirsthead
+\toprule
+Dossier & Contenu/interprétation \\
+\midrule
+\endhead
+\code{results_vit_eval} & Sonde logistique sur ViT généraliste timm. \\
+\code{results_vit_hf_inaturalist_eval} & Sonde logistique sur ViT Hugging Face iNaturalist. \\
+\code{results_vit_inat21_direct_one_test_per_matched_class} & Évaluation directe sur les 59 classes associées à iNat21. \\
+\code{results_vit_finetuned_one_test_per_class} & Premier fine-tuning ViT. \\
+\code{results_vit_finetuned_regularized_one_test_per_class} & Fine-tuning fortement régularisé, deux blocs libres. \\
+\code{results_vit_finetuned_mild_regularized_one_test_per_class} & Fine-tuning légèrement régularisé, douze blocs libres. \\
+\code{results_bioclip_zeroshot_one_test_per_class} & BioCLIP v1 zero-shot. \\
+\code{results_bioclip2_zeroshot_one_test_per_class} & BioCLIP2 zero-shot, une image par classe. \\
+\code{results_bioclip2_zeroshot_all_dataset} & BioCLIP2 zero-shot sur les 642 images, noms complets. \\
+\code{results_bioclip2_zeroshot_binomial_prompts_all_dataset} & BioCLIP2 zero-shot sur les 642 images, prompts binomiaux. \\
+\code{results_bioclip2_prompt_experiments_all_dataset} & Comparaison de cinq jeux de prompts. \\
+\code{results_bioclip2_linear_probe_repeated_one_test_per_class} & Sondes logistiques répétées. \\
+\code{results_bioclip2_linear_probe_and_centroid_repeated_one_test_per_class} & Sondes logistiques et centroïdes répétés. \\
+\code{results_bioclip2_advanced_cv} & Prompts adaptatifs, centroïdes et validation croisée avancée. \\
+\bottomrule
+\end{longtable}
+
+\chapter{Formules des métriques}
+
+Pour $K$ classes, l'accuracy mesure la proportion totale de prédictions correctes:
+\[
+\mathrm{Accuracy}=\frac{\text{nombre de prédictions correctes}}{\text{nombre total d'exemples}}.
+\]
+
+L'accuracy équilibrée est la moyenne du rappel des classes:
+\[
+\mathrm{BalancedAccuracy}=\frac{1}{K}\sum_{c=1}^{K}\mathrm{Recall}_c.
+\]
+
+Le F1 d'une classe combine précision et rappel:
+\[
+F1_c=2\frac{\mathrm{Precision}_c\,\mathrm{Recall}_c}
+{\mathrm{Precision}_c+\mathrm{Recall}_c}.
+\]
+
+Le F1 macro est la moyenne non pondérée des F1 de toutes les classes:
+\[
+F1_{\mathrm{macro}}=\frac{1}{K}\sum_{c=1}^{K}F1_c.
+\]
+Il est particulièrement pertinent ici car chaque espèce doit compter de manière
+égale malgré le léger déséquilibre du nombre d'images.
+
+\chapter{Ressources présentes dans le dépôt}
+
+Deux articles PDF sont présents à la racine:
+\begin{itemize}
+  \item \code{paper-178.pdf};
+  \item \code{Zhou_BBN_Bilateral-Branch_Network_With_Cumulative_Learning_for_Long-Tailed_Visual_Recognition_CVPR_2020_paper.pdf}.
+\end{itemize}
+
+Le second concerne explicitement la reconnaissance visuelle à longue traîne.
+Ces documents constituent des ressources bibliographiques pertinentes, mais aucun
+appel direct à une implémentation BBN n'apparaît dans les scripts analysés.
+
+\end{document}

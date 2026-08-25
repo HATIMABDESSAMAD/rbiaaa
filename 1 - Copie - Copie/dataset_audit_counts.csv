@@ -1,0 +1,139 @@
+class,csv_expected,actual_valid_images,desktop_ini,other_files,csv_minus_actual_images
+Abutilon theophrasti L,3,2,1,0,1
+Adonis annua L,4,3,1,0,1
+Amaranthus blitoides S. Watson,4,3,1,0,1
+Amaranthus deflexus L,6,5,1,0,1
+Amaranthus retroflexus L,4,3,1,0,1
+Ammi majus L,7,6,1,0,1
+Ammi visnaga (L.) Lam,6,5,1,0,1
+Anacyclus radiatus Loisel,7,6,1,0,1
+Anagallis arvensis L,4,3,1,0,1
+Anchusa azurea Miller,4,4,0,0,0
+Arisarum simorrhinum Durieu,4,3,1,0,1
+Aster squamatus  (Spreng.) Hieron,5,4,1,0,1
+Astragalus boeticus L,3,3,0,0,0
+Avena sterilis L,5,4,1,0,1
+Beta macrocarpa Guss,6,5,1,0,1
+Bifora testiculata L,6,5,1,0,1
+Borago officinalis L,4,3,1,0,1
+Bromus rigidus,5,4,1,0,1
+Bromus rubens L,3,2,1,0,1
+Buglossoides arvensis (L.) I. M. Johnson,4,3,1,0,1
+Bupleurum lancifolium Hornem,4,3,1,0,1
+Calendula arvensis L,6,5,1,0,1
+Capsella bursa-pastoris (L.) Medicus,5,4,1,0,1
+Cardaria draba (Cav) Desv,3,2,1,0,1
+Carduus pycnocephalus L,4,3,1,0,1
+Carlina racemosa L,4,3,1,0,1
+Centaurea diluta Aïton,4,3,1,0,1
+Centaurea eriophora L,3,2,1,0,1
+Chamaemelum fuscatum L,4,4,0,0,0
+Chamaemelum mixtum (L.) All,5,4,1,0,1
+Chenopodium album L,3,2,1,0,1
+Chenopodium murale L,6,5,1,0,1
+Chenopodium vulvaria L,5,4,1,0,1
+Chrozophora tinctoria (L). A. Juss,5,4,1,0,1
+Chrysanthemum coronarium L,6,5,1,0,1
+Chrysanthemum segetum L,2,2,0,0,0
+Cichorium endivia L,4,3,1,0,1
+Convolvulus altaeoides L,7,7,0,0,0
+Convolvulus arvensis L,6,6,0,0,0
+Convolvulus gharbensis Batt. & Pitard,2,2,0,0,0
+Convolvulus tricolor L,4,4,0,0,0
+Conyza canadensis (L.) Cronq,7,6,1,0,1
+Coronilla scorpioides (L.) Koch,4,3,1,0,1
+Coronopus squamatus (Forsk.) Ascherson,8,7,1,0,1
+Cynodon dactylon (L.) Pers,5,4,1,0,1
+Cyperus rotundus L,4,3,1,0,1
+Datura stramonium L,7,6,1,0,1
+Daucus carota L,7,6,1,0,1
+Digitaria sanguinalis,5,5,0,0,0
+Diplotaxis catholica (L.) DC,4,3,1,0,1
+Diplotaxis tenuisiliqua delile,7,6,1,0,1
+Ecballium elaterium  (L.) A. Rich,5,4,1,0,1
+Echinochloa crus-galli (L.) Beauv,6,5,1,0,1
+Emex spinosa (L.) Campd,8,7,1,0,1
+Eryngium ilicifolium Lam,5,4,1,0,1
+Euphorbia medicaginea Boiss,5,4,1,0,1
+Fallopia convolvulus (L.) A. Löve,3,3,0,0,0
+Fedia cornucopiae (L.) Gaertner,5,5,0,0,0
+Fumaria agraria Lag,3,3,0,0,0
+Fumaria parviflora Lam,4,4,0,0,0
+Galium tricornutum Dandy,6,5,1,0,1
+Galium verrucosum Hudson,5,4,1,0,1
+Geropogon hybridus  (L.) Sch.Bip,3,2,1,0,1
+Gladiolus italicus Miller,5,4,1,0,1
+Glaucium corniculatum (L.) J. H. Rudolph,6,5,1,0,1
+Heliotropium europaeum L,5,4,1,0,1
+Hibiscus trionum L,3,2,1,0,1
+Hirschfeldia incana (L.) Lagrèze-Fossat,8,7,1,0,1
+Hordeum murinum L,6,5,1,0,1
+Lactuca scariola L,6,5,1,0,1
+Lamium amplexicaule L,6,5,1,0,1
+Lathyrus cicera L,6,5,1,0,1
+Lathyrus clymenum L,6,5,1,0,1
+Lathyrus ochrus (L.) DC,3,2,1,0,1
+Lavatera trimestris L,7,6,1,0,1
+Lolium multiflorum Lam,6,5,1,0,1
+Lolium rigidum Gaudin,6,5,1,0,1
+Lupinus angustifolius L,5,4,1,0,1
+Lupinus hirsutus L,8,7,1,0,1
+Lupinus luteus L,4,3,1,0,1
+Malope trifida Cav,5,4,1,0,1
+Malva parviflora L,7,6,1,0,1
+Medicago polymorpha L,3,3,0,0,0
+Melilotus sulcata Desf,6,5,1,0,1
+Mercurialis annua L,8,7,1,0,1
+Misopates orontium (L.) Rafin,7,6,1,0,1
+Onopordon macracanthum L,5,5,0,0,0
+Orobanche crenata Forsk,6,5,1,0,1
+Oxalis pes-caprae L,9,8,1,0,1
+Papaver hybridum L,7,6,1,0,1
+Papaver rhoeas L,9,8,1,0,1
+Phalaris brachystachys Link,5,4,1,0,1
+Phalaris minor Retz,4,4,0,0,0
+Phalaris paradoxa L,7,6,1,0,1
+Phragmites australis L,5,5,0,0,0
+Picris echioides L,7,6,1,0,1
+Plantago afra L,5,4,1,0,1
+Poa annua L,5,4,1,0,1
+Polygonum aviculare L,8,7,1,0,1
+Portulaca oleracea L,6,5,1,0,1
+Ranunculus muricatus L,4,3,1,0,1
+Ranunculus sardous L,2,2,0,0,0
+Raphanus raphanistrum L,7,6,1,0,1
+Reseda alba L,8,8,0,0,0
+Rhagadiolus stellatus (L.) Gaertner,6,5,1,0,1
+Ricinus communis L,7,6,1,0,1
+Ridolfia segetum Moris,7,6,1,0,1
+Rumex pulcher L,6,5,1,0,1
+Scandix pecten-veneris L,6,5,1,0,1
+Scolymus hispanicus L,5,5,0,0,0
+Scolymus maculatus L,6,5,1,0,1
+Scorpiurus muricatus L,5,5,0,0,0
+Senecio vulgaris L,9,8,1,0,1
+Silene gallica L,6,5,1,0,1
+Silene vulgaris (Moench) Garcke,5,4,1,0,1
+Silybum marianum (L.)  Gaertn,8,7,1,0,1
+Sinapis alba L,5,4,1,0,1
+Sinapis arvensis L,2,2,0,0,0
+Solanum elaeagnifolium Cav,7,7,0,0,0
+Solanum nigrum L,7,6,1,0,1
+Sonchus asper (L.) Hill,5,4,1,0,1
+Sonchus oleraceus L,8,7,1,0,1
+Sorghum halepense L,4,3,1,0,1
+Stachys arvensis L,6,6,0,0,0
+Stellaria media (L.)Vill,9,8,1,0,1
+Torilis nodosa (L.) Gaertner,8,7,1,0,1
+Tragopogon hybridus L,4,3,1,0,1
+Tribulus terrestris L,7,7,0,0,0
+Urtica urens L,8,8,0,0,0
+Vaccaria hispanica (Miller) Rauscher,6,5,1,0,1
+Verbesina encelioides (Cav.) Benth. ex A. Gray,7,6,1,0,1
+Veronica hederifolia L,5,4,1,0,1
+Veronica polita Fries,5,4,1,0,1
+Vicia benghalensis L,7,6,1,0,1
+Vicia lutea L,4,4,0,0,0
+Vicia sativa L,6,6,0,0,0
+Xanthium brasilicum Vellasco,7,6,1,0,1
+Xanthium spinosum L,6,5,1,0,1

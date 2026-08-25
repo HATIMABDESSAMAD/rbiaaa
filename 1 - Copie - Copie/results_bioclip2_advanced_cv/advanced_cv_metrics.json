@@ -1,0 +1,69 @@
+{
+  "args": {
+    "data": "Bases de données photos Dr Taleb",
+    "arch": "hf-hub:imageomics/bioclip-2",
+    "pretrained": null,
+    "output_dir": "results_bioclip2_advanced_cv",
+    "batch_size": 8,
+    "workers": 0,
+    "seed": 42,
+    "repeats": 5,
+    "device": null
+  },
+  "num_classes": 138,
+  "num_images": 642,
+  "best": {
+    "method": "baseline_binomial_prompts",
+    "accuracy_mean": 0.7188405797101449,
+    "accuracy_std": 0.03591162809670686,
+    "balanced_accuracy_mean": 0.7188405797101449,
+    "balanced_accuracy_std": 0.03591162809670686,
+    "precision_macro_mean": 0.6309178743961352,
+    "precision_macro_std": 0.03618636432041198,
+    "recall_macro_mean": 0.7188405797101449,
+    "recall_macro_std": 0.03591162809670686,
+    "f1_macro_mean": 0.6588888888888889,
+    "f1_macro_std": 0.03640518938537057
+  },
+  "summaries": [
+    {
+      "method": "baseline_binomial_prompts",
+      "accuracy_mean": 0.7188405797101449,
+      "accuracy_std": 0.03591162809670686,
+      "balanced_accuracy_mean": 0.7188405797101449,
+      "balanced_accuracy_std": 0.03591162809670686,
+      "precision_macro_mean": 0.6309178743961352,
+      "precision_macro_std": 0.03618636432041198,
+      "recall_macro_mean": 0.7188405797101449,
+      "recall_macro_std": 0.03591162809670686,
+      "f1_macro_mean": 0.6588888888888889,
+      "f1_macro_std": 0.03640518938537057
+    },
+    {
+      "method": "class_adaptive_prompts",
+      "accuracy_mean": 0.6811594202898551,
+      "accuracy_std": 0.03336482444411984,
+      "balanced_accuracy_mean": 0.6811594202898551,
+      "balanced_accuracy_std": 0.03336482444411984,
+      "precision_macro_mean": 0.5777777777777778,
+      "precision_macro_std": 0.034650261495667314,
+      "recall_macro_mean": 0.6811594202898551,
+      "recall_macro_std": 0.03336482444411984,
+      "f1_macro_mean": 0.6100966183574879,
+      "f1_macro_std": 0.034736415918537114
+    },
+    {
+      "method": "adaptive_prompt_plus_centroid",
+      "accuracy_mean": 0.7014492753623189,
+      "accuracy_std": 0.026486473742749365,
+      "balanced_accuracy_mean": 0.7014492753623189,
+      "balanced_accuracy_std": 0.026486473742749365,
+      "precision_macro_mean": 0.6040338164251209,
+      "precision_macro_std": 0.029699793962944275,
+      "recall_macro_mean": 0.7014492753623189,
+      "recall_macro_std": 0.026486473742749365,
+      "f1_macro_mean": 0.634830917874396,
+      "f1_macro_std": 0.028651619626850252
+    }
+  ]
+}

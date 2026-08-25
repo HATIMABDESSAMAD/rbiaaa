@@ -1,0 +1,60 @@
+dataset_label,dataset_class,inat21_global_label,inat21_class
+0,Abutilon theophrasti L,8930,Abutilon theophrasti
+4,Amaranthus retroflexus L,7314,Amaranthus retroflexus
+16,Borago officinalis L,7133,Borago officinalis
+18,Bromus rubens L,6348,Bromus rubens
+19,Buglossoides arvensis (L.) I. M. Johnson,7134,Buglossoides arvensis
+21,Calendula arvensis L,6665,Calendula arvensis
+22,Capsella bursa-pastoris (L.) Medicus,7227,Capsella bursa-pastoris
+24,Carduus pycnocephalus L,6672,Carduus pycnocephalus
+30,Chenopodium album L,7326,Chenopodium album
+38,Convolvulus arvensis L,9681,Convolvulus arvensis
+44,Cynodon dactylon (L.) Pers,6358,Cynodon dactylon
+45,Cyperus rotundus L,6281,Cyperus rotundus
+46,Datura stramonium L,9717,Datura stramonium
+47,Daucus carota L,6501,Daucus carota
+48,Digitaria sanguinalis,6366,Digitaria sanguinalis
+51,Ecballium elaterium  (L.) A. Rich,7625,Ecballium elaterium
+52,Echinochloa crus-galli (L.) Beauv,6368,Echinochloa crus-galli
+56,Fallopia convolvulus (L.) A. Löve,7537,Fallopia convolvulus
+63,Gladiolus italicus Miller,5963,Gladiolus italicus
+65,Heliotropium europaeum L,7153,Heliotropium europaeum
+66,Hibiscus trionum L,8950,Hibiscus trionum
+67,Hirschfeldia incana (L.) Lagrèze-Fossat,7254,Hirschfeldia incana
+68,Hordeum murinum L,6382,Hordeum murinum
+70,Lamium amplexicaule L,8446,Lamium amplexicaule
+77,Lupinus angustifolius L,7997,Lupinus angustifolius
+81,Malva parviflora L,8959,Malva parviflora
+82,Medicago polymorpha L,8022,Medicago polymorpha
+84,Mercurialis annua L,8819,Mercurialis annua
+88,Oxalis pes-caprae L,9103,Oxalis pes-caprae
+90,Papaver rhoeas L,9186,Papaver rhoeas
+94,Phragmites australis L,6415,Phragmites australis
+97,Poa annua L,6416,Poa annua
+98,Polygonum aviculare L,7558,Polygonum aviculare
+99,Portulaca oleracea L,7570,Portulaca oleracea
+100,Ranunculus muricatus L,9270,Ranunculus muricatus
+102,Raphanus raphanistrum L,7268,Raphanus raphanistrum
+105,Ricinus communis L,8821,Ricinus communis
+108,Scandix pecten-veneris L,6537,Scandix pecten-veneris
+109,Scolymus hispanicus L,6967,Scolymus hispanicus
+112,Senecio vulgaris L,6984,Senecio vulgaris
+113,Silene gallica L,7452,Silene gallica
+114,Silene vulgaris (Moench) Garcke,7460,Silene vulgaris
+115,Silybum marianum (L.)  Gaertn,6991,Silybum marianum
+117,Sinapis arvensis L,7272,Sinapis arvensis
+118,Solanum elaeagnifolium Cav,9739,Solanum elaeagnifolium
+119,Solanum nigrum L,9745,Solanum nigrum
+120,Sonchus asper (L.) Hill,7013,Sonchus asper
+121,Sonchus oleraceus L,7014,Sonchus oleraceus
+122,Sorghum halepense L,6427,Sorghum halepense
+124,Stellaria media (L.)Vill,7465,Stellaria media
+125,Torilis nodosa (L.) Gaertner,6544,Torilis nodosa
+127,Tribulus terrestris L,9773,Tribulus terrestris
+128,Urtica urens L,9518,Urtica urens
+130,Verbesina encelioides (Cav.) Benth. ex A. Gray,7062,Verbesina encelioides
+131,Veronica hederifolia L,8694,Veronica hederifolia
+132,Veronica polita Fries,8699,Veronica polita
+133,Vicia benghalensis L,8111,Vicia benghalensis
+135,Vicia sativa L,8117,Vicia sativa
+137,Xanthium spinosum L,7076,Xanthium spinosum

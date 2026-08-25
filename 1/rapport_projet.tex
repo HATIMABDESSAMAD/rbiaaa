@@ -1,0 +1,651 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\geometry{margin=2.4cm}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!55!black,
+  urlcolor=blue!55!black,
+  citecolor=blue!55!black,
+  pdftitle={Rapport détaillé du projet de reconnaissance des plantes adventices}
+}
+\setlist[itemize]{itemsep=3pt,topsep=4pt}
+\setlist[enumerate]{itemsep=3pt,topsep=4pt}
+\renewcommand{\arraystretch}{1.15}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Reconnaissance des plantes adventices}
+\rhead{\thepage}
+\setlength{\headheight}{15pt}
+\sisetup{locale=FR,round-mode=places,round-precision=2}
+
+\definecolor{codegreen}{rgb}{0.0,0.45,0.20}
+\definecolor{codegray}{rgb}{0.35,0.35,0.35}
+\definecolor{codeblue}{rgb}{0.05,0.20,0.65}
+\lstset{
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{codeblue},
+  commentstyle=\color{codegreen},
+  stringstyle=\color{codegray},
+  breaklines=true,
+  frame=single,
+  showstringspaces=false,
+  columns=fullflexible,
+  language=Python
+}
+
+\newcommand{\fichier}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\pct}[1]{\num{#1}\,\%}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{2cm}
+  {\Large Rapport technique détaillé\par}
+  \vspace{0.8cm}
+  {\Huge\bfseries Reconnaissance automatique de plantes adventices à partir d'un très petit nombre d'images\par}
+  \vspace{1.2cm}
+  {\Large Analyse complète et reconstruction des étapes du projet\par}
+  \vfill
+  \begin{tabular}{rl}
+    Projet analysé : & \fichier{Rbiaa Control 2/1}\\
+    Domaine : & vision par ordinateur, classification d'images, few-shot learning\\
+    Date du rapport : & 4 juin 2026\\
+  \end{tabular}
+  \vfill
+  {\large Rapport produit à partir des scripts, jeux de données, métadonnées et résultats présents dans le dossier du projet.\par}
+\end{titlepage}
+
+\pagenumbering{roman}
+\tableofcontents
+\listoftables
+\clearpage
+\pagenumbering{arabic}
+
+\chapter*{Résumé exécutif}
+\addcontentsline{toc}{chapter}{Résumé exécutif}
+
+Ce projet cherche à reconnaître automatiquement des espèces de plantes adventices à partir de photographies. La difficulté principale est extrême : la base d'entraînement ne contient que \textbf{631 images utilisables réparties dans 138 classes}, soit seulement \textbf{4,57 images par classe en moyenne}. Treize classes ne possèdent que deux images utilisables. Cette situation rend un entraînement profond classique très difficile et justifie l'emploi de méthodes \emph{few-shot}.
+
+Le travail réalisé suit une progression cohérente :
+\begin{enumerate}
+  \item constitution et analyse de la base d'images ;
+  \item contrôle de validité, calcul de métadonnées et détection des doublons ;
+  \item tentative d'entraînement supervisé d'un ResNet50V2 ;
+  \item extraction d'embeddings à partir de réseaux préentraînés ;
+  \item classification par SVM, k-NN et prototypes, évaluée en Leave-One-Out ;
+  \item amélioration des embeddings avec DINOv2-base et augmentation au moment du test ;
+  \item réglage de l'hyperparamètre $C$ du SVM ;
+  \item étude de trois méthodes de suppression ou atténuation de l'arrière-plan.
+\end{enumerate}
+
+La meilleure configuration observée est \textbf{DINOv2-base + TTA à 6 vues + SVM linéaire}, avec :
+\begin{itemize}
+  \item accuracy Top-1 : \textbf{\pct{65,77}} (\textbf{415} images correctement classées sur 631) ;
+  \item accuracy Top-5 : \textbf{\pct{80,67}} ;
+  \item macro-F1 : \textbf{\pct{58,90}}.
+\end{itemize}
+
+L'expérience ResNet50V2 supervisée atteint seulement \pct{2,17} de Top-1 sur la validation, ce qui confirme que le nombre d'images est insuffisant pour un fine-tuning classique sur 138 classes. Les expériences de suppression du fond dégradent également les résultats : le meilleur prétraitement, le fond flouté, atteint \pct{52,61} de Top-1, contre \pct{65,77} avec les images originales. Le contexte visuel semble donc fournir une information utile, ou bien GrabCut supprime une partie importante de la plante.
+
+\chapter{Objectif et contexte du projet}
+
+\section{Problème traité}
+
+L'objectif est de construire un système capable d'identifier l'espèce d'une plante adventice à partir d'une photographie. Chaque dossier de la base principale correspond à une espèce botanique. Le problème est formulé comme une classification multiclasse à \textbf{138 catégories}.
+
+Les difficultés techniques sont les suivantes :
+\begin{itemize}
+  \item très faible nombre d'exemples par classe ;
+  \item forte variabilité des images : taille, cadrage, orientation, stade de croissance et arrière-plan ;
+  \item classes botaniquement proches et donc visuellement similaires ;
+  \item déséquilibre des classes, de 2 à 8 images utilisables ;
+  \item présence de doublons, y compris un doublon entre deux classes différentes ;
+  \item risque élevé de surapprentissage.
+\end{itemize}
+
+\section{Structure du dossier analysé}
+
+\begin{longtable}{p{0.34\textwidth}p{0.58\textwidth}}
+\toprule
+\textbf{Élément} & \textbf{Rôle observé}\\
+\midrule
+\endhead
+\fichier{Bases de données photos Dr Taleb/} & Base principale : 642 fichiers image dans 138 dossiers de classes.\\
+\fichier{test dataset/} & Jeu séparé de 732 images dans 77 classes. Il est présent dans le projet, mais aucun des trois scripts analysés ne l'utilise directement.\\
+\fichier{analyse_classes.csv} & Première synthèse du nombre de photographies par classe.\\
+\fichier{fewshot_pipeline.py} & Pipeline principal : audit, nettoyage, embeddings préentraînés, classification et évaluation Leave-One-Out.\\
+\fichier{train_resnet50v2.py} & Entraînement supervisé et fine-tuning d'un ResNet50V2.\\
+\fichier{preprocess_background.py} & Segmentation GrabCut et génération des variantes fond blanc, fond flouté et fond blanc recadré.\\
+\fichier{outputs/} & Métadonnées propres, embeddings, métriques, prédictions Leave-One-Out, matrices de confusion et rapports de classification.\\
+\fichier{outputs_resnet50v2*/} & Checkpoints et historiques des expériences ResNet50V2.\\
+\fichier{preprocessed/} & Images produites par les trois stratégies de traitement du fond.\\
+\fichier{outputs_bg_*/} & Résultats DINOv2/SVM obtenus sur les images prétraitées.\\
+\fichier{paper-178.pdf} et article BBN & Documents scientifiques consultés dans le contexte du projet, notamment sur la reconnaissance visuelle et les données déséquilibrées.\\
+\bottomrule
+\end{longtable}
+
+\section{Environnement logiciel identifié}
+
+\begin{table}[H]
+\centering
+\caption{Principales bibliothèques utilisées par les scripts}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Bibliothèque} & \textbf{Utilisation dans le projet}\\
+\midrule
+PyTorch et torchvision & Chargement des modèles, tenseurs, inférence, entraînement et transformations d'images.\\
+timm & Création du modèle préentraîné \fichier{resnetv2_50}.\\
+Transformers & Chargement du processeur et des modèles DINOv2 de Facebook.\\
+scikit-learn & SVM, k-NN, Leave-One-Out, encodage des classes et métriques.\\
+Pandas et NumPy & Métadonnées, tableaux de résultats, embeddings et sauvegarde \fichier{.npz}.\\
+Pillow & Ouverture, vérification, conversion et recadrage des images.\\
+OpenCV & GrabCut, opérations morphologiques, composantes connexes et flou gaussien.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Chronologie reconstruite}
+
+Le dossier ne contient pas de dépôt Git ; il n'est donc pas possible de reconstituer les commits. La chronologie suivante est déduite des dates des fichiers et des sorties expérimentales :
+\begin{itemize}
+  \item 22 mai 2026 : constitution/analyse de la base et création de \fichier{analyse_classes.csv} ;
+  \item 22--23 mai 2026 : collecte de références scientifiques ;
+  \item 24 mai 2026, début de soirée : développement et essais ResNet50V2 ;
+  \item 24 mai 2026, vers 19h26 : extraction d'embeddings ResNet50 ;
+  \item 24 mai 2026, vers 20h15--20h22 : essais DINOv2-small/base et comparaison SVM, prototypes et k-NN ;
+  \item 24 mai 2026, vers 20h33--21h23 : TTA DINOv2, combinaison de classifieurs et balayage de $C$ ;
+  \item 24 mai 2026, fin de soirée : développement du prétraitement GrabCut et comparaison des fonds.
+\end{itemize}
+
+\chapter{Étape 1 -- Constitution et analyse initiale des données}
+
+\section{Travail réalisé}
+
+La base principale a été organisée selon le format classique \emph{un dossier par classe}. Le fichier \fichier{analyse_classes.csv} constitue une première analyse simple du nombre de photographies disponibles pour chaque espèce.
+
+\section{Résultat de l'étape}
+
+\begin{table}[H]
+\centering
+\caption{Inventaire des jeux d'images présents}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Jeu} & \textbf{Classes} & \textbf{Images}\\
+\midrule
+Base principale brute & 138 & 642\\
+Base principale nettoyée & 138 & 631\\
+Jeu \fichier{test dataset} & 77 & 732\\
+Fond blanc & 138 & 631\\
+Fond flouté & 138 & 631\\
+Fond blanc recadré & 138 & 631\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La base principale est fortement limitée en données. Après nettoyage, la distribution est :
+
+\begin{table}[H]
+\centering
+\caption{Distribution du nombre d'images utilisables par classe}
+\begin{tabular}{rrrrrrrr}
+\toprule
+Images/classe & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
+\midrule
+Nombre de classes & 13 & 24 & 33 & 28 & 25 & 9 & 6\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent Trois dossiers de sorties ResNet sont présents. \fichier{outputs_resnet50v2} contient un historique complet de 30 époques. \fichier{outputs_resnet50v2_test} contient uniquement un fichier de séparation et ne permet pas d'analyser l'entraînement. \fichier{outputs_resnet50v2_test2} contient les traces d'une seule époque, avec un Top-1 de validation de \pct{1,45} et un macro-F1 de \pct{0,06}. Ces deux dossiers secondaires correspondent donc à des essais techniques incomplets plutôt qu'à de meilleurs modèles.
+
+\section{Interprétation}
+
+Cette étape a mis en évidence le caractère \emph{few-shot} du problème. Une séparation classique entraînement/validation/test laisserait parfois seulement une ou deux images pour apprendre une classe. La stratégie d'évaluation Leave-One-Out adoptée ensuite est donc adaptée pour exploiter au maximum les rares exemples disponibles.
+
+\chapter{Étape 2 -- Audit, nettoyage et contrôle des doublons}
+
+\section{Travail réalisé}
+
+La fonction \fichier{scan_dataset} de \fichier{fewshot_pipeline.py} parcourt tous les dossiers et réalise pour chaque image :
+\begin{itemize}
+  \item la vérification de l'extension ;
+  \item l'ouverture avec PIL et la vérification de l'intégrité ;
+  \item l'enregistrement de la largeur, de la hauteur et de la taille du fichier ;
+  \item le calcul d'une empreinte SHA-256 ;
+  \item la détection des doublons identiques ;
+  \item la détection des doublons présents dans plusieurs classes ;
+  \item la création du drapeau \fichier{usable_for_training}.
+\end{itemize}
+
+Les résultats détaillés sont sauvegardés dans :
+\begin{itemize}
+  \item \fichier{outputs/metadata_clean.csv} ;
+  \item \fichier{outputs/dataset_summary.json} ;
+  \item \fichier{outputs/usable_class_counts.csv} ;
+  \item \fichier{outputs/duplicate_groups.csv}.
+\end{itemize}
+
+\section{Résultat de l'étape}
+
+\begin{table}[H]
+\centering
+\caption{Résultats de l'audit de la base principale}
+\begin{tabular}{lr}
+\toprule
+\textbf{Indicateur} & \textbf{Valeur}\\
+\midrule
+Images brutes & 642\\
+Images utilisables & 631\\
+Classes conservées & 138\\
+Minimum d'images utilisables par classe & 2\\
+Maximum d'images utilisables par classe & 8\\
+Moyenne d'images utilisables par classe & 4,57\\
+Lignes appartenant à un groupe de doublons & 24\\
+Doublons supplémentaires de même classe exclus & 11\\
+Lignes de doublons entre classes & 2\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Un cas critique a été identifié : le fichier nommé \fichier{Ranunculus sardous (1)a.JPG} apparaît à la fois dans les classes \emph{Ranunculus muricatus L} et \emph{Ranunculus sardous L}. Le code prévoit, par défaut, d'exclure les doublons interclasses. Toutefois, dans les métadonnées et résultats actuellement enregistrés, les deux lignes de ce conflit ont la valeur \fichier{usable_for_training=True}. Cela indique que les sorties finales ont été produites en conservant les doublons interclasses, probablement avec l'option \fichier{--keep-cross-class-duplicates}.
+
+\section{Résultat et intérêt}
+
+Le nettoyage retire 11 copies redondantes de même classe tout en conservant toutes les classes. Cette étape réduit le risque de fuite de données pendant l'évaluation Leave-One-Out. Le conflit interclasse conservé reste néanmoins une anomalie : lorsqu'une de ses deux lignes est testée, la même image portant l'autre étiquette est présente dans l'entraînement. Comme les étiquettes se contredisent, l'effet exact sur le score n'est pas nécessairement positif, mais le protocole n'est plus parfaitement propre.
+
+\chapter{Étape 3 -- Première approche supervisée avec ResNet50V2}
+
+\section{Méthode mise en place}
+
+Le script \fichier{train_resnet50v2.py} entraîne le modèle \fichier{resnetv2_50} fourni par la bibliothèque \fichier{timm}. Le réseau est initialisé avec des poids préentraînés, puis sa tête de classification est adaptée aux 138 classes.
+
+Le protocole est le suivant :
+\begin{itemize}
+  \item une image de chaque classe est réservée pour la validation ;
+  \item 493 images sont utilisées pour l'entraînement et 138 pour la validation ;
+  \item redimensionnement à $224\times224$ pixels ;
+  \item augmentation : retournement horizontal, rotation, variation de couleur, translation et changement d'échelle ;
+  \item normalisation ImageNet ;
+  \item échantillonnage pondéré pour compenser le déséquilibre ;
+  \item fonction de perte Cross-Entropy avec poids de classes ;
+  \item optimiseur AdamW et planification Cosine Annealing ;
+  \item gel initial du backbone durant 3 époques, puis dégel complet ;
+  \item sélection du meilleur checkpoint selon le macro-F1 de validation.
+\end{itemize}
+
+\section{Résultat de l'étape}
+
+Le meilleur checkpoint du run complet a été obtenu à l'époque 25 :
+
+\begin{table}[H]
+\centering
+\caption{Meilleur résultat ResNet50V2 observé}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Mesure} & \textbf{Entraînement} & \textbf{Validation}\\
+\midrule
+Accuracy Top-1 & \pct{8,72} & \pct{2,17}\\
+Accuracy Top-5 & --- & \pct{7,25}\\
+Macro-F1 & \pct{5,31} & \pct{0,80}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Interprétation}
+
+Le résultat est faible, mais très instructif. Avec environ 3,6 images d'entraînement par classe après la séparation, le réseau ne dispose pas de suffisamment d'exemples pour ajuster des millions de paramètres. Même avec le transfert d'apprentissage, les augmentations et la pondération, il apprend difficilement les frontières entre 138 espèces.
+
+Cette expérience justifie le changement de stratégie réalisé dans la suite : conserver un extracteur préentraîné presque entièrement figé, puis apprendre seulement un classifieur léger sur ses représentations.
+
+\chapter{Étape 4 -- Mise en place du pipeline few-shot}
+
+\section{Principe}
+
+Le pipeline few-shot transforme chaque image en un vecteur numérique appelé \emph{embedding}. L'embedding résume les caractéristiques visuelles apprises au préalable par un grand réseau. Un classifieur simple est ensuite entraîné sur ces vecteurs.
+
+Les extracteurs prévus ou testés dans le script sont :
+\begin{itemize}
+  \item ResNet50 préentraîné sur ImageNet, embedding de dimension 2048 ;
+  \item ViT-B/16 préentraîné, embedding de dimension 768 ;
+  \item DINOv2-small ;
+  \item DINOv2-base.
+\end{itemize}
+
+Les embeddings sont mis en cache dans des fichiers \fichier{.npz}. Cette décision évite de recalculer les représentations lors de chaque essai de classifieur.
+
+\section{Classifieurs comparés}
+
+\begin{itemize}
+  \item \textbf{SVM linéaire} : standardisation, pondération équilibrée des classes et stratégie one-vs-rest ;
+  \item \textbf{SVM RBF} : noyau non linéaire avec $C=10$ ;
+  \item \textbf{k-NN} : plus proche voisin avec distance cosinus ;
+  \item \textbf{prototypes} : moyenne normalisée des embeddings de chaque classe ;
+  \item \textbf{SVM + prototypes} : combinaison pondérée à \pct{75}/\pct{25} des scores normalisés.
+\end{itemize}
+
+\section{Évaluation Leave-One-Out}
+
+Pour chacune des 631 images :
+\begin{enumerate}
+  \item l'image courante est retirée ;
+  \item le classifieur est entraîné sur les 630 autres images ;
+  \item l'image retirée est prédite ;
+  \item les scores Top-1 et Top-5 sont enregistrés.
+\end{enumerate}
+
+Cette procédure est répétée 631 fois. Les sorties comprennent les métriques globales, un rapport par classe, une matrice de confusion et les prédictions individuelles. L'évaluation est coûteuse, mais elle utilise presque toutes les données pour chaque prédiction et convient au très faible nombre d'exemples.
+
+Les trois métriques principales ont des rôles complémentaires :
+\begin{itemize}
+  \item le \textbf{Top-1} mesure la proportion d'images dont la première prédiction est correcte ;
+  \item le \textbf{Top-5} mesure la proportion d'images dont la vraie classe apparaît parmi les cinq premières propositions ;
+  \item le \textbf{macro-F1} calcule le F1 de chaque classe puis leur moyenne, donnant ainsi le même poids aux classes rares et fréquentes.
+\end{itemize}
+
+\chapter{Étape 5 -- Comparaison initiale des représentations et classifieurs}
+
+\section{Résultats observés}
+
+\begin{table}[H]
+\centering
+\caption{Comparaison des premières configurations enregistrées}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Configuration} & \textbf{Top-1} & \textbf{Top-5} & \textbf{Macro-F1}\\
+\midrule
+SVM linéaire, essai initial & \pct{62,76} & \pct{79,71} & \pct{55,73}\\
+k-NN, essai initial & \pct{61,17} & \pct{62,28} & \pct{54,15}\\
+Prototype, essai initial & \pct{51,82} & \pct{72,90} & \pct{46,22}\\
+SVM RBF, essai initial & \pct{13,47} & \pct{21,71} & \pct{10,31}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Les noms génériques des quatre fichiers de résultats initiaux ne conservent pas explicitement le nom de l'extracteur utilisé. Les fichiers d'embeddings présents et leur chronologie indiquent qu'il s'agit de la phase de comparaison initiale entre ResNet50 et les variantes DINOv2, mais il serait imprudent d'attribuer chacun de ces quatre scores à un extracteur précis sans trace supplémentaire.
+
+\section{Conclusion de l'étape}
+
+Le SVM linéaire est nettement supérieur au SVM RBF. Cela indique que les embeddings préentraînés sont déjà structurés de façon assez linéaire pour séparer les espèces. Le noyau RBF, plus flexible, surapprend probablement le petit jeu de données. Les prototypes constituent une baseline simple, mais ils perdent de l'information lorsque les quelques images d'une même classe sont très différentes.
+
+\chapter{Étape 6 -- Amélioration avec DINOv2-base et TTA}
+
+\section{Choix de DINOv2}
+
+DINOv2 est un modèle visuel auto-supervisé entraîné sur une grande diversité d'images. Il produit des représentations générales qui fonctionnent bien lorsqu'on dispose de peu d'annotations. Le projet utilise le modèle \fichier{facebook/dinov2-base}.
+
+\section{Test-Time Augmentation}
+
+La fonction \fichier{make_tta_views} génère plusieurs vues de chaque image :
+\begin{itemize}
+  \item image complète ;
+  \item recadrage carré central ;
+  \item recadrages dans les quatre coins ;
+  \item retournement horizontal si davantage de vues sont demandées.
+\end{itemize}
+
+Chaque vue est encodée et normalisée. Les vecteurs sont ensuite moyennés puis renormalisés. Cette méthode rend l'embedding moins sensible au cadrage.
+
+\section{Comparaison des classifieurs avec DINOv2-base TTA6}
+
+\begin{table}[H]
+\centering
+\caption{Résultats avec DINOv2-base et six vues par image}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Classifieur} & \textbf{Top-1} & \textbf{Top-5} & \textbf{Macro-F1}\\
+\midrule
+SVM linéaire & \textbf{\pct{65,77}} & \textbf{\pct{80,67}} & \textbf{\pct{58,90}}\\
+k-NN cosinus & \pct{64,18} & \pct{65,45} & \pct{57,65}\\
+SVM + prototypes & \pct{53,72} & \pct{77,81} & \pct{48,16}\\
+Prototypes & \pct{52,61} & \pct{73,69} & \pct{46,99}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Résultat de l'étape}
+
+Le meilleur système classe correctement 415 images sur 631. Pour \pct{80,67} des images, la bonne espèce se trouve parmi les cinq propositions principales. Le Top-5 élevé est particulièrement utile dans une future application d'assistance : le système peut proposer une courte liste à un expert plutôt que prendre seul une décision définitive.
+
+Le macro-F1 de \pct{58,90}, inférieur à l'accuracy, montre toutefois que les classes rares ou difficiles restent moins bien reconnues que les autres.
+
+\chapter{Étape 7 -- Réglage du SVM et du nombre de vues}
+
+\section{Balayage de l'hyperparamètre \texorpdfstring{$C$}{C}}
+
+Le paramètre $C$ du SVM contrôle la pénalisation des erreurs. Les valeurs suivantes ont été testées : $0{,}03$, $0{,}1$, $0{,}3$, $1$, $3$, $10$ et $30$.
+
+\begin{table}[H]
+\centering
+\caption{Résultat du réglage de $C$ avec DINOv2-base TTA6}
+\begin{tabular}{lccc}
+\toprule
+\textbf{$C$ testé} & \textbf{Top-1} & \textbf{Top-5} & \textbf{Macro-F1}\\
+\midrule
+0,03 ; 0,1 ; 0,3 ; 1 ; 3 ; 10 ; 30 & \pct{65,77} & \pct{80,67} & \pct{58,90}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Toutes les valeurs produisent exactement les mêmes prédictions. Le résultat est donc robuste à $C$ sur cette plage. Le choix $C=1$ est raisonnable car il s'agit d'une valeur standard et simple.
+
+\section{TTA6 contre TTA10}
+
+\begin{table}[H]
+\centering
+\caption{Effet du nombre de vues TTA}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Configuration} & \textbf{Top-1} & \textbf{Top-5} & \textbf{Macro-F1}\\
+\midrule
+DINOv2-base TTA6 + SVM & \textbf{\pct{65,77}} & \pct{80,67} & \textbf{\pct{58,90}}\\
+DINOv2-base TTA10 + SVM & \pct{65,45} & \pct{80,67} & \pct{58,68}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Ajouter davantage de vues n'améliore pas le résultat. TTA6 est légèrement meilleur et demande moins de calcul. Il constitue donc le meilleur compromis.
+
+\chapter{Étape 8 -- Étude de la suppression de l'arrière-plan}
+
+\section{Méthode de segmentation}
+
+Le script \fichier{preprocess_background.py} utilise GrabCut :
+\begin{enumerate}
+  \item l'image est réduite temporairement pour limiter le coût ;
+  \item GrabCut estime le premier plan depuis un rectangle laissant une marge de \pct{4} ;
+  \item les composantes connexes trop petites sont retirées ;
+  \item une fermeture puis une ouverture morphologique nettoient le masque ;
+  \item le résultat est sauvegardé avec une taille maximale de 1024 pixels.
+\end{enumerate}
+
+Trois variantes sont créées :
+\begin{itemize}
+  \item \textbf{fond blanc} : tous les pixels hors plante deviennent blancs ;
+  \item \textbf{fond flouté} : l'arrière-plan est fortement flouté ;
+  \item \textbf{fond blanc recadré} : fond blanc puis recadrage autour du masque.
+\end{itemize}
+
+Pour les variantes fond blanc et fond flouté, la plante estimée occupe en moyenne \pct{18,30} de l'image.
+
+\section{Résultats}
+
+\begin{table}[H]
+\centering
+\caption{Effet du traitement du fond avec DINOv2-base TTA6 + SVM}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Images utilisées} & \textbf{Top-1} & \textbf{Top-5} & \textbf{Macro-F1}\\
+\midrule
+Originales & \textbf{\pct{65,77}} & \textbf{\pct{80,67}} & \textbf{\pct{58,90}}\\
+Fond flouté & \pct{52,61} & \pct{70,36} & \pct{44,51}\\
+Fond blanc recadré & \pct{39,46} & \pct{53,41} & \pct{34,18}\\
+Fond blanc & \pct{32,01} & \pct{49,60} & \pct{26,59}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Interprétation}
+
+Les trois prétraitements dégradent fortement les performances. Deux explications peuvent coexister :
+\begin{itemize}
+  \item GrabCut retire des feuilles, tiges ou fleurs fines et introduit des contours artificiels ;
+  \item le contexte contient des informations corrélées avec les espèces et utiles à DINOv2.
+\end{itemize}
+
+Le fond flouté est moins destructeur que le fond blanc, car il conserve les couleurs et la structure générale du contexte. Le meilleur choix actuel reste néanmoins l'utilisation des images originales.
+
+\chapter{Analyse globale des résultats}
+
+\section{Meilleure configuration retenue}
+
+\begin{table}[H]
+\centering
+\caption{Configuration finale recommandée à partir des expériences existantes}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Composant} & \textbf{Choix retenu}\\
+\midrule
+Données & 631 images nettoyées, sans copies supplémentaires de même classe ; conflit interclasse à corriger\\
+Prétraitement & Images originales, sans suppression du fond\\
+Extracteur & DINOv2-base préentraîné\\
+Augmentation d'inférence & TTA à 6 vues\\
+Classifieur & SVM linéaire équilibré, $C=1$\\
+Évaluation & Leave-One-Out sur 631 images et 138 classes\\
+Performance & Top-1 \pct{65,77}, Top-5 \pct{80,67}, macro-F1 \pct{58,90}\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Points forts du travail}
+
+\begin{itemize}
+  \item Le pipeline prend en compte la réalité du faible nombre d'images.
+  \item Les doublons sont détectés par SHA-256 et exclus de façon explicite.
+  \item L'évaluation Leave-One-Out est plus informative qu'un unique petit split.
+  \item Les embeddings sont mis en cache, ce qui accélère les comparaisons.
+  \item Plusieurs familles de classifieurs et plusieurs stratégies d'image ont été comparées.
+  \item Les sorties sont riches et reproductibles : métriques JSON, rapports CSV, matrices de confusion et prédictions.
+  \item Le projet ne se limite pas au meilleur score : il documente aussi des pistes qui échouent, comme ResNet50V2 ou le fond blanc.
+\end{itemize}
+
+\section{Limites identifiées}
+
+\begin{itemize}
+  \item Le dossier ne contient pas d'historique Git ni de fichier listant précisément les commandes exécutées.
+  \item Les fichiers initiaux \fichier{metrics_svm.json}, \fichier{metrics_knn.json}, etc. ne conservent pas le nom de l'extracteur, ce qui limite leur traçabilité.
+  \item Le jeu \fichier{test dataset} de 732 images et 77 classes n'est pas relié au pipeline actuel ; aucune métrique indépendante sur ce jeu n'est présente.
+  \item Le Leave-One-Out mesure bien la performance interne, mais ne remplace pas un test externe réalisé sur de nouvelles conditions d'acquisition.
+  \item Certaines classes ne possèdent que deux images ; leur performance reste statistiquement fragile.
+  \item Le doublon interclasse révèle probablement une erreur d'étiquetage à corriger dans la source.
+  \item La segmentation GrabCut est automatique et non supervisée ; aucune mesure de qualité des masques n'est disponible.
+  \item Le script ResNet contient certains noms de chemins affichés avec un encodage incorrect dans le code source, ce qui peut compliquer la portabilité.
+\end{itemize}
+
+\chapter{Résultat de chaque étape}
+
+\begin{longtable}{p{0.05\textwidth}p{0.27\textwidth}p{0.31\textwidth}p{0.29\textwidth}}
+\toprule
+\textbf{N\textsuperscript{o}} & \textbf{Étape} & \textbf{Résultat concret} & \textbf{Décision issue du résultat}\\
+\midrule
+\endhead
+1 & Organisation et comptage & 642 images, 138 classes ; 2 à 8 images utiles par classe après nettoyage. & Traiter le problème comme un problème few-shot.\\
+2 & Audit et dédoublonnage & 631 images utilisables ; 11 doublons supplémentaires exclus ; un conflit interclasse détecté mais conservé dans les sorties actuelles. & Corriger le conflit puis régénérer les résultats finaux.\\
+3 & ResNet50V2 supervisé & Meilleure validation Top-1 : \pct{2,17}. & Écarter l'entraînement profond classique comme approche principale.\\
+4 & Pipeline d'embeddings & Mise en cache des représentations et évaluation Leave-One-Out complète. & Permettre des essais rapides et adaptés au faible volume.\\
+5 & Comparaison des classifieurs & Le SVM linéaire domine les prototypes et le SVM RBF. & Retenir un classifieur linéaire sur embeddings.\\
+6 & DINOv2-base + TTA6 & Top-1 \pct{65,77}, Top-5 \pct{80,67}, macro-F1 \pct{58,90}. & Retenir cette configuration comme meilleur modèle.\\
+7 & Réglage de $C$ et TTA & Scores identiques pour $C\in[0{,}03,30]$ ; TTA10 légèrement inférieur. & Garder $C=1$ et TTA6.\\
+8 & Traitement du fond & Fond flouté : \pct{52,61} ; fond blanc : \pct{32,01}. & Garder les images originales.\\
+\bottomrule
+\end{longtable}
+
+\chapter{Recommandations pour la suite}
+
+\begin{enumerate}
+  \item \textbf{Évaluer sur le jeu externe.} Construire une correspondance entre les 77 classes du dossier \fichier{test dataset} et les classes de la base principale, puis mesurer Top-1, Top-5 et macro-F1 sans réentraînement sur ces images.
+  \item \textbf{Corriger les étiquettes et doublons.} Vérifier manuellement le conflit entre \emph{Ranunculus muricatus} et \emph{Ranunculus sardous}, ainsi que les noms de fichiers suspects.
+  \item \textbf{Augmenter la base.} La priorité la plus rentable est d'acquérir davantage d'images variées pour les classes ayant deux ou trois exemples.
+  \item \textbf{Conserver la traçabilité.} Ajouter un fichier \fichier{README.md}, un environnement de dépendances, les commandes d'expériences et un dépôt Git.
+  \item \textbf{Tester des protocoles groupés.} Lorsque plusieurs images proviennent de la même plante ou séance photo, utiliser une séparation par groupe afin d'éviter une similarité excessive entre entraînement et test.
+  \item \textbf{Tester une segmentation spécialisée.} Si la suppression du fond reste souhaitée, remplacer GrabCut par un modèle de segmentation de plante et comparer les masques visuellement avant la classification.
+  \item \textbf{Exploiter les prédictions Top-5.} Une interface d'aide à l'identification affichant cinq espèces candidates est cohérente avec le score Top-5 de \pct{80,67}.
+\end{enumerate}
+
+\chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+
+Le projet a correctement évolué d'une approche supervisée classique, peu adaptée à la quantité de données, vers une approche few-shot fondée sur des représentations préentraînées. L'audit initial et la détection des doublons ont établi une base plus fiable. Les expériences ont ensuite montré que DINOv2-base, combiné à six vues TTA et à un SVM linéaire, fournit de loin le meilleur compromis observé.
+
+La performance finale interne de \pct{65,77} en Top-1 et \pct{80,67} en Top-5 est encourageante compte tenu des 138 classes et des 4,57 images utilisables par classe en moyenne. Le résultat le plus important n'est pas seulement le score final : le projet démontre empiriquement pourquoi l'entraînement ResNet50V2 et la suppression brutale du fond ne conviennent pas à la configuration actuelle. La prochaine étape essentielle est une évaluation externe rigoureuse sur le dossier \fichier{test dataset}, accompagnée d'une amélioration et d'une vérification des données.
+
+\appendix
+\chapter{Fichiers de résultats produits}
+
+\begin{longtable}{p{0.37\textwidth}p{0.55\textwidth}}
+\toprule
+\textbf{Patron de fichier} & \textbf{Contenu}\\
+\midrule
+\endhead
+\fichier{metadata_clean.csv} & Métadonnées, empreintes, doublons et drapeau d'utilisation.\\
+\fichier{dataset_summary.json} & Synthèse globale du jeu de données.\\
+\fichier{usable_class_counts.csv} & Nombre d'images utilisables par classe.\\
+\fichier{duplicate_groups.csv} & Détail des groupes de doublons.\\
+\fichier{embeddings_*.npz} & Embeddings, étiquettes, chemins et nom du modèle.\\
+\fichier{metrics_*.json} & Top-1, Top-5, macro-F1, nombre d'échantillons et classes.\\
+\fichier{classification_report_*.csv} & Précision, rappel et F1 par classe.\\
+\fichier{confusion_matrix_*.csv} & Matrice de confusion complète.\\
+\fichier{loo_predictions_*.csv} & Prédiction, vérité terrain et cinq meilleures propositions par image.\\
+\fichier{history.csv/json} & Historique des époques ResNet50V2.\\
+\fichier{best_resnet50v2.pt} & Meilleur checkpoint ResNet50V2.\\
+\fichier{preprocess_metadata.csv} & Correspondance images source/sortie et proportion du premier plan.\\
+\fichier{preprocess_summary.json} & Résumé de chaque prétraitement de fond.\\
+\bottomrule
+\end{longtable}
+
+\chapter{Commandes reproductibles indicatives}
+
+Les commandes suivantes correspondent aux interfaces définies par les scripts. Elles sont données pour documenter la logique reproductible du projet ; le dossier ne contient pas de journal garantissant que chaque commande a été lancée exactement sous cette forme.
+
+\begin{lstlisting}
+# Audit des donnees uniquement
+python fewshot_pipeline.py --metadata-only
+
+# Meilleure approche few-shot
+python fewshot_pipeline.py --model dinov2_base \
+  --classifier svm --tta-crops 6 --svm-c 1
+
+# Entrainement ResNet50V2
+python train_resnet50v2.py --epochs 30 --val-per-class 1
+
+# Creation des variantes de fond
+python preprocess_background.py --mode white \
+  --output preprocessed/bg_white
+python preprocess_background.py --mode blur \
+  --output preprocessed/bg_blur
+python preprocess_background.py --mode white_crop \
+  --output preprocessed/bg_white_crop
+\end{lstlisting}
+
+\end{document}

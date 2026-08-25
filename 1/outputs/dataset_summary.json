@@ -1,0 +1,12 @@
+{
+  "raw_images": 642,
+  "usable_images": 631,
+  "classes_raw": 138,
+  "classes_usable": 138,
+  "min_images_per_class_usable": 2,
+  "max_images_per_class_usable": 8,
+  "avg_images_per_class_usable": 4.572463768115942,
+  "duplicate_image_rows": 24,
+  "cross_class_duplicate_rows": 2,
+  "same_class_duplicate_extras_excluded": 11
+}

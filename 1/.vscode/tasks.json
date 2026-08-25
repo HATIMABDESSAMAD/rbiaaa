@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Fewshot: ResNet50 + kNN",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "fewshot_pipeline.py",
+        "--model",
+        "resnet50",
+        "--classifier",
+        "knn",
+        "--batch-size",
+        "16",
+        "--keep-cross-class-duplicates"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true,
+        "clear": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Fewshot: ResNet50 + SVM",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "fewshot_pipeline.py",
+        "--model",
+        "resnet50",
+        "--classifier",
+        "svm",
+        "--batch-size",
+        "16",
+        "--keep-cross-class-duplicates"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true,
+        "clear": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Train: ResNet50V2",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "train_resnet50v2.py",
+        "--epochs",
+        "30",
+        "--batch-size",
+        "8",
+        "--val-per-class",
+        "1",
+        "--freeze-backbone-epochs",
+        "3",
+        "--output",
+        "outputs_resnet50v2"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true,
+        "clear": false
+      },
+      "problemMatcher": []
+    }
+  ]
+}

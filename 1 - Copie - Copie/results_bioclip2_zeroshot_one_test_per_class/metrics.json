@@ -1,0 +1,33 @@
+{
+  "args": {
+    "data": "Bases de données photos Dr Taleb",
+    "arch": "hf-hub:imageomics/bioclip-2",
+    "pretrained": null,
+    "output_dir": "results_bioclip2_zeroshot_one_test_per_class",
+    "sample": "one_per_class",
+    "batch_size": 8,
+    "workers": 0,
+    "seed": 42,
+    "device": null
+  },
+  "metrics": {
+    "accuracy_top1": 0.6594202898550725,
+    "accuracy_top5": 0.8985507246376812,
+    "balanced_accuracy": 0.6594202898550725,
+    "precision_macro": 0.5625,
+    "recall_macro": 0.6594202898550725,
+    "f1_macro": 0.5921900161030597,
+    "precision_weighted": 0.5625,
+    "recall_weighted": 0.6594202898550725,
+    "f1_weighted": 0.5921900161030597,
+    "num_classes": 138,
+    "num_eval_images": 138,
+    "prompt_templates": [
+      "a photo of {name}",
+      "a photo of the plant {name}",
+      "a close-up photo of {name}",
+      "a field photo of {name}",
+      "a botanical photo of {name}"
+    ]
+  }
+}

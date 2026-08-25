@@ -1,0 +1,6 @@
+{
+  "mode": "blur",
+  "images": 631,
+  "output": "preprocessed\\bg_blur",
+  "mean_foreground_ratio": 0.18297113281512714
+}

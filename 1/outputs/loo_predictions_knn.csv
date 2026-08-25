@@ -1,0 +1,632 @@
+﻿true_class,predicted_class,correct,top1,top2,top3,top4,top5
+Abutilon theophrasti L,Abutilon theophrasti L,True,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Abutilon theophrasti L,Abutilon theophrasti L,True,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Adonis annua L,Adonis annua L,True,Adonis annua L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Adonis annua L,Ammi visnaga (L.) Lam,False,Ammi visnaga (L.) Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Adonis annua L,Ammi visnaga (L.) Lam,False,Ammi visnaga (L.) Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Amaranthus blitoides S. Watson,Buglossoides arvensis (L.) I. M. Johnson,False,Buglossoides arvensis (L.) I. M. Johnson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Amaranthus blitoides S. Watson,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Amaranthus blitoides S. Watson,Amaranthus blitoides S. Watson,True,Amaranthus blitoides S. Watson,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Amaranthus deflexus L,Amaranthus deflexus L,True,Amaranthus deflexus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Amaranthus deflexus L,Mercurialis annua L,False,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Amaranthus deflexus L,Amaranthus retroflexus L,False,Amaranthus retroflexus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Amaranthus deflexus L,Amaranthus retroflexus L,False,Amaranthus retroflexus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Amaranthus retroflexus L,Diplotaxis tenuisiliqua delile,False,Diplotaxis tenuisiliqua delile,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Amaranthus retroflexus L,Amaranthus deflexus L,False,Amaranthus deflexus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Amaranthus retroflexus L,Amaranthus deflexus L,False,Amaranthus deflexus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Ammi majus L,Ranunculus muricatus L,False,Ranunculus muricatus L,Abutilon theophrasti L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Ammi majus L,Ammi majus L,True,Ammi majus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Ammi majus L,Malope trifida Cav,False,Malope trifida Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ammi majus L,Ammi majus L,True,Ammi majus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Ammi majus L,Ammi majus L,True,Ammi majus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Ammi majus L,Daucus carota L,False,Daucus carota L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ammi visnaga (L.) Lam,Ammi visnaga (L.) Lam,True,Ammi visnaga (L.) Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Ammi visnaga (L.) Lam,Ammi visnaga (L.) Lam,True,Ammi visnaga (L.) Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Ammi visnaga (L.) Lam,Ridolfia segetum Moris,False,Ridolfia segetum Moris,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ammi visnaga (L.) Lam,Adonis annua L,False,Adonis annua L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Anacyclus radiatus Loisel,Chamaemelum mixtum (L.) All,False,Chamaemelum mixtum (L.) All,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Anacyclus radiatus Loisel,Anacyclus radiatus Loisel,True,Anacyclus radiatus Loisel,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Anacyclus radiatus Loisel,Papaver hybridum L,False,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Anacyclus radiatus Loisel,Anacyclus radiatus Loisel,True,Anacyclus radiatus Loisel,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Anacyclus radiatus Loisel,Anacyclus radiatus Loisel,True,Anacyclus radiatus Loisel,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Anacyclus radiatus Loisel,Chamaemelum mixtum (L.) All,False,Chamaemelum mixtum (L.) All,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Anagallis arvensis L,Misopates orontium (L.) Rafin,False,Misopates orontium (L.) Rafin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Anagallis arvensis L,Galium verrucosum Hudson,False,Galium verrucosum Hudson,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Anagallis arvensis L,Anagallis arvensis L,True,Anagallis arvensis L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Anchusa azurea Miller,Onopordon macracanthum L,False,Onopordon macracanthum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Anchusa azurea Miller,Buglossoides arvensis (L.) I. M. Johnson,False,Buglossoides arvensis (L.) I. M. Johnson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Anchusa azurea Miller,Anchusa azurea Miller,True,Anchusa azurea Miller,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Anchusa azurea Miller,Anchusa azurea Miller,True,Anchusa azurea Miller,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Arisarum simorrhinum Durieu,Arisarum simorrhinum Durieu,True,Arisarum simorrhinum Durieu,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Arisarum simorrhinum Durieu,Arisarum simorrhinum Durieu,True,Arisarum simorrhinum Durieu,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Arisarum simorrhinum Durieu,Arisarum simorrhinum Durieu,True,Arisarum simorrhinum Durieu,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Aster squamatus  (Spreng.) Hieron,Sonchus oleraceus L,False,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Aster squamatus  (Spreng.) Hieron,Aster squamatus  (Spreng.) Hieron,True,Aster squamatus  (Spreng.) Hieron,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Aster squamatus  (Spreng.) Hieron,Rumex pulcher L,False,Rumex pulcher L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Aster squamatus  (Spreng.) Hieron,Lactuca scariola L,False,Lactuca scariola L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Astragalus boeticus L,Astragalus boeticus L,True,Astragalus boeticus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Astragalus boeticus L,Vicia sativa L,False,Vicia sativa L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Astragalus boeticus L,Vicia benghalensis L,False,Vicia benghalensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Avena sterilis L,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Avena sterilis L,Hordeum murinum L,False,Hordeum murinum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Avena sterilis L,Avena sterilis L,True,Avena sterilis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Avena sterilis L,Avena sterilis L,True,Avena sterilis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Beta macrocarpa Guss,Amaranthus blitoides S. Watson,False,Amaranthus blitoides S. Watson,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Beta macrocarpa Guss,Beta macrocarpa Guss,True,Beta macrocarpa Guss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Beta macrocarpa Guss,Beta macrocarpa Guss,True,Beta macrocarpa Guss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Beta macrocarpa Guss,Beta macrocarpa Guss,True,Beta macrocarpa Guss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Beta macrocarpa Guss,Beta macrocarpa Guss,True,Beta macrocarpa Guss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Bifora testiculata L,Bifora testiculata L,True,Bifora testiculata L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Bifora testiculata L,Bifora testiculata L,True,Bifora testiculata L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Bifora testiculata L,Bifora testiculata L,True,Bifora testiculata L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Bifora testiculata L,Bifora testiculata L,True,Bifora testiculata L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Bifora testiculata L,Bifora testiculata L,True,Bifora testiculata L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Borago officinalis L,Borago officinalis L,True,Borago officinalis L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Borago officinalis L,Borago officinalis L,True,Borago officinalis L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Borago officinalis L,Borago officinalis L,True,Borago officinalis L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Bromus rigidus,Phalaris paradoxa L,False,Phalaris paradoxa L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Bromus rigidus,Phalaris minor Retz,False,Phalaris minor Retz,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Bromus rigidus,Digitaria sanguinalis,False,Digitaria sanguinalis,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Bromus rigidus,Avena sterilis L,False,Avena sterilis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Bromus rubens L,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Bromus rubens L,Bromus rigidus,False,Bromus rigidus,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Buglossoides arvensis (L.) I. M. Johnson,Misopates orontium (L.) Rafin,False,Misopates orontium (L.) Rafin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Buglossoides arvensis (L.) I. M. Johnson,Centaurea diluta Aïton,False,Centaurea diluta Aïton,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Buglossoides arvensis (L.) I. M. Johnson,Picris echioides L,False,Picris echioides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Bupleurum lancifolium Hornem,Bupleurum lancifolium Hornem,True,Bupleurum lancifolium Hornem,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Bupleurum lancifolium Hornem,Bupleurum lancifolium Hornem,True,Bupleurum lancifolium Hornem,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Bupleurum lancifolium Hornem,Euphorbia medicaginea Boiss,False,Euphorbia medicaginea Boiss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Calendula arvensis L,Buglossoides arvensis (L.) I. M. Johnson,False,Buglossoides arvensis (L.) I. M. Johnson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Calendula arvensis L,Calendula arvensis L,True,Calendula arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Calendula arvensis L,Calendula arvensis L,True,Calendula arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Calendula arvensis L,Calendula arvensis L,True,Calendula arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Calendula arvensis L,Calendula arvensis L,True,Calendula arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Capsella bursa-pastoris (L.) Medicus,Reseda alba L,False,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Capsella bursa-pastoris (L.) Medicus,Sonchus oleraceus L,False,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Capsella bursa-pastoris (L.) Medicus,Capsella bursa-pastoris (L.) Medicus,True,Capsella bursa-pastoris (L.) Medicus,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Capsella bursa-pastoris (L.) Medicus,Capsella bursa-pastoris (L.) Medicus,True,Capsella bursa-pastoris (L.) Medicus,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cardaria draba (Cav) Desv,Hirschfeldia incana (L.) Lagrèze-Fossat,False,Hirschfeldia incana (L.) Lagrèze-Fossat,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Cardaria draba (Cav) Desv,Aster squamatus  (Spreng.) Hieron,False,Aster squamatus  (Spreng.) Hieron,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Carduus pycnocephalus L,Scolymus hispanicus L,False,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Carduus pycnocephalus L,Silybum marianum (L.)  Gaertn,False,Silybum marianum (L.)  Gaertn,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Carduus pycnocephalus L,Onopordon macracanthum L,False,Onopordon macracanthum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Carlina racemosa L,Carlina racemosa L,True,Carlina racemosa L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Carlina racemosa L,Eryngium ilicifolium Lam,False,Eryngium ilicifolium Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Carlina racemosa L,Carduus pycnocephalus L,False,Carduus pycnocephalus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Centaurea diluta Aïton,Buglossoides arvensis (L.) I. M. Johnson,False,Buglossoides arvensis (L.) I. M. Johnson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Centaurea diluta Aïton,Raphanus raphanistrum L,False,Raphanus raphanistrum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Centaurea diluta Aïton,Carduus pycnocephalus L,False,Carduus pycnocephalus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Centaurea eriophora L,Calendula arvensis L,False,Calendula arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Centaurea eriophora L,Onopordon macracanthum L,False,Onopordon macracanthum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Chamaemelum fuscatum L,Chamaemelum mixtum (L.) All,False,Chamaemelum mixtum (L.) All,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chamaemelum fuscatum L,Chamaemelum fuscatum L,True,Chamaemelum fuscatum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chamaemelum fuscatum L,Chamaemelum fuscatum L,True,Chamaemelum fuscatum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chamaemelum fuscatum L,Chamaemelum fuscatum L,True,Chamaemelum fuscatum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chamaemelum mixtum (L.) All,Anacyclus radiatus Loisel,False,Anacyclus radiatus Loisel,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Chamaemelum mixtum (L.) All,Chamaemelum fuscatum L,False,Chamaemelum fuscatum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chamaemelum mixtum (L.) All,Chamaemelum mixtum (L.) All,True,Chamaemelum mixtum (L.) All,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chamaemelum mixtum (L.) All,Chamaemelum mixtum (L.) All,True,Chamaemelum mixtum (L.) All,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium album L,Chenopodium vulvaria L,False,Chenopodium vulvaria L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Chenopodium album L,Rumex pulcher L,False,Rumex pulcher L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium murale L,Chenopodium murale L,True,Chenopodium murale L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium murale L,Chenopodium murale L,True,Chenopodium murale L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium murale L,Chenopodium murale L,True,Chenopodium murale L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium murale L,Chenopodium murale L,True,Chenopodium murale L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium murale L,Chenopodium murale L,True,Chenopodium murale L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium vulvaria L,Chenopodium album L,False,Chenopodium album L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium vulvaria L,Chenopodium album L,False,Chenopodium album L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium vulvaria L,Chenopodium album L,False,Chenopodium album L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chenopodium vulvaria L,Chenopodium vulvaria L,True,Chenopodium vulvaria L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Chrozophora tinctoria (L). A. Juss,Xanthium spinosum L,False,Xanthium spinosum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Chrozophora tinctoria (L). A. Juss,Chrozophora tinctoria (L). A. Juss,True,Chrozophora tinctoria (L). A. Juss,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chrozophora tinctoria (L). A. Juss,Chrozophora tinctoria (L). A. Juss,True,Chrozophora tinctoria (L). A. Juss,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chrozophora tinctoria (L). A. Juss,Chrozophora tinctoria (L). A. Juss,True,Chrozophora tinctoria (L). A. Juss,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chrysanthemum coronarium L,Glaucium corniculatum (L.) J. H. Rudolph,False,Glaucium corniculatum (L.) J. H. Rudolph,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Chrysanthemum coronarium L,Chrysanthemum coronarium L,True,Chrysanthemum coronarium L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chrysanthemum coronarium L,Chrysanthemum coronarium L,True,Chrysanthemum coronarium L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chrysanthemum coronarium L,Chrysanthemum coronarium L,True,Chrysanthemum coronarium L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chrysanthemum coronarium L,Chamaemelum mixtum (L.) All,False,Chamaemelum mixtum (L.) All,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chrysanthemum segetum L,Chrysanthemum coronarium L,False,Chrysanthemum coronarium L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Chrysanthemum segetum L,Lathyrus clymenum L,False,Lathyrus clymenum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cichorium endivia L,Picris echioides L,False,Picris echioides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cichorium endivia L,Beta macrocarpa Guss,False,Beta macrocarpa Guss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Cichorium endivia L,Convolvulus gharbensis Batt. & Pitard,False,Convolvulus gharbensis Batt. & Pitard,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus altaeoides L,Convolvulus arvensis L,False,Convolvulus arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus altaeoides L,Malva parviflora L,False,Malva parviflora L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus arvensis L,Convolvulus altaeoides L,False,Convolvulus altaeoides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus arvensis L,Polygonum aviculare L,False,Polygonum aviculare L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Poa annua L
+Convolvulus arvensis L,Convolvulus arvensis L,True,Convolvulus arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus arvensis L,Convolvulus arvensis L,True,Convolvulus arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus arvensis L,Convolvulus arvensis L,True,Convolvulus arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus arvensis L,Convolvulus arvensis L,True,Convolvulus arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus gharbensis Batt. & Pitard,Amaranthus retroflexus L,False,Amaranthus retroflexus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Convolvulus gharbensis Batt. & Pitard,Convolvulus tricolor L,False,Convolvulus tricolor L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus tricolor L,Convolvulus gharbensis Batt. & Pitard,False,Convolvulus gharbensis Batt. & Pitard,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus tricolor L,Convolvulus tricolor L,True,Convolvulus tricolor L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus tricolor L,Convolvulus tricolor L,True,Convolvulus tricolor L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Convolvulus tricolor L,Convolvulus tricolor L,True,Convolvulus tricolor L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Conyza canadensis (L.) Cronq,Papaver rhoeas L,False,Papaver rhoeas L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Conyza canadensis (L.) Cronq,Senecio vulgaris L,False,Senecio vulgaris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Conyza canadensis (L.) Cronq,Conyza canadensis (L.) Cronq,True,Conyza canadensis (L.) Cronq,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Conyza canadensis (L.) Cronq,Conyza canadensis (L.) Cronq,True,Conyza canadensis (L.) Cronq,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Conyza canadensis (L.) Cronq,Conyza canadensis (L.) Cronq,True,Conyza canadensis (L.) Cronq,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Conyza canadensis (L.) Cronq,Conyza canadensis (L.) Cronq,True,Conyza canadensis (L.) Cronq,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Coronilla scorpioides (L.) Koch,Lathyrus ochrus (L.) DC,False,Lathyrus ochrus (L.) DC,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Coronilla scorpioides (L.) Koch,Euphorbia medicaginea Boiss,False,Euphorbia medicaginea Boiss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Coronilla scorpioides (L.) Koch,Coronilla scorpioides (L.) Koch,True,Coronilla scorpioides (L.) Koch,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Coronopus squamatus (Forsk.) Ascherson,Coronopus squamatus (Forsk.) Ascherson,True,Coronopus squamatus (Forsk.) Ascherson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Coronopus squamatus (Forsk.) Ascherson,Coronopus squamatus (Forsk.) Ascherson,True,Coronopus squamatus (Forsk.) Ascherson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Coronopus squamatus (Forsk.) Ascherson,Coronopus squamatus (Forsk.) Ascherson,True,Coronopus squamatus (Forsk.) Ascherson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Coronopus squamatus (Forsk.) Ascherson,Conyza canadensis (L.) Cronq,False,Conyza canadensis (L.) Cronq,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Coronopus squamatus (Forsk.) Ascherson,Papaver hybridum L,False,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Coronopus squamatus (Forsk.) Ascherson,Coronopus squamatus (Forsk.) Ascherson,True,Coronopus squamatus (Forsk.) Ascherson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cynodon dactylon (L.) Pers,Phalaris minor Retz,False,Phalaris minor Retz,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cynodon dactylon (L.) Pers,Digitaria sanguinalis,False,Digitaria sanguinalis,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cynodon dactylon (L.) Pers,Digitaria sanguinalis,False,Digitaria sanguinalis,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cynodon dactylon (L.) Pers,Cyperus rotundus L,False,Cyperus rotundus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cyperus rotundus L,Cyperus rotundus L,True,Cyperus rotundus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cyperus rotundus L,Cynodon dactylon (L.) Pers,False,Cynodon dactylon (L.) Pers,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Cyperus rotundus L,Cynodon dactylon (L.) Pers,False,Cynodon dactylon (L.) Pers,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Datura stramonium L,Heliotropium europaeum L,False,Heliotropium europaeum L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Datura stramonium L,Datura stramonium L,True,Datura stramonium L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Datura stramonium L,Datura stramonium L,True,Datura stramonium L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Datura stramonium L,Datura stramonium L,True,Datura stramonium L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Datura stramonium L,Datura stramonium L,True,Datura stramonium L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Datura stramonium L,Datura stramonium L,True,Datura stramonium L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Daucus carota L,Scandix pecten-veneris L,False,Scandix pecten-veneris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Daucus carota L,Papaver hybridum L,False,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Digitaria sanguinalis,Cynodon dactylon (L.) Pers,False,Cynodon dactylon (L.) Pers,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Digitaria sanguinalis,Digitaria sanguinalis,True,Digitaria sanguinalis,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Digitaria sanguinalis,Digitaria sanguinalis,True,Digitaria sanguinalis,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Digitaria sanguinalis,Digitaria sanguinalis,True,Digitaria sanguinalis,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Digitaria sanguinalis,Digitaria sanguinalis,True,Digitaria sanguinalis,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Diplotaxis catholica (L.) DC,Tribulus terrestris L,False,Tribulus terrestris L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Diplotaxis catholica (L.) DC,Vicia sativa L,False,Vicia sativa L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Diplotaxis catholica (L.) DC,Sinapis alba L,False,Sinapis alba L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Diplotaxis tenuisiliqua delile,Mercurialis annua L,False,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Diplotaxis tenuisiliqua delile,Diplotaxis catholica (L.) DC,False,Diplotaxis catholica (L.) DC,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ecballium elaterium  (L.) A. Rich,Sinapis alba L,False,Sinapis alba L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ecballium elaterium  (L.) A. Rich,Abutilon theophrasti L,False,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Ecballium elaterium  (L.) A. Rich,Ecballium elaterium  (L.) A. Rich,True,Ecballium elaterium  (L.) A. Rich,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Echinochloa crus-galli (L.) Beauv,Echinochloa crus-galli (L.) Beauv,True,Echinochloa crus-galli (L.) Beauv,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Echinochloa crus-galli (L.) Beauv,Echinochloa crus-galli (L.) Beauv,True,Echinochloa crus-galli (L.) Beauv,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Echinochloa crus-galli (L.) Beauv,Phalaris paradoxa L,False,Phalaris paradoxa L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Echinochloa crus-galli (L.) Beauv,Echinochloa crus-galli (L.) Beauv,True,Echinochloa crus-galli (L.) Beauv,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Echinochloa crus-galli (L.) Beauv,Echinochloa crus-galli (L.) Beauv,True,Echinochloa crus-galli (L.) Beauv,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Emex spinosa (L.) Campd,Emex spinosa (L.) Campd,True,Emex spinosa (L.) Campd,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Emex spinosa (L.) Campd,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Emex spinosa (L.) Campd,Emex spinosa (L.) Campd,True,Emex spinosa (L.) Campd,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Emex spinosa (L.) Campd,Emex spinosa (L.) Campd,True,Emex spinosa (L.) Campd,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Emex spinosa (L.) Campd,Emex spinosa (L.) Campd,True,Emex spinosa (L.) Campd,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Emex spinosa (L.) Campd,Emex spinosa (L.) Campd,True,Emex spinosa (L.) Campd,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Eryngium ilicifolium Lam,Eryngium ilicifolium Lam,True,Eryngium ilicifolium Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Eryngium ilicifolium Lam,Eryngium ilicifolium Lam,True,Eryngium ilicifolium Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Eryngium ilicifolium Lam,Eryngium ilicifolium Lam,True,Eryngium ilicifolium Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Eryngium ilicifolium Lam,Scolymus maculatus L,False,Scolymus maculatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Euphorbia medicaginea Boiss,Euphorbia medicaginea Boiss,True,Euphorbia medicaginea Boiss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Euphorbia medicaginea Boiss,Coronilla scorpioides (L.) Koch,False,Coronilla scorpioides (L.) Koch,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Euphorbia medicaginea Boiss,Euphorbia medicaginea Boiss,True,Euphorbia medicaginea Boiss,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Euphorbia medicaginea Boiss,Polygonum aviculare L,False,Polygonum aviculare L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Poa annua L
+Fallopia convolvulus (L.) A. Löve,Fallopia convolvulus (L.) A. Löve,True,Fallopia convolvulus (L.) A. Löve,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fallopia convolvulus (L.) A. Löve,Fallopia convolvulus (L.) A. Löve,True,Fallopia convolvulus (L.) A. Löve,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fallopia convolvulus (L.) A. Löve,Stellaria media (L.)Vill,False,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fedia cornucopiae (L.) Gaertner,Centaurea eriophora L,False,Centaurea eriophora L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Fedia cornucopiae (L.) Gaertner,Fedia cornucopiae (L.) Gaertner,True,Fedia cornucopiae (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fedia cornucopiae (L.) Gaertner,Fedia cornucopiae (L.) Gaertner,True,Fedia cornucopiae (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fedia cornucopiae (L.) Gaertner,Fedia cornucopiae (L.) Gaertner,True,Fedia cornucopiae (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fedia cornucopiae (L.) Gaertner,Fedia cornucopiae (L.) Gaertner,True,Fedia cornucopiae (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fumaria agraria Lag,Torilis nodosa (L.) Gaertner,False,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fumaria agraria Lag,Torilis nodosa (L.) Gaertner,False,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fumaria agraria Lag,Fumaria parviflora Lam,False,Fumaria parviflora Lam,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Fumaria parviflora Lam,Fumaria parviflora Lam,True,Fumaria parviflora Lam,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Fumaria parviflora Lam,Fumaria parviflora Lam,True,Fumaria parviflora Lam,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Fumaria parviflora Lam,Anacyclus radiatus Loisel,False,Anacyclus radiatus Loisel,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Fumaria parviflora Lam,Fumaria agraria Lag,False,Fumaria agraria Lag,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Galium tricornutum Dandy,Plantago afra L,False,Plantago afra L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Galium tricornutum Dandy,Galium verrucosum Hudson,False,Galium verrucosum Hudson,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Galium tricornutum Dandy,Galium verrucosum Hudson,False,Galium verrucosum Hudson,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Galium tricornutum Dandy,Misopates orontium (L.) Rafin,False,Misopates orontium (L.) Rafin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Galium verrucosum Hudson,Anagallis arvensis L,False,Anagallis arvensis L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Galium verrucosum Hudson,Galium verrucosum Hudson,True,Galium verrucosum Hudson,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Galium verrucosum Hudson,Galium tricornutum Dandy,False,Galium tricornutum Dandy,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Galium verrucosum Hudson,Galium tricornutum Dandy,False,Galium tricornutum Dandy,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Geropogon hybridus  (L.) Sch.Bip,Tragopogon hybridus L,False,Tragopogon hybridus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Geropogon hybridus  (L.) Sch.Bip,Tragopogon hybridus L,False,Tragopogon hybridus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Gladiolus italicus Miller,Adonis annua L,False,Adonis annua L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Gladiolus italicus Miller,Gladiolus italicus Miller,True,Gladiolus italicus Miller,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Gladiolus italicus Miller,Lathyrus cicera L,False,Lathyrus cicera L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Gladiolus italicus Miller,Gladiolus italicus Miller,True,Gladiolus italicus Miller,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Glaucium corniculatum (L.) J. H. Rudolph,Chrysanthemum coronarium L,False,Chrysanthemum coronarium L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Glaucium corniculatum (L.) J. H. Rudolph,Reseda alba L,False,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Glaucium corniculatum (L.) J. H. Rudolph,Reseda alba L,False,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Glaucium corniculatum (L.) J. H. Rudolph,Glaucium corniculatum (L.) J. H. Rudolph,True,Glaucium corniculatum (L.) J. H. Rudolph,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Glaucium corniculatum (L.) J. H. Rudolph,Glaucium corniculatum (L.) J. H. Rudolph,True,Glaucium corniculatum (L.) J. H. Rudolph,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Heliotropium europaeum L,Solanum nigrum L,False,Solanum nigrum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Heliotropium europaeum L,Solanum nigrum L,False,Solanum nigrum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Heliotropium europaeum L,Heliotropium europaeum L,True,Heliotropium europaeum L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Heliotropium europaeum L,Heliotropium europaeum L,True,Heliotropium europaeum L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Hibiscus trionum L,Hibiscus trionum L,True,Hibiscus trionum L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Hibiscus trionum L,Hibiscus trionum L,True,Hibiscus trionum L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Cardaria draba (Cav) Desv,False,Cardaria draba (Cav) Desv,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Raphanus raphanistrum L,False,Raphanus raphanistrum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Hirschfeldia incana (L.) Lagrèze-Fossat,True,Hirschfeldia incana (L.) Lagrèze-Fossat,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Hirschfeldia incana (L.) Lagrèze-Fossat,True,Hirschfeldia incana (L.) Lagrèze-Fossat,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Hirschfeldia incana (L.) Lagrèze-Fossat,True,Hirschfeldia incana (L.) Lagrèze-Fossat,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Hordeum murinum L,Phalaris paradoxa L,False,Phalaris paradoxa L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Hordeum murinum L,Hordeum murinum L,True,Hordeum murinum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Hordeum murinum L,Hordeum murinum L,True,Hordeum murinum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Hordeum murinum L,Hordeum murinum L,True,Hordeum murinum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Hordeum murinum L,Hordeum murinum L,True,Hordeum murinum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Lactuca scariola L,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Lactuca scariola L,Lactuca scariola L,True,Lactuca scariola L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Lactuca scariola L,Lactuca scariola L,True,Lactuca scariola L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Lactuca scariola L,Lactuca scariola L,True,Lactuca scariola L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Lactuca scariola L,Lactuca scariola L,True,Lactuca scariola L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Lamium amplexicaule L,Bifora testiculata L,False,Bifora testiculata L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Lamium amplexicaule L,Lamium amplexicaule L,True,Lamium amplexicaule L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lamium amplexicaule L,Lamium amplexicaule L,True,Lamium amplexicaule L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lamium amplexicaule L,Veronica polita Fries,False,Veronica polita Fries,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Lamium amplexicaule L,Lamium amplexicaule L,True,Lamium amplexicaule L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus cicera L,Coronilla scorpioides (L.) Koch,False,Coronilla scorpioides (L.) Koch,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus cicera L,Lathyrus cicera L,True,Lathyrus cicera L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus cicera L,Lathyrus cicera L,True,Lathyrus cicera L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus cicera L,Lathyrus clymenum L,False,Lathyrus clymenum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus clymenum L,Chrysanthemum segetum L,False,Chrysanthemum segetum L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Lathyrus clymenum L,Cynodon dactylon (L.) Pers,False,Cynodon dactylon (L.) Pers,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus clymenum L,Phalaris minor Retz,False,Phalaris minor Retz,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus clymenum L,Lathyrus clymenum L,True,Lathyrus clymenum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus clymenum L,Lathyrus cicera L,False,Lathyrus cicera L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus ochrus (L.) DC,Digitaria sanguinalis,False,Digitaria sanguinalis,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lathyrus ochrus (L.) DC,Lathyrus cicera L,False,Lathyrus cicera L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium multiflorum Lam,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium multiflorum Lam,Hordeum murinum L,False,Hordeum murinum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Lolium multiflorum Lam,Lolium multiflorum Lam,True,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium multiflorum Lam,Lolium multiflorum Lam,True,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium multiflorum Lam,Lolium multiflorum Lam,True,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium rigidum Gaudin,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium rigidum Gaudin,Poa annua L,False,Poa annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium rigidum Gaudin,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium rigidum Gaudin,Bromus rigidus,False,Bromus rigidus,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lolium rigidum Gaudin,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus angustifolius L,Lupinus hirsutus L,False,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus angustifolius L,Lupinus hirsutus L,False,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus hirsutus L,Lupinus luteus L,False,Lupinus luteus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus hirsutus L,Lupinus luteus L,False,Lupinus luteus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus luteus L,Lupinus hirsutus L,False,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus luteus L,Lupinus hirsutus L,False,Lupinus hirsutus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Lupinus luteus L,Lupinus luteus L,True,Lupinus luteus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malope trifida Cav,Malope trifida Cav,True,Malope trifida Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malope trifida Cav,Malope trifida Cav,True,Malope trifida Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malope trifida Cav,Malope trifida Cav,True,Malope trifida Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malope trifida Cav,Malope trifida Cav,True,Malope trifida Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malva parviflora L,Malva parviflora L,True,Malva parviflora L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malva parviflora L,Malva parviflora L,True,Malva parviflora L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malva parviflora L,Malva parviflora L,True,Malva parviflora L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malva parviflora L,Malva parviflora L,True,Malva parviflora L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malva parviflora L,Ricinus communis L,False,Ricinus communis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Malva parviflora L,Malva parviflora L,True,Malva parviflora L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Medicago polymorpha L,Melilotus sulcata Desf,False,Melilotus sulcata Desf,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Medicago polymorpha L,Medicago polymorpha L,True,Medicago polymorpha L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Medicago polymorpha L,Medicago polymorpha L,True,Medicago polymorpha L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Melilotus sulcata Desf,Melilotus sulcata Desf,True,Melilotus sulcata Desf,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Melilotus sulcata Desf,Melilotus sulcata Desf,True,Melilotus sulcata Desf,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Melilotus sulcata Desf,Melilotus sulcata Desf,True,Melilotus sulcata Desf,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Melilotus sulcata Desf,Melilotus sulcata Desf,True,Melilotus sulcata Desf,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Melilotus sulcata Desf,Melilotus sulcata Desf,True,Melilotus sulcata Desf,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Misopates orontium (L.) Rafin,Conyza canadensis (L.) Cronq,False,Conyza canadensis (L.) Cronq,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Misopates orontium (L.) Rafin,Buglossoides arvensis (L.) I. M. Johnson,False,Buglossoides arvensis (L.) I. M. Johnson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Onopordon macracanthum L,Calendula arvensis L,False,Calendula arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Onopordon macracanthum L,Silybum marianum (L.)  Gaertn,False,Silybum marianum (L.)  Gaertn,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Onopordon macracanthum L,Carduus pycnocephalus L,False,Carduus pycnocephalus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Onopordon macracanthum L,Onopordon macracanthum L,True,Onopordon macracanthum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Onopordon macracanthum L,Scolymus maculatus L,False,Scolymus maculatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Orobanche crenata Forsk,Vicia benghalensis L,False,Vicia benghalensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Orobanche crenata Forsk,Astragalus boeticus L,False,Astragalus boeticus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Orobanche crenata Forsk,Orobanche crenata Forsk,True,Orobanche crenata Forsk,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Orobanche crenata Forsk,Orobanche crenata Forsk,True,Orobanche crenata Forsk,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Orobanche crenata Forsk,Orobanche crenata Forsk,True,Orobanche crenata Forsk,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver hybridum L,Torilis nodosa (L.) Gaertner,False,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Papaver hybridum L,Papaver hybridum L,True,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver hybridum L,Papaver hybridum L,True,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver hybridum L,Papaver hybridum L,True,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver hybridum L,Anacyclus radiatus Loisel,False,Anacyclus radiatus Loisel,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Papaver hybridum L,Papaver hybridum L,True,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver rhoeas L,Papaver hybridum L,False,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver rhoeas L,Capsella bursa-pastoris (L.) Medicus,False,Capsella bursa-pastoris (L.) Medicus,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver rhoeas L,Papaver hybridum L,False,Papaver hybridum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver rhoeas L,Conyza canadensis (L.) Cronq,False,Conyza canadensis (L.) Cronq,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Papaver rhoeas L,Sinapis arvensis L,False,Sinapis arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris brachystachys Link,Phalaris minor Retz,False,Phalaris minor Retz,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris brachystachys Link,Phalaris minor Retz,False,Phalaris minor Retz,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris brachystachys Link,Phalaris brachystachys Link,True,Phalaris brachystachys Link,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris brachystachys Link,Phalaris minor Retz,False,Phalaris minor Retz,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris minor Retz,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris minor Retz,Phalaris minor Retz,True,Phalaris minor Retz,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris minor Retz,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris minor Retz,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris paradoxa L,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris paradoxa L,Phalaris paradoxa L,True,Phalaris paradoxa L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris paradoxa L,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris paradoxa L,Phalaris paradoxa L,True,Phalaris paradoxa L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris paradoxa L,Phalaris paradoxa L,True,Phalaris paradoxa L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phalaris paradoxa L,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phragmites australis L,Phragmites australis L,True,Phragmites australis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phragmites australis L,Phragmites australis L,True,Phragmites australis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phragmites australis L,Phragmites australis L,True,Phragmites australis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Phragmites australis L,Phragmites australis L,True,Phragmites australis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Picris echioides L,Centaurea diluta Aïton,False,Centaurea diluta Aïton,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Picris echioides L,Cichorium endivia L,False,Cichorium endivia L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Picris echioides L,Picris echioides L,True,Picris echioides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Picris echioides L,Scolymus hispanicus L,False,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Picris echioides L,Picris echioides L,True,Picris echioides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Picris echioides L,Picris echioides L,True,Picris echioides L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Plantago afra L,Plantago afra L,True,Plantago afra L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Plantago afra L,Plantago afra L,True,Plantago afra L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Plantago afra L,Galium tricornutum Dandy,False,Galium tricornutum Dandy,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Plantago afra L,Plantago afra L,True,Plantago afra L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Poa annua L,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Poa annua L,Poa annua L,True,Poa annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Poa annua L,Poa annua L,True,Poa annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Poa annua L,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Poa annua L
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Poa annua L
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Poa annua L
+Polygonum aviculare L,Chenopodium album L,False,Chenopodium album L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Poa annua L
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Poa annua L
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Poa annua L
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Abutilon theophrasti L,Ranunculus muricatus L,Polygonum aviculare L,Poa annua L
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Abutilon theophrasti L,Ranunculus muricatus L,Polygonum aviculare L,Poa annua L
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Abutilon theophrasti L,Ranunculus muricatus L,Polygonum aviculare L,Poa annua L
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Abutilon theophrasti L,Ranunculus muricatus L,Polygonum aviculare L,Poa annua L
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Abutilon theophrasti L,Ranunculus muricatus L,Polygonum aviculare L,Poa annua L
+Ranunculus muricatus L,Ranunculus muricatus L,True,Ranunculus muricatus L,Abutilon theophrasti L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Ranunculus muricatus L,Ranunculus muricatus L,True,Ranunculus muricatus L,Abutilon theophrasti L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Ranunculus muricatus L,Ranunculus sardous L,False,Ranunculus sardous L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ranunculus sardous L,Ranunculus muricatus L,False,Ranunculus muricatus L,Abutilon theophrasti L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Ranunculus sardous L,Malva parviflora L,False,Malva parviflora L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Raphanus raphanistrum L,Centaurea diluta Aïton,False,Centaurea diluta Aïton,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Reseda alba L,Capsella bursa-pastoris (L.) Medicus,False,Capsella bursa-pastoris (L.) Medicus,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Reseda alba L,Reseda alba L,True,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Reseda alba L,Reseda alba L,True,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Reseda alba L,Reseda alba L,True,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Reseda alba L,Reseda alba L,True,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Reseda alba L,Reseda alba L,True,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Reseda alba L,Reseda alba L,True,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Reseda alba L,Reseda alba L,True,Reseda alba L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Rhagadiolus stellatus (L.) Gaertner,Rhagadiolus stellatus (L.) Gaertner,True,Rhagadiolus stellatus (L.) Gaertner,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Rhagadiolus stellatus (L.) Gaertner,Rhagadiolus stellatus (L.) Gaertner,True,Rhagadiolus stellatus (L.) Gaertner,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Rhagadiolus stellatus (L.) Gaertner,Rhagadiolus stellatus (L.) Gaertner,True,Rhagadiolus stellatus (L.) Gaertner,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Rhagadiolus stellatus (L.) Gaertner,Sonchus oleraceus L,False,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Rhagadiolus stellatus (L.) Gaertner,Scandix pecten-veneris L,False,Scandix pecten-veneris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ricinus communis L,Chrozophora tinctoria (L). A. Juss,False,Chrozophora tinctoria (L). A. Juss,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ricinus communis L,Ricinus communis L,True,Ricinus communis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ricinus communis L,Ricinus communis L,True,Ricinus communis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ricinus communis L,Ricinus communis L,True,Ricinus communis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ricinus communis L,Ricinus communis L,True,Ricinus communis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ricinus communis L,Ricinus communis L,True,Ricinus communis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ridolfia segetum Moris,Ridolfia segetum Moris,True,Ridolfia segetum Moris,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ridolfia segetum Moris,Ridolfia segetum Moris,True,Ridolfia segetum Moris,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ridolfia segetum Moris,Ridolfia segetum Moris,True,Ridolfia segetum Moris,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ridolfia segetum Moris,Ridolfia segetum Moris,True,Ridolfia segetum Moris,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ridolfia segetum Moris,Ridolfia segetum Moris,True,Ridolfia segetum Moris,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Ridolfia segetum Moris,Ridolfia segetum Moris,True,Ridolfia segetum Moris,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Rumex pulcher L,Rumex pulcher L,True,Rumex pulcher L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Rumex pulcher L,Rumex pulcher L,True,Rumex pulcher L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Rumex pulcher L,Rumex pulcher L,True,Rumex pulcher L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Rumex pulcher L,Rumex pulcher L,True,Rumex pulcher L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Rumex pulcher L,Rumex pulcher L,True,Rumex pulcher L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scandix pecten-veneris L,Daucus carota L,False,Daucus carota L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scandix pecten-veneris L,Daucus carota L,False,Daucus carota L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scandix pecten-veneris L,Scandix pecten-veneris L,True,Scandix pecten-veneris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scandix pecten-veneris L,Ammi visnaga (L.) Lam,False,Ammi visnaga (L.) Lam,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Scandix pecten-veneris L,Scandix pecten-veneris L,True,Scandix pecten-veneris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus hispanicus L,Scolymus hispanicus L,True,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus hispanicus L,Scolymus hispanicus L,True,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus hispanicus L,Scolymus maculatus L,False,Scolymus maculatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus hispanicus L,Scolymus hispanicus L,True,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus hispanicus L,Scolymus hispanicus L,True,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus maculatus L,Scolymus maculatus L,True,Scolymus maculatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus maculatus L,Scolymus hispanicus L,False,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus maculatus L,Scolymus hispanicus L,False,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus maculatus L,Scolymus maculatus L,True,Scolymus maculatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scolymus maculatus L,Scolymus maculatus L,True,Scolymus maculatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scorpiurus muricatus L,Silene vulgaris (Moench) Garcke,False,Silene vulgaris (Moench) Garcke,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scorpiurus muricatus L,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scorpiurus muricatus L,Xanthium brasilicum Vellasco,False,Xanthium brasilicum Vellasco,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Scorpiurus muricatus L,Scorpiurus muricatus L,True,Scorpiurus muricatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Scorpiurus muricatus L,Silene vulgaris (Moench) Garcke,False,Silene vulgaris (Moench) Garcke,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Senecio vulgaris L,Chenopodium murale L,False,Chenopodium murale L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Senecio vulgaris L,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene gallica L,Silene gallica L,True,Silene gallica L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene gallica L,Silene gallica L,True,Silene gallica L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene gallica L,Silene gallica L,True,Silene gallica L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene gallica L,Silene gallica L,True,Silene gallica L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene gallica L,Silene gallica L,True,Silene gallica L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene vulgaris (Moench) Garcke,Buglossoides arvensis (L.) I. M. Johnson,False,Buglossoides arvensis (L.) I. M. Johnson,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene vulgaris (Moench) Garcke,Silene gallica L,False,Silene gallica L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene vulgaris (Moench) Garcke,Silene vulgaris (Moench) Garcke,True,Silene vulgaris (Moench) Garcke,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silene vulgaris (Moench) Garcke,Silene vulgaris (Moench) Garcke,True,Silene vulgaris (Moench) Garcke,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silybum marianum (L.)  Gaertn,Scolymus maculatus L,False,Scolymus maculatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sinapis alba L,Ecballium elaterium  (L.) A. Rich,False,Ecballium elaterium  (L.) A. Rich,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Sinapis alba L,Sinapis arvensis L,False,Sinapis arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sinapis alba L,Diplotaxis catholica (L.) DC,False,Diplotaxis catholica (L.) DC,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sinapis alba L,Sinapis arvensis L,False,Sinapis arvensis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sinapis arvensis L,Sinapis alba L,False,Sinapis alba L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sinapis arvensis L,Papaver rhoeas L,False,Papaver rhoeas L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum elaeagnifolium Cav,Verbesina encelioides (Cav.) Benth. ex A. Gray,False,Verbesina encelioides (Cav.) Benth. ex A. Gray,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sonchus asper (L.) Hill,Sonchus oleraceus L,False,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Sonchus asper (L.) Hill,Lactuca scariola L,False,Lactuca scariola L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Sonchus asper (L.) Hill,Scolymus hispanicus L,False,Scolymus hispanicus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sonchus asper (L.) Hill,Sonchus oleraceus L,False,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Sonchus oleraceus L,Sonchus oleraceus L,True,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Sonchus oleraceus L,Sonchus oleraceus L,True,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Sonchus oleraceus L,Scolymus maculatus L,False,Scolymus maculatus L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sonchus oleraceus L,Raphanus raphanistrum L,False,Raphanus raphanistrum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Sonchus oleraceus L,Aster squamatus  (Spreng.) Hieron,False,Aster squamatus  (Spreng.) Hieron,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Sonchus oleraceus L,Sonchus oleraceus L,True,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Sonchus oleraceus L,Sonchus oleraceus L,True,Sonchus oleraceus L,Abutilon theophrasti L,Orobanche crenata Forsk,Oxalis pes-caprae L,Papaver hybridum L
+Sorghum halepense L,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Sorghum halepense L,Sorghum halepense L,True,Sorghum halepense L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Sorghum halepense L,Sorghum halepense L,True,Sorghum halepense L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stachys arvensis L,Lamium amplexicaule L,False,Lamium amplexicaule L,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tragopogon hybridus L,Geropogon hybridus  (L.) Sch.Bip,False,Geropogon hybridus  (L.) Sch.Bip,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tragopogon hybridus L,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Tragopogon hybridus L,Geropogon hybridus  (L.) Sch.Bip,False,Geropogon hybridus  (L.) Sch.Bip,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Urtica urens L,Veronica polita Fries,False,Veronica polita Fries,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Urtica urens L,Urtica urens L,True,Urtica urens L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Urtica urens L,Urtica urens L,True,Urtica urens L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Urtica urens L,Urtica urens L,True,Urtica urens L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Urtica urens L,Urtica urens L,True,Urtica urens L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Urtica urens L,Urtica urens L,True,Urtica urens L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Urtica urens L,Urtica urens L,True,Urtica urens L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Urtica urens L,Urtica urens L,True,Urtica urens L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Vaccaria hispanica (Miller) Rauscher,Misopates orontium (L.) Rafin,False,Misopates orontium (L.) Rafin,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Vaccaria hispanica (Miller) Rauscher,Vaccaria hispanica (Miller) Rauscher,True,Vaccaria hispanica (Miller) Rauscher,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vaccaria hispanica (Miller) Rauscher,Vaccaria hispanica (Miller) Rauscher,True,Vaccaria hispanica (Miller) Rauscher,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vaccaria hispanica (Miller) Rauscher,Vaccaria hispanica (Miller) Rauscher,True,Vaccaria hispanica (Miller) Rauscher,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vaccaria hispanica (Miller) Rauscher,Stellaria media (L.)Vill,False,Stellaria media (L.)Vill,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Chenopodium vulvaria L,False,Chenopodium vulvaria L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L,Phalaris brachystachys Link
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Veronica hederifolia L,Veronica hederifolia L,True,Veronica hederifolia L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Veronica hederifolia L,Veronica hederifolia L,True,Veronica hederifolia L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Veronica hederifolia L,Veronica hederifolia L,True,Veronica hederifolia L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Veronica hederifolia L,Veronica hederifolia L,True,Veronica hederifolia L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Veronica polita Fries,Veronica polita Fries,True,Veronica polita Fries,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Veronica polita Fries,Mercurialis annua L,False,Mercurialis annua L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Veronica polita Fries,Veronica polita Fries,True,Veronica polita Fries,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Veronica polita Fries,Veronica polita Fries,True,Veronica polita Fries,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia benghalensis L,Vicia benghalensis L,True,Vicia benghalensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia benghalensis L,Vicia benghalensis L,True,Vicia benghalensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia benghalensis L,Vicia benghalensis L,True,Vicia benghalensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia benghalensis L,Astragalus boeticus L,False,Astragalus boeticus L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia benghalensis L,Vicia benghalensis L,True,Vicia benghalensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia benghalensis L,Vicia benghalensis L,True,Vicia benghalensis L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia lutea L,Vicia lutea L,True,Vicia lutea L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia lutea L,Vicia lutea L,True,Vicia lutea L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia lutea L,Vicia lutea L,True,Vicia lutea L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia lutea L,Vicia sativa L,False,Vicia sativa L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia sativa L,Vicia lutea L,False,Vicia lutea L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia sativa L,Vicia sativa L,True,Vicia sativa L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia sativa L,Vicia sativa L,True,Vicia sativa L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia sativa L,Vicia sativa L,True,Vicia sativa L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia sativa L,Vicia sativa L,True,Vicia sativa L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Vicia sativa L,Vicia sativa L,True,Vicia sativa L,Abutilon theophrasti L,Oxalis pes-caprae L,Papaver hybridum L,Papaver rhoeas L
+Xanthium brasilicum Vellasco,Ricinus communis L,False,Ricinus communis L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Xanthium brasilicum Vellasco,Chenopodium murale L,False,Chenopodium murale L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Xanthium brasilicum Vellasco,Xanthium brasilicum Vellasco,True,Xanthium brasilicum Vellasco,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Xanthium brasilicum Vellasco,Xanthium brasilicum Vellasco,True,Xanthium brasilicum Vellasco,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Xanthium brasilicum Vellasco,Medicago polymorpha L,False,Medicago polymorpha L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Xanthium brasilicum Vellasco,Xanthium brasilicum Vellasco,True,Xanthium brasilicum Vellasco,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Xanthium spinosum L,Chrozophora tinctoria (L). A. Juss,False,Chrozophora tinctoria (L). A. Juss,Ranunculus sardous L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L
+Xanthium spinosum L,Xanthium spinosum L,True,Xanthium spinosum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Xanthium spinosum L,Xanthium spinosum L,True,Xanthium spinosum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Xanthium spinosum L,Xanthium spinosum L,True,Xanthium spinosum L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L,Poa annua L
+Xanthium spinosum L,Carlina racemosa L,False,Carlina racemosa L,Abutilon theophrasti L,Ranunculus muricatus L,Portulaca oleracea L,Polygonum aviculare L

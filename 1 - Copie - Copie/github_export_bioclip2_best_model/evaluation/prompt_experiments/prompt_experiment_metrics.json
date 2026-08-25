@@ -1,0 +1,99 @@
+{
+  "best_prompt_set": "binomial_plant_templates",
+  "results": {
+    "full_name_basic": {
+      "accuracy_top1": 0.6838006230529595,
+      "accuracy_top5": 0.9065420560747663,
+      "balanced_accuracy": 0.6692460317460317,
+      "precision_macro": 0.6386696636696636,
+      "recall_macro": 0.6692460317460317,
+      "f1_macro": 0.6262143523332782,
+      "precision_weighted": 0.6675752639537685,
+      "recall_weighted": 0.6838006230529595,
+      "f1_weighted": 0.6498012796459746,
+      "num_classes": 138,
+      "num_eval_images": 642,
+      "templates": [
+        "a photo of {name}"
+      ]
+    },
+    "full_name_plant_templates": {
+      "accuracy_top1": 0.6838006230529595,
+      "accuracy_top5": 0.9158878504672897,
+      "balanced_accuracy": 0.6703071083505866,
+      "precision_macro": 0.6684944282770369,
+      "recall_macro": 0.6703071083505866,
+      "f1_macro": 0.638950615499276,
+      "precision_weighted": 0.690488773082231,
+      "recall_weighted": 0.6838006230529595,
+      "f1_weighted": 0.6577322648096063,
+      "num_classes": 138,
+      "num_eval_images": 642,
+      "templates": [
+        "a photo of {name}",
+        "a photo of the plant {name}",
+        "a close-up photo of {name}",
+        "a field photo of {name}",
+        "a botanical photo of {name}"
+      ]
+    },
+    "binomial_basic": {
+      "accuracy_top1": 0.7118380062305296,
+      "accuracy_top5": 0.9236760124610592,
+      "balanced_accuracy": 0.7026742581090407,
+      "precision_macro": 0.6888674932153193,
+      "recall_macro": 0.7026742581090407,
+      "f1_macro": 0.6666381597916797,
+      "precision_weighted": 0.711133311133311,
+      "recall_weighted": 0.7118380062305296,
+      "f1_weighted": 0.6838001115069198,
+      "num_classes": 138,
+      "num_eval_images": 642,
+      "templates": [
+        "a photo of {binomial}"
+      ]
+    },
+    "binomial_plant_templates": {
+      "accuracy_top1": 0.7258566978193146,
+      "accuracy_top5": 0.926791277258567,
+      "balanced_accuracy": 0.7151915113871636,
+      "precision_macro": 0.7106000481000481,
+      "recall_macro": 0.7151915113871636,
+      "f1_macro": 0.6889676400360879,
+      "precision_weighted": 0.735843695072667,
+      "recall_weighted": 0.7258566978193146,
+      "f1_weighted": 0.7061212493176992,
+      "num_classes": 138,
+      "num_eval_images": 642,
+      "templates": [
+        "a photo of {binomial}",
+        "a photo of the plant {binomial}",
+        "a field photo of the weed species {binomial}",
+        "a botanical photo of {binomial}",
+        "a close-up photo of the leaves or flowers of {binomial}"
+      ]
+    },
+    "full_plus_binomial_ensemble": {
+      "accuracy_top1": 0.721183800623053,
+      "accuracy_top5": 0.9205607476635514,
+      "balanced_accuracy": 0.7102311939268461,
+      "precision_macro": 0.7170995268821355,
+      "recall_macro": 0.7102311939268461,
+      "f1_macro": 0.6795934138325442,
+      "precision_weighted": 0.744155671258475,
+      "recall_weighted": 0.721183800623053,
+      "f1_weighted": 0.6983225108225108,
+      "num_classes": 138,
+      "num_eval_images": 642,
+      "templates": [
+        "a photo of {name}",
+        "a photo of the plant {name}",
+        "a botanical photo of {name}",
+        "a photo of {binomial}",
+        "a photo of the plant {binomial}",
+        "a field photo of the weed species {binomial}",
+        "a botanical photo of {binomial}"
+      ]
+    }
+  }
+}

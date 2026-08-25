@@ -1,0 +1,142 @@
+﻿,precision,recall,f1-score,support
+Abutilon theophrasti L,0.0,0.0,0.0,2.0
+Adonis annua L,0.5,0.3333333333333333,0.4,3.0
+Amaranthus blitoides S. Watson,0.6666666666666666,0.6666666666666666,0.6666666666666666,3.0
+Amaranthus deflexus L,0.5,0.5,0.5,4.0
+Amaranthus retroflexus L,1.0,0.3333333333333333,0.5,3.0
+Ammi majus L,0.6666666666666666,0.6666666666666666,0.6666666666666666,6.0
+Ammi visnaga (L.) Lam,0.2,0.25,0.2222222222222222,4.0
+Anacyclus radiatus Loisel,0.5,0.5,0.5,6.0
+Anagallis arvensis L,0.0,0.0,0.0,3.0
+Anchusa azurea Miller,0.0,0.0,0.0,4.0
+Arisarum simorrhinum Durieu,1.0,0.6666666666666666,0.8,3.0
+Aster squamatus  (Spreng.) Hieron,0.0,0.0,0.0,4.0
+Astragalus boeticus L,0.0,0.0,0.0,3.0
+Avena sterilis L,0.5,0.5,0.5,4.0
+Beta macrocarpa Guss,0.5,0.6,0.5454545454545454,5.0
+Bifora testiculata L,1.0,0.6,0.75,5.0
+Borago officinalis L,1.0,1.0,1.0,3.0
+Bromus rigidus,0.0,0.0,0.0,4.0
+Bromus rubens L,0.0,0.0,0.0,2.0
+Buglossoides arvensis (L.) I. M. Johnson,0.0,0.0,0.0,3.0
+Bupleurum lancifolium Hornem,0.3333333333333333,0.3333333333333333,0.3333333333333333,3.0
+Calendula arvensis L,0.5,0.4,0.4444444444444444,5.0
+Capsella bursa-pastoris (L.) Medicus,0.0,0.0,0.0,4.0
+Cardaria draba (Cav) Desv,0.0,0.0,0.0,2.0
+Carduus pycnocephalus L,0.0,0.0,0.0,3.0
+Carlina racemosa L,0.0,0.0,0.0,3.0
+Centaurea diluta Aïton,0.0,0.0,0.0,3.0
+Centaurea eriophora L,0.0,0.0,0.0,2.0
+Chamaemelum fuscatum L,1.0,0.5,0.6666666666666666,4.0
+Chamaemelum mixtum (L.) All,0.0,0.0,0.0,4.0
+Chenopodium album L,0.0,0.0,0.0,2.0
+Chenopodium murale L,0.375,0.6,0.46153846153846156,5.0
+Chenopodium vulvaria L,0.2,0.25,0.2222222222222222,4.0
+Chrozophora tinctoria (L). A. Juss,0.3333333333333333,0.5,0.4,4.0
+Chrysanthemum coronarium L,0.42857142857142855,0.6,0.5,5.0
+Chrysanthemum segetum L,0.0,0.0,0.0,2.0
+Cichorium endivia L,0.0,0.0,0.0,3.0
+Convolvulus altaeoides L,0.8,0.5714285714285714,0.6666666666666666,7.0
+Convolvulus arvensis L,0.375,0.5,0.42857142857142855,6.0
+Convolvulus gharbensis Batt. & Pitard,0.0,0.0,0.0,2.0
+Convolvulus tricolor L,0.6,0.75,0.6666666666666666,4.0
+Conyza canadensis (L.) Cronq,0.6,0.5,0.5454545454545454,6.0
+Coronilla scorpioides (L.) Koch,0.5,0.3333333333333333,0.4,3.0
+Coronopus squamatus (Forsk.) Ascherson,0.75,0.5,0.6,6.0
+Cynodon dactylon (L.) Pers,1.0,0.25,0.4,4.0
+Cyperus rotundus L,0.0,0.0,0.0,3.0
+Datura stramonium L,0.6666666666666666,0.3333333333333333,0.4444444444444444,6.0
+Daucus carota L,0.04716981132075472,0.8333333333333334,0.08928571428571429,6.0
+Digitaria sanguinalis,0.75,0.6,0.6666666666666666,5.0
+Diplotaxis catholica (L.) DC,0.0,0.0,0.0,3.0
+Diplotaxis tenuisiliqua delile,0.8333333333333334,0.8333333333333334,0.8333333333333334,6.0
+Ecballium elaterium  (L.) A. Rich,0.0,0.0,0.0,3.0
+Echinochloa crus-galli (L.) Beauv,0.0,0.0,0.0,5.0
+Emex spinosa (L.) Campd,0.1,0.16666666666666666,0.125,6.0
+Eryngium ilicifolium Lam,1.0,0.75,0.8571428571428571,4.0
+Euphorbia medicaginea Boiss,0.75,0.75,0.75,4.0
+Fallopia convolvulus (L.) A. Löve,1.0,0.3333333333333333,0.5,3.0
+Fedia cornucopiae (L.) Gaertner,1.0,0.6,0.75,5.0
+Fumaria agraria Lag,0.0,0.0,0.0,3.0
+Fumaria parviflora Lam,0.5,0.25,0.3333333333333333,4.0
+Galium tricornutum Dandy,0.0,0.0,0.0,4.0
+Galium verrucosum Hudson,0.25,0.25,0.25,4.0
+Geropogon hybridus  (L.) Sch.Bip,0.0,0.0,0.0,2.0
+Gladiolus italicus Miller,0.5,0.5,0.5,4.0
+Glaucium corniculatum (L.) J. H. Rudolph,0.5,0.2,0.2857142857142857,5.0
+Heliotropium europaeum L,0.0,0.0,0.0,4.0
+Hibiscus trionum L,1.0,1.0,1.0,2.0
+Hirschfeldia incana (L.) Lagrèze-Fossat,0.0,0.0,0.0,6.0
+Hordeum murinum L,0.0,0.0,0.0,5.0
+Lactuca scariola L,0.0,0.0,0.0,5.0
+Lamium amplexicaule L,0.8,0.8,0.8,5.0
+Lathyrus cicera L,0.0,0.0,0.0,4.0
+Lathyrus clymenum L,0.0,0.0,0.0,5.0
+Lathyrus ochrus (L.) DC,0.0,0.0,0.0,2.0
+Lavatera trimestris L,0.5555555555555556,0.8333333333333334,0.6666666666666666,6.0
+Lolium multiflorum Lam,0.23076923076923078,0.6,0.3333333333333333,5.0
+Lolium rigidum Gaudin,0.0,0.0,0.0,5.0
+Lupinus angustifolius L,0.0,0.0,0.0,2.0
+Lupinus hirsutus L,0.5,0.5714285714285714,0.5333333333333333,7.0
+Lupinus luteus L,0.0,0.0,0.0,3.0
+Malope trifida Cav,0.5,0.25,0.3333333333333333,4.0
+Malva parviflora L,0.375,0.5,0.42857142857142855,6.0
+Medicago polymorpha L,0.0,0.0,0.0,3.0
+Melilotus sulcata Desf,0.2,0.2,0.2,5.0
+Mercurialis annua L,0.625,0.7142857142857143,0.6666666666666666,7.0
+Misopates orontium (L.) Rafin,0.7142857142857143,0.8333333333333334,0.7692307692307693,6.0
+Onopordon macracanthum L,0.0,0.0,0.0,5.0
+Orobanche crenata Forsk,0.0,0.0,0.0,5.0
+Oxalis pes-caprae L,1.0,0.75,0.8571428571428571,8.0
+Papaver hybridum L,0.5714285714285714,0.6666666666666666,0.6153846153846154,6.0
+Papaver rhoeas L,0.75,0.75,0.75,8.0
+Phalaris brachystachys Link,0.0,0.0,0.0,4.0
+Phalaris minor Retz,0.0,0.0,0.0,4.0
+Phalaris paradoxa L,0.25,0.3333333333333333,0.2857142857142857,6.0
+Phragmites australis L,0.0,0.0,0.0,4.0
+Picris echioides L,0.0,0.0,0.0,6.0
+Plantago afra L,1.0,0.5,0.6666666666666666,4.0
+Poa annua L,0.6666666666666666,0.5,0.5714285714285714,4.0
+Polygonum aviculare L,0.3333333333333333,0.42857142857142855,0.375,7.0
+Portulaca oleracea L,1.0,0.8,0.8888888888888888,5.0
+Ranunculus muricatus L,0.0,0.0,0.0,3.0
+Ranunculus sardous L,0.0,0.0,0.0,2.0
+Raphanus raphanistrum L,0.7142857142857143,0.8333333333333334,0.7692307692307693,6.0
+Reseda alba L,0.5,0.5,0.5,8.0
+Rhagadiolus stellatus (L.) Gaertner,0.6666666666666666,0.8,0.7272727272727273,5.0
+Ricinus communis L,0.3333333333333333,0.16666666666666666,0.2222222222222222,6.0
+Ridolfia segetum Moris,0.2857142857142857,0.3333333333333333,0.3076923076923077,6.0
+Rumex pulcher L,0.5,0.4,0.4444444444444444,5.0
+Scandix pecten-veneris L,0.0,0.0,0.0,5.0
+Scolymus hispanicus L,0.25,0.2,0.2222222222222222,5.0
+Scolymus maculatus L,0.0,0.0,0.0,5.0
+Scorpiurus muricatus L,0.0,0.0,0.0,5.0
+Senecio vulgaris L,0.5,0.625,0.5555555555555556,8.0
+Silene gallica L,0.6666666666666666,0.8,0.7272727272727273,5.0
+Silene vulgaris (Moench) Garcke,0.0,0.0,0.0,4.0
+Silybum marianum (L.)  Gaertn,0.6666666666666666,0.8571428571428571,0.75,7.0
+Sinapis alba L,0.0,0.0,0.0,4.0
+Sinapis arvensis L,0.0,0.0,0.0,2.0
+Solanum elaeagnifolium Cav,0.7142857142857143,0.7142857142857143,0.7142857142857143,7.0
+Solanum nigrum L,0.7142857142857143,0.8333333333333334,0.7692307692307693,6.0
+Sonchus asper (L.) Hill,0.14285714285714285,0.25,0.18181818181818182,4.0
+Sonchus oleraceus L,0.2,0.14285714285714285,0.16666666666666666,7.0
+Sorghum halepense L,1.0,0.6666666666666666,0.8,3.0
+Stachys arvensis L,0.8,0.6666666666666666,0.7272727272727273,6.0
+Stellaria media (L.)Vill,0.8571428571428571,0.75,0.8,8.0
+Torilis nodosa (L.) Gaertner,0.6666666666666666,0.5714285714285714,0.6153846153846154,7.0
+Tragopogon hybridus L,0.0,0.0,0.0,3.0
+Tribulus terrestris L,0.8333333333333334,0.7142857142857143,0.7692307692307693,7.0
+Urtica urens L,0.875,0.875,0.875,8.0
+Vaccaria hispanica (Miller) Rauscher,0.2,0.2,0.2,5.0
+Verbesina encelioides (Cav.) Benth. ex A. Gray,0.7142857142857143,0.8333333333333334,0.7692307692307693,6.0
+Veronica hederifolia L,0.8,1.0,0.8888888888888888,4.0
+Veronica polita Fries,0.75,0.75,0.75,4.0
+Vicia benghalensis L,0.0,0.0,0.0,6.0
+Vicia lutea L,0.16666666666666666,0.25,0.2,4.0
+Vicia sativa L,0.5,0.5,0.5,6.0
+Xanthium brasilicum Vellasco,0.8,0.6666666666666666,0.7272727272727273,6.0
+Xanthium spinosum L,1.0,0.4,0.5714285714285714,5.0
+accuracy,0.39461172741679873,0.39461172741679873,0.39461172741679873,0.39461172741679873
+macro avg,0.3740263583680319,0.34011387163561074,0.341771593945507,631.0
+weighted avg,0.4210945713876073,0.39461172741679873,0.39220293265459666,631.0

@@ -1,0 +1,7 @@
+torch
+torchvision
+open_clip_torch
+pillow
+numpy
+scikit-learn
+tqdm

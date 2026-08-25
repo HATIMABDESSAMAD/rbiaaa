@@ -1,0 +1,20 @@
+{
+  "args": {
+    "data": "Bases de données photos Dr Taleb",
+    "model": "hf_hub:timm/vit_large_patch14_clip_336.laion2b_ft_augreg_inat21",
+    "output_dir": "results_vit_inat21_direct_one_test_per_matched_class",
+    "sample": "one_per_class",
+    "batch_size": 4,
+    "workers": 0,
+    "seed": 42,
+    "device": null
+  },
+  "metrics": {
+    "num_dataset_classes": 138,
+    "num_matched_classes": 59,
+    "num_missing_classes": 79,
+    "num_eval_images": 59,
+    "accuracy_full_10000_labels": 0.7457627118644068,
+    "accuracy_restricted_to_matched_classes": 0.8983050847457628
+  }
+}

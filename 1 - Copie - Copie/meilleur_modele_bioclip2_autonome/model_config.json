@@ -1,0 +1,14 @@
+{
+  "model_name": "BioCLIP 2 zero-shot binomial prompts",
+  "arch": "hf-hub:imageomics/bioclip-2",
+  "pretrained": null,
+  "prompt_mode": "binomial_plant",
+  "top_k_default": 5,
+  "prompt_templates": [
+    "a photo of {binomial}",
+    "a photo of the plant {binomial}",
+    "a field photo of the weed species {binomial}",
+    "a botanical photo of {binomial}",
+    "a close-up photo of the leaves or flowers of {binomial}"
+  ]
+}

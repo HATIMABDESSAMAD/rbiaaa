@@ -1,0 +1,632 @@
+﻿true_class,predicted_class,correct,top1,top2,top3,top4,top5
+Abutilon theophrasti L,Malva parviflora L,False,Malva parviflora L,Malope trifida Cav,Xanthium brasilicum Vellasco,Ecballium elaterium  (L.) A. Rich,Convolvulus altaeoides L
+Abutilon theophrasti L,Ecballium elaterium  (L.) A. Rich,False,Malope trifida Cav,Ecballium elaterium  (L.) A. Rich,Lavatera trimestris L,Ricinus communis L,Abutilon theophrasti L
+Adonis annua L,Ammi visnaga (L.) Lam,False,Ammi visnaga (L.) Lam,Anacyclus radiatus Loisel,Scandix pecten-veneris L,Adonis annua L,Torilis nodosa (L.) Gaertner
+Adonis annua L,Ridolfia segetum Moris,False,Ridolfia segetum Moris,Anacyclus radiatus Loisel,Adonis annua L,Ammi visnaga (L.) Lam,Scandix pecten-veneris L
+Adonis annua L,Adonis annua L,True,Adonis annua L,Anacyclus radiatus Loisel,Ammi visnaga (L.) Lam,Scandix pecten-veneris L,Bifora testiculata L
+Amaranthus blitoides S. Watson,Buglossoides arvensis (L.) I. M. Johnson,False,Buglossoides arvensis (L.) I. M. Johnson,Misopates orontium (L.) Rafin,Convolvulus gharbensis Batt. & Pitard,Galium tricornutum Dandy,Vaccaria hispanica (Miller) Rauscher
+Amaranthus blitoides S. Watson,Amaranthus blitoides S. Watson,True,Amaranthus blitoides S. Watson,Beta macrocarpa Guss,Papaver rhoeas L,Sonchus oleraceus L,Senecio vulgaris L
+Amaranthus blitoides S. Watson,Amaranthus blitoides S. Watson,True,Amaranthus blitoides S. Watson,Heliotropium europaeum L,Anagallis arvensis L,Fedia cornucopiae (L.) Gaertner,Galium tricornutum Dandy
+Amaranthus deflexus L,Veronica polita Fries,False,Veronica polita Fries,Heliotropium europaeum L,Amaranthus deflexus L,Mercurialis annua L,Solanum nigrum L
+Amaranthus deflexus L,Amaranthus deflexus L,True,Amaranthus deflexus L,Amaranthus retroflexus L,Solanum nigrum L,Mercurialis annua L,Xanthium brasilicum Vellasco
+Amaranthus deflexus L,Rumex pulcher L,False,Rumex pulcher L,Sinapis alba L,Xanthium brasilicum Vellasco,Convolvulus arvensis L,Datura stramonium L
+Amaranthus deflexus L,Amaranthus deflexus L,True,Amaranthus deflexus L,Amaranthus retroflexus L,Chrozophora tinctoria (L). A. Juss,Convolvulus altaeoides L,Xanthium brasilicum Vellasco
+Amaranthus retroflexus L,Heliotropium europaeum L,False,Heliotropium europaeum L,Sinapis arvensis L,Diplotaxis tenuisiliqua delile,Solanum nigrum L,Sinapis alba L
+Amaranthus retroflexus L,Amaranthus deflexus L,False,Amaranthus deflexus L,Amaranthus retroflexus L,Heliotropium europaeum L,Solanum nigrum L,Chrozophora tinctoria (L). A. Juss
+Amaranthus retroflexus L,Amaranthus retroflexus L,True,Amaranthus retroflexus L,Amaranthus deflexus L,Heliotropium europaeum L,Solanum nigrum L,Datura stramonium L
+Ammi majus L,Ranunculus sardous L,False,Ranunculus sardous L,Ranunculus muricatus L,Ammi majus L,Bifora testiculata L,Torilis nodosa (L.) Gaertner
+Ammi majus L,Ammi majus L,True,Ammi majus L,Ranunculus muricatus L,Ranunculus sardous L,Lavatera trimestris L,Malva parviflora L
+Ammi majus L,Ammi majus L,True,Ammi majus L,Coronilla scorpioides (L.) Koch,Malope trifida Cav,Lavatera trimestris L,Fallopia convolvulus (L.) A. Löve
+Ammi majus L,Ammi majus L,True,Ammi majus L,Papaver rhoeas L,Diplotaxis catholica (L.) DC,Torilis nodosa (L.) Gaertner,Bifora testiculata L
+Ammi majus L,Ammi majus L,True,Ammi majus L,Vicia sativa L,Diplotaxis tenuisiliqua delile,Melilotus sulcata Desf,Lactuca scariola L
+Ammi majus L,Ridolfia segetum Moris,False,Ridolfia segetum Moris,Ammi visnaga (L.) Lam,Scandix pecten-veneris L,Reseda alba L,Chamaemelum fuscatum L
+Ammi visnaga (L.) Lam,Ammi visnaga (L.) Lam,True,Ammi visnaga (L.) Lam,Fumaria parviflora Lam,Papaver hybridum L,Scandix pecten-veneris L,Torilis nodosa (L.) Gaertner
+Ammi visnaga (L.) Lam,Papaver hybridum L,False,Papaver hybridum L,Anacyclus radiatus Loisel,Fumaria parviflora Lam,Ammi visnaga (L.) Lam,Torilis nodosa (L.) Gaertner
+Ammi visnaga (L.) Lam,Ammi majus L,False,Ammi majus L,Onopordon macracanthum L,Chamaemelum fuscatum L,Scandix pecten-veneris L,Reseda alba L
+Ammi visnaga (L.) Lam,Adonis annua L,False,Adonis annua L,Anacyclus radiatus Loisel,Ridolfia segetum Moris,Scandix pecten-veneris L,Chamaemelum fuscatum L
+Anacyclus radiatus Loisel,Chamaemelum mixtum (L.) All,False,Chamaemelum mixtum (L.) All,Coronopus squamatus (Forsk.) Ascherson,Papaver hybridum L,Chrysanthemum coronarium L,Senecio vulgaris L
+Anacyclus radiatus Loisel,Anacyclus radiatus Loisel,True,Anacyclus radiatus Loisel,Papaver hybridum L,Ammi visnaga (L.) Lam,Chamaemelum mixtum (L.) All,Adonis annua L
+Anacyclus radiatus Loisel,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Anacyclus radiatus Loisel,Anacyclus radiatus Loisel,True,Anacyclus radiatus Loisel,Papaver hybridum L,Ammi visnaga (L.) Lam,Fumaria parviflora Lam,Adonis annua L
+Anacyclus radiatus Loisel,Anacyclus radiatus Loisel,True,Anacyclus radiatus Loisel,Ammi visnaga (L.) Lam,Adonis annua L,Papaver hybridum L,Scandix pecten-veneris L
+Anacyclus radiatus Loisel,Chamaemelum mixtum (L.) All,False,Chamaemelum mixtum (L.) All,Ammi visnaga (L.) Lam,Papaver hybridum L,Adonis annua L,Chamaemelum fuscatum L
+Anagallis arvensis L,Stellaria media (L.)Vill,False,Stellaria media (L.)Vill,Galium verrucosum Hudson,Misopates orontium (L.) Rafin,Amaranthus blitoides S. Watson,Chenopodium murale L
+Anagallis arvensis L,Galium verrucosum Hudson,False,Galium verrucosum Hudson,Anagallis arvensis L,Galium tricornutum Dandy,Misopates orontium (L.) Rafin,Amaranthus blitoides S. Watson
+Anagallis arvensis L,Vaccaria hispanica (Miller) Rauscher,False,Vaccaria hispanica (Miller) Rauscher,Anagallis arvensis L,Galium verrucosum Hudson,Galium tricornutum Dandy,Fedia cornucopiae (L.) Gaertner
+Anchusa azurea Miller,Onopordon macracanthum L,False,Onopordon macracanthum L,Buglossoides arvensis (L.) I. M. Johnson,Scolymus hispanicus L,Picris echioides L,Veronica hederifolia L
+Anchusa azurea Miller,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Picris echioides L,Phalaris paradoxa L,Solanum elaeagnifolium Cav,Lolium rigidum Gaudin
+Anchusa azurea Miller,Senecio vulgaris L,False,Senecio vulgaris L,Picris echioides L,Mercurialis annua L,Scorpiurus muricatus L,Onopordon macracanthum L
+Anchusa azurea Miller,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Arisarum simorrhinum Durieu,Arisarum simorrhinum Durieu,True,Arisarum simorrhinum Durieu,Malope trifida Cav,Coronilla scorpioides (L.) Koch,Convolvulus altaeoides L,Convolvulus arvensis L
+Arisarum simorrhinum Durieu,Arisarum simorrhinum Durieu,True,Arisarum simorrhinum Durieu,Coronilla scorpioides (L.) Koch,Ammi majus L,Malope trifida Cav,Astragalus boeticus L
+Arisarum simorrhinum Durieu,Phalaris minor Retz,False,Phalaris minor Retz,Phalaris brachystachys Link,Convolvulus arvensis L,Vicia lutea L,Arisarum simorrhinum Durieu
+Aster squamatus  (Spreng.) Hieron,Capsella bursa-pastoris (L.) Medicus,False,Capsella bursa-pastoris (L.) Medicus,Beta macrocarpa Guss,Rhagadiolus stellatus (L.) Gaertner,Rumex pulcher L,Centaurea diluta Aïton
+Aster squamatus  (Spreng.) Hieron,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Aster squamatus  (Spreng.) Hieron,Rhagadiolus stellatus (L.) Gaertner,False,Rhagadiolus stellatus (L.) Gaertner,Capsella bursa-pastoris (L.) Medicus,Aster squamatus  (Spreng.) Hieron,Vaccaria hispanica (Miller) Rauscher,Rumex pulcher L
+Aster squamatus  (Spreng.) Hieron,Conyza canadensis (L.) Cronq,False,Conyza canadensis (L.) Cronq,Misopates orontium (L.) Rafin,Vaccaria hispanica (Miller) Rauscher,Coronopus squamatus (Forsk.) Ascherson,Senecio vulgaris L
+Astragalus boeticus L,Coronilla scorpioides (L.) Koch,False,Coronilla scorpioides (L.) Koch,Astragalus boeticus L,Convolvulus arvensis L,Portulaca oleracea L,Anchusa azurea Miller
+Astragalus boeticus L,Vicia sativa L,False,Vicia sativa L,Melilotus sulcata Desf,Vicia lutea L,Medicago polymorpha L,Tribulus terrestris L
+Astragalus boeticus L,Anchusa azurea Miller,False,Anchusa azurea Miller,Phalaris paradoxa L,Orobanche crenata Forsk,Scorpiurus muricatus L,Vicia lutea L
+Avena sterilis L,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Phalaris minor Retz,Phalaris brachystachys Link,Lathyrus clymenum L,Tragopogon hybridus L
+Avena sterilis L,Lathyrus clymenum L,False,Lathyrus clymenum L,Phalaris minor Retz,Sorghum halepense L,Cyperus rotundus L,Geropogon hybridus  (L.) Sch.Bip
+Avena sterilis L,Avena sterilis L,True,Avena sterilis L,Bromus rigidus,Hordeum murinum L,Bromus rubens L,Lolium multiflorum Lam
+Avena sterilis L,Avena sterilis L,True,Avena sterilis L,Bromus rigidus,Hordeum murinum L,Bromus rubens L,Echinochloa crus-galli (L.) Beauv
+Beta macrocarpa Guss,Amaranthus blitoides S. Watson,False,Amaranthus blitoides S. Watson,Senecio vulgaris L,Chenopodium murale L,Papaver rhoeas L,Sonchus oleraceus L
+Beta macrocarpa Guss,Beta macrocarpa Guss,True,Beta macrocarpa Guss,Cichorium endivia L,Centaurea diluta Aïton,Scolymus maculatus L,Buglossoides arvensis (L.) I. M. Johnson
+Beta macrocarpa Guss,Beta macrocarpa Guss,True,Beta macrocarpa Guss,Centaurea diluta Aïton,Rhagadiolus stellatus (L.) Gaertner,Papaver rhoeas L,Conyza canadensis (L.) Cronq
+Beta macrocarpa Guss,Beta macrocarpa Guss,True,Beta macrocarpa Guss,Cichorium endivia L,Centaurea diluta Aïton,Rhagadiolus stellatus (L.) Gaertner,Buglossoides arvensis (L.) I. M. Johnson
+Beta macrocarpa Guss,Capsella bursa-pastoris (L.) Medicus,False,Capsella bursa-pastoris (L.) Medicus,Beta macrocarpa Guss,Aster squamatus  (Spreng.) Hieron,Rumex pulcher L,Rhagadiolus stellatus (L.) Gaertner
+Bifora testiculata L,Bifora testiculata L,True,Bifora testiculata L,Fumaria agraria Lag,Torilis nodosa (L.) Gaertner,Ranunculus muricatus L,Ammi majus L
+Bifora testiculata L,Bifora testiculata L,True,Bifora testiculata L,Torilis nodosa (L.) Gaertner,Fumaria agraria Lag,Ranunculus sardous L,Ammi visnaga (L.) Lam
+Bifora testiculata L,Bifora testiculata L,True,Bifora testiculata L,Torilis nodosa (L.) Gaertner,Fumaria agraria Lag,Ammi majus L,Ranunculus muricatus L
+Bifora testiculata L,Mercurialis annua L,False,Mercurialis annua L,Galium tricornutum Dandy,Medicago polymorpha L,Oxalis pes-caprae L,Ricinus communis L
+Bifora testiculata L,Ridolfia segetum Moris,False,Ridolfia segetum Moris,Scandix pecten-veneris L,Ammi visnaga (L.) Lam,Adonis annua L,Torilis nodosa (L.) Gaertner
+Borago officinalis L,Borago officinalis L,True,Borago officinalis L,Veronica hederifolia L,Ecballium elaterium  (L.) A. Rich,Stachys arvensis L,Solanum elaeagnifolium Cav
+Borago officinalis L,Borago officinalis L,True,Borago officinalis L,Veronica hederifolia L,Ecballium elaterium  (L.) A. Rich,Picris echioides L,Onopordon macracanthum L
+Borago officinalis L,Borago officinalis L,True,Borago officinalis L,Stachys arvensis L,Veronica hederifolia L,Ecballium elaterium  (L.) A. Rich,Sinapis alba L
+Bromus rigidus,Phalaris paradoxa L,False,Phalaris paradoxa L,Phalaris brachystachys Link,Phalaris minor Retz,Lolium multiflorum Lam,Lolium rigidum Gaudin
+Bromus rigidus,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Phalaris paradoxa L,Phalaris minor Retz,Geropogon hybridus  (L.) Sch.Bip,Tragopogon hybridus L
+Bromus rigidus,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Cynodon dactylon (L.) Pers,Avena sterilis L,Bromus rigidus,Hordeum murinum L
+Bromus rigidus,Avena sterilis L,False,Avena sterilis L,Bromus rubens L,Sorghum halepense L,Lolium multiflorum Lam,Bromus rigidus
+Bromus rubens L,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Phalaris minor Retz,Avena sterilis L,Lathyrus clymenum L,Lolium rigidum Gaudin
+Bromus rubens L,Bromus rigidus,False,Bromus rigidus,Avena sterilis L,Hordeum murinum L,Echinochloa crus-galli (L.) Beauv,Phalaris minor Retz
+Buglossoides arvensis (L.) I. M. Johnson,Anchusa azurea Miller,False,Anchusa azurea Miller,Misopates orontium (L.) Rafin,Buglossoides arvensis (L.) I. M. Johnson,Onopordon macracanthum L,Galium tricornutum Dandy
+Buglossoides arvensis (L.) I. M. Johnson,Beta macrocarpa Guss,False,Centaurea diluta Aïton,Beta macrocarpa Guss,Calendula arvensis L,Buglossoides arvensis (L.) I. M. Johnson,Cichorium endivia L
+Buglossoides arvensis (L.) I. M. Johnson,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Bupleurum lancifolium Hornem,Polygonum aviculare L,False,Polygonum aviculare L,Bupleurum lancifolium Hornem,Silene vulgaris (Moench) Garcke,Scorpiurus muricatus L,Rhagadiolus stellatus (L.) Gaertner
+Bupleurum lancifolium Hornem,Bupleurum lancifolium Hornem,True,Bupleurum lancifolium Hornem,Polygonum aviculare L,Vaccaria hispanica (Miller) Rauscher,Digitaria sanguinalis,Phalaris paradoxa L
+Bupleurum lancifolium Hornem,Vaccaria hispanica (Miller) Rauscher,False,Vaccaria hispanica (Miller) Rauscher,Lathyrus ochrus (L.) DC,Euphorbia medicaginea Boiss,Coronilla scorpioides (L.) Koch,Ricinus communis L
+Calendula arvensis L,Centaurea eriophora L,False,Centaurea eriophora L,Cichorium endivia L,Buglossoides arvensis (L.) I. M. Johnson,Picris echioides L,Centaurea diluta Aïton
+Calendula arvensis L,Calendula arvensis L,True,Calendula arvensis L,Cichorium endivia L,Aster squamatus  (Spreng.) Hieron,Vaccaria hispanica (Miller) Rauscher,Centaurea diluta Aïton
+Calendula arvensis L,Chrysanthemum segetum L,False,Chrysanthemum segetum L,Calendula arvensis L,Cichorium endivia L,Onopordon macracanthum L,Chrysanthemum coronarium L
+Calendula arvensis L,Centaurea diluta Aïton,False,Centaurea diluta Aïton,Calendula arvensis L,Vaccaria hispanica (Miller) Rauscher,Cichorium endivia L,Centaurea eriophora L
+Calendula arvensis L,Calendula arvensis L,True,Calendula arvensis L,Chrysanthemum segetum L,Malope trifida Cav,Chrysanthemum coronarium L,Cichorium endivia L
+Capsella bursa-pastoris (L.) Medicus,Beta macrocarpa Guss,False,Papaver rhoeas L,Beta macrocarpa Guss,Centaurea diluta Aïton,Reseda alba L,Rhagadiolus stellatus (L.) Gaertner
+Capsella bursa-pastoris (L.) Medicus,Aster squamatus  (Spreng.) Hieron,False,Aster squamatus  (Spreng.) Hieron,Rhagadiolus stellatus (L.) Gaertner,Senecio vulgaris L,Centaurea diluta Aïton,Reseda alba L
+Capsella bursa-pastoris (L.) Medicus,Sinapis alba L,False,Sinapis alba L,Capsella bursa-pastoris (L.) Medicus,Sonchus oleraceus L,Rumex pulcher L,Convolvulus arvensis L
+Capsella bursa-pastoris (L.) Medicus,Chenopodium murale L,False,Chenopodium murale L,Melilotus sulcata Desf,Scorpiurus muricatus L,Solanum elaeagnifolium Cav,Capsella bursa-pastoris (L.) Medicus
+Cardaria draba (Cav) Desv,Hirschfeldia incana (L.) Lagrèze-Fossat,False,Hirschfeldia incana (L.) Lagrèze-Fossat,Diplotaxis tenuisiliqua delile,Cichorium endivia L,Centaurea diluta Aïton,Conyza canadensis (L.) Cronq
+Cardaria draba (Cav) Desv,Ridolfia segetum Moris,False,Ridolfia segetum Moris,Ammi visnaga (L.) Lam,Reseda alba L,Scandix pecten-veneris L,Ammi majus L
+Carduus pycnocephalus L,Scolymus hispanicus L,False,Scolymus hispanicus L,Silybum marianum (L.)  Gaertn,Scolymus maculatus L,Carlina racemosa L,Senecio vulgaris L
+Carduus pycnocephalus L,Chenopodium murale L,False,Senecio vulgaris L,Chenopodium murale L,Silybum marianum (L.)  Gaertn,Scolymus hispanicus L,Vaccaria hispanica (Miller) Rauscher
+Carduus pycnocephalus L,Silybum marianum (L.)  Gaertn,False,Silybum marianum (L.)  Gaertn,Senecio vulgaris L,Onopordon macracanthum L,Phalaris minor Retz,Anchusa azurea Miller
+Carlina racemosa L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Hordeum murinum L
+Carlina racemosa L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Hordeum murinum L
+Carlina racemosa L,Carduus pycnocephalus L,False,Carduus pycnocephalus L,Solanum elaeagnifolium Cav,Silybum marianum (L.)  Gaertn,Scolymus hispanicus L,Scolymus maculatus L
+Centaurea diluta Aïton,Cichorium endivia L,False,Cichorium endivia L,Silene gallica L,Calendula arvensis L,Buglossoides arvensis (L.) I. M. Johnson,Centaurea eriophora L
+Centaurea diluta Aïton,Raphanus raphanistrum L,False,Raphanus raphanistrum L,Capsella bursa-pastoris (L.) Medicus,Reseda alba L,Sonchus oleraceus L,Lactuca scariola L
+Centaurea diluta Aïton,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Centaurea eriophora L,Calendula arvensis L,False,Calendula arvensis L,Cichorium endivia L,Centaurea diluta Aïton,Silene vulgaris (Moench) Garcke,Portulaca oleracea L
+Centaurea eriophora L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Chamaemelum fuscatum L,Anacyclus radiatus Loisel,False,Anacyclus radiatus Loisel,Glaucium corniculatum (L.) J. H. Rudolph,Papaver hybridum L,Scandix pecten-veneris L,Fumaria parviflora Lam
+Chamaemelum fuscatum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Chamaemelum fuscatum L,Chamaemelum fuscatum L,True,Chamaemelum fuscatum L,Chamaemelum mixtum (L.) All,Chrysanthemum coronarium L,Anacyclus radiatus Loisel,Senecio vulgaris L
+Chamaemelum fuscatum L,Chamaemelum fuscatum L,True,Chamaemelum fuscatum L,Chrysanthemum coronarium L,Onopordon macracanthum L,Chamaemelum mixtum (L.) All,Senecio vulgaris L
+Chamaemelum mixtum (L.) All,Anacyclus radiatus Loisel,False,Anacyclus radiatus Loisel,Chrysanthemum coronarium L,Coronopus squamatus (Forsk.) Ascherson,Papaver hybridum L,Fumaria parviflora Lam
+Chamaemelum mixtum (L.) All,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Chamaemelum mixtum (L.) All,Senecio vulgaris L,False,Senecio vulgaris L,Picris echioides L,Chenopodium murale L,Mercurialis annua L,Medicago polymorpha L
+Chamaemelum mixtum (L.) All,Anacyclus radiatus Loisel,False,Anacyclus radiatus Loisel,Chamaemelum fuscatum L,Papaver hybridum L,Ammi visnaga (L.) Lam,Chrysanthemum coronarium L
+Chenopodium album L,Chenopodium vulvaria L,False,Chenopodium vulvaria L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Veronica polita Fries,Chenopodium murale L,Xanthium brasilicum Vellasco
+Chenopodium album L,Sinapis alba L,False,Sinapis alba L,Rumex pulcher L,Reseda alba L,Euphorbia medicaginea Boiss,Chenopodium murale L
+Chenopodium murale L,Chenopodium murale L,True,Chenopodium murale L,Senecio vulgaris L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Solanum nigrum L,Veronica polita Fries
+Chenopodium murale L,Urtica urens L,False,Urtica urens L,Mercurialis annua L,Amaranthus deflexus L,Datura stramonium L,Chenopodium murale L
+Chenopodium murale L,Chenopodium murale L,True,Chenopodium murale L,Xanthium brasilicum Vellasco,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chenopodium vulvaria L,Papaver rhoeas L
+Chenopodium murale L,Chenopodium murale L,True,Chenopodium murale L,Papaver rhoeas L,Senecio vulgaris L,Sonchus oleraceus L,Xanthium brasilicum Vellasco
+Chenopodium murale L,Picris echioides L,False,Picris echioides L,Scorpiurus muricatus L,Emex spinosa (L.) Campd,Senecio vulgaris L,Solanum elaeagnifolium Cav
+Chenopodium vulvaria L,Verbesina encelioides (Cav.) Benth. ex A. Gray,False,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chenopodium vulvaria L,Chenopodium album L,Heliotropium europaeum L,Chenopodium murale L
+Chenopodium vulvaria L,Chenopodium vulvaria L,True,Chenopodium vulvaria L,Chenopodium album L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Veronica hederifolia L,Stellaria media (L.)Vill
+Chenopodium vulvaria L,Diplotaxis catholica (L.) DC,False,Diplotaxis catholica (L.) DC,Picris echioides L,Onopordon macracanthum L,Emex spinosa (L.) Campd,Ricinus communis L
+Chenopodium vulvaria L,Lactuca scariola L,False,Lactuca scariola L,Scolymus maculatus L,Gladiolus italicus Miller,Lupinus luteus L,Tribulus terrestris L
+Chrozophora tinctoria (L). A. Juss,Heliotropium europaeum L,False,Heliotropium europaeum L,Convolvulus arvensis L,Xanthium spinosum L,Amaranthus blitoides S. Watson,Fedia cornucopiae (L.) Gaertner
+Chrozophora tinctoria (L). A. Juss,Chrozophora tinctoria (L). A. Juss,True,Chrozophora tinctoria (L). A. Juss,Heliotropium europaeum L,Solanum nigrum L,Amaranthus deflexus L,Mercurialis annua L
+Chrozophora tinctoria (L). A. Juss,Chrozophora tinctoria (L). A. Juss,True,Chrozophora tinctoria (L). A. Juss,Xanthium brasilicum Vellasco,Convolvulus altaeoides L,Stachys arvensis L,Verbesina encelioides (Cav.) Benth. ex A. Gray
+Chrozophora tinctoria (L). A. Juss,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Chrysanthemum coronarium L,Papaver rhoeas L,False,Papaver rhoeas L,Senecio vulgaris L,Portulaca oleracea L,Glaucium corniculatum (L.) J. H. Rudolph,Silene gallica L
+Chrysanthemum coronarium L,Chrysanthemum coronarium L,True,Chrysanthemum coronarium L,Chrysanthemum segetum L,Senecio vulgaris L,Glaucium corniculatum (L.) J. H. Rudolph,Papaver rhoeas L
+Chrysanthemum coronarium L,Chrysanthemum coronarium L,True,Chrysanthemum coronarium L,Chrysanthemum segetum L,Glaucium corniculatum (L.) J. H. Rudolph,Senecio vulgaris L,Ammi visnaga (L.) Lam
+Chrysanthemum coronarium L,Chrysanthemum coronarium L,True,Chrysanthemum coronarium L,Chrysanthemum segetum L,Glaucium corniculatum (L.) J. H. Rudolph,Senecio vulgaris L,Ammi visnaga (L.) Lam
+Chrysanthemum coronarium L,Chrysanthemum segetum L,False,Chrysanthemum segetum L,Onopordon macracanthum L,Picris echioides L,Senecio vulgaris L,Scolymus hispanicus L
+Chrysanthemum segetum L,Chrysanthemum coronarium L,False,Chrysanthemum coronarium L,Glaucium corniculatum (L.) J. H. Rudolph,Coronopus squamatus (Forsk.) Ascherson,Senecio vulgaris L,Papaver rhoeas L
+Chrysanthemum segetum L,Chrysanthemum coronarium L,False,Chrysanthemum coronarium L,Picris echioides L,Cichorium endivia L,Onopordon macracanthum L,Calendula arvensis L
+Cichorium endivia L,Picris echioides L,False,Picris echioides L,Centaurea diluta Aïton,Hirschfeldia incana (L.) Lagrèze-Fossat,Cardaria draba (Cav) Desv,Calendula arvensis L
+Cichorium endivia L,Beta macrocarpa Guss,False,Beta macrocarpa Guss,Scolymus maculatus L,Centaurea diluta Aïton,Calendula arvensis L,Scolymus hispanicus L
+Cichorium endivia L,Veronica hederifolia L,False,Veronica hederifolia L,Onopordon macracanthum L,Anchusa azurea Miller,Picris echioides L,Lolium rigidum Gaudin
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Convolvulus arvensis L,Vaccaria hispanica (Miller) Rauscher,Convolvulus tricolor L,Lavatera trimestris L
+Convolvulus altaeoides L,Convolvulus arvensis L,False,Convolvulus arvensis L,Chrozophora tinctoria (L). A. Juss,Xanthium brasilicum Vellasco,Solanum nigrum L,Malope trifida Cav
+Convolvulus altaeoides L,Lavatera trimestris L,False,Xanthium brasilicum Vellasco,Lavatera trimestris L,Malva parviflora L,Ecballium elaterium  (L.) A. Rich,Datura stramonium L
+Convolvulus altaeoides L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Convolvulus arvensis L,Vaccaria hispanica (Miller) Rauscher,Convolvulus tricolor L,Lavatera trimestris L
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Convolvulus arvensis L,Convolvulus tricolor L,Vaccaria hispanica (Miller) Rauscher,Phalaris minor Retz
+Convolvulus altaeoides L,Convolvulus altaeoides L,True,Convolvulus altaeoides L,Convolvulus arvensis L,Convolvulus tricolor L,Vaccaria hispanica (Miller) Rauscher,Phalaris minor Retz
+Convolvulus arvensis L,Chrozophora tinctoria (L). A. Juss,False,Chrozophora tinctoria (L). A. Juss,Sonchus oleraceus L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Solanum nigrum L,Heliotropium europaeum L
+Convolvulus arvensis L,Phragmites australis L,False,Phragmites australis L,Vicia lutea L,Emex spinosa (L.) Campd,Vicia benghalensis L,Scorpiurus muricatus L
+Convolvulus arvensis L,Convolvulus arvensis L,True,Convolvulus arvensis L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Polygonum aviculare L,Sonchus asper (L.) Hill,Portulaca oleracea L
+Convolvulus arvensis L,Convolvulus arvensis L,True,Convolvulus arvensis L,Convolvulus altaeoides L,Convolvulus tricolor L,Vaccaria hispanica (Miller) Rauscher,Oxalis pes-caprae L
+Convolvulus arvensis L,Convolvulus altaeoides L,False,Convolvulus altaeoides L,Convolvulus arvensis L,Convolvulus tricolor L,Solanum elaeagnifolium Cav,Vaccaria hispanica (Miller) Rauscher
+Convolvulus arvensis L,Convolvulus arvensis L,True,Convolvulus arvensis L,Convolvulus altaeoides L,Convolvulus tricolor L,Convolvulus gharbensis Batt. & Pitard,Vaccaria hispanica (Miller) Rauscher
+Convolvulus gharbensis Batt. & Pitard,Convolvulus tricolor L,False,Convolvulus tricolor L,Centaurea diluta Aïton,Sinapis arvensis L,Amaranthus blitoides S. Watson,Beta macrocarpa Guss
+Convolvulus gharbensis Batt. & Pitard,Convolvulus tricolor L,False,Convolvulus tricolor L,Convolvulus altaeoides L,Convolvulus arvensis L,Anagallis arvensis L,Vaccaria hispanica (Miller) Rauscher
+Convolvulus tricolor L,Chrozophora tinctoria (L). A. Juss,False,Convolvulus arvensis L,Chrozophora tinctoria (L). A. Juss,Convolvulus gharbensis Batt. & Pitard,Heliotropium europaeum L,Sinapis arvensis L
+Convolvulus tricolor L,Convolvulus tricolor L,True,Convolvulus tricolor L,Convolvulus arvensis L,Convolvulus altaeoides L,Convolvulus gharbensis Batt. & Pitard,Vaccaria hispanica (Miller) Rauscher
+Convolvulus tricolor L,Convolvulus tricolor L,True,Convolvulus tricolor L,Convolvulus arvensis L,Convolvulus altaeoides L,Convolvulus gharbensis Batt. & Pitard,Solanum elaeagnifolium Cav
+Convolvulus tricolor L,Convolvulus tricolor L,True,Convolvulus tricolor L,Convolvulus gharbensis Batt. & Pitard,Convolvulus arvensis L,Convolvulus altaeoides L,Solanum elaeagnifolium Cav
+Conyza canadensis (L.) Cronq,Papaver rhoeas L,False,Papaver rhoeas L,Rhagadiolus stellatus (L.) Gaertner,Silene gallica L,Beta macrocarpa Guss,Silene vulgaris (Moench) Garcke
+Conyza canadensis (L.) Cronq,Conyza canadensis (L.) Cronq,True,Conyza canadensis (L.) Cronq,Chrysanthemum segetum L,Chrysanthemum coronarium L,Senecio vulgaris L,Papaver rhoeas L
+Conyza canadensis (L.) Cronq,Conyza canadensis (L.) Cronq,True,Conyza canadensis (L.) Cronq,Coronopus squamatus (Forsk.) Ascherson,Papaver rhoeas L,Plantago afra L,Senecio vulgaris L
+Conyza canadensis (L.) Cronq,Conyza canadensis (L.) Cronq,True,Conyza canadensis (L.) Cronq,Coronopus squamatus (Forsk.) Ascherson,Plantago afra L,Rhagadiolus stellatus (L.) Gaertner,Calendula arvensis L
+Conyza canadensis (L.) Cronq,Diplotaxis tenuisiliqua delile,False,Diplotaxis tenuisiliqua delile,Chamaemelum mixtum (L.) All,Senecio vulgaris L,Picris echioides L,Reseda alba L
+Conyza canadensis (L.) Cronq,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Coronilla scorpioides (L.) Koch,Lathyrus cicera L,False,Polygonum aviculare L,Lathyrus cicera L,Astragalus boeticus L,Portulaca oleracea L,Anchusa azurea Miller
+Coronilla scorpioides (L.) Koch,Coronilla scorpioides (L.) Koch,True,Coronilla scorpioides (L.) Koch,Sonchus oleraceus L,Convolvulus arvensis L,Astragalus boeticus L,Sonchus asper (L.) Hill
+Coronilla scorpioides (L.) Koch,Euphorbia medicaginea Boiss,False,Euphorbia medicaginea Boiss,Astragalus boeticus L,Coronilla scorpioides (L.) Koch,Solanum elaeagnifolium Cav,Galium tricornutum Dandy
+Coronopus squamatus (Forsk.) Ascherson,Coronopus squamatus (Forsk.) Ascherson,True,Coronopus squamatus (Forsk.) Ascherson,Papaver hybridum L,Anacyclus radiatus Loisel,Reseda alba L,Papaver rhoeas L
+Coronopus squamatus (Forsk.) Ascherson,Coronopus squamatus (Forsk.) Ascherson,True,Coronopus squamatus (Forsk.) Ascherson,Papaver hybridum L,Anacyclus radiatus Loisel,Reseda alba L,Papaver rhoeas L
+Coronopus squamatus (Forsk.) Ascherson,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Coronopus squamatus (Forsk.) Ascherson,Conyza canadensis (L.) Cronq,False,Conyza canadensis (L.) Cronq,Chrysanthemum segetum L,Silene vulgaris (Moench) Garcke,Senecio vulgaris L,Plantago afra L
+Coronopus squamatus (Forsk.) Ascherson,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Picris echioides L,Diplotaxis catholica (L.) DC,Onopordon macracanthum L,Daucus carota L
+Coronopus squamatus (Forsk.) Ascherson,Coronopus squamatus (Forsk.) Ascherson,True,Coronopus squamatus (Forsk.) Ascherson,Papaver hybridum L,Anacyclus radiatus Loisel,Chrysanthemum coronarium L,Chamaemelum mixtum (L.) All
+Cynodon dactylon (L.) Pers,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Lolium rigidum Gaudin,Lathyrus cicera L,Scorpiurus muricatus L,Phalaris paradoxa L
+Cynodon dactylon (L.) Pers,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Cynodon dactylon (L.) Pers,Cynodon dactylon (L.) Pers,True,Cynodon dactylon (L.) Pers,Lolium multiflorum Lam,Bromus rigidus,Lathyrus cicera L,Cyperus rotundus L
+Cynodon dactylon (L.) Pers,Phalaris paradoxa L,False,Phalaris paradoxa L,Lolium multiflorum Lam,Poa annua L,Bromus rigidus,Lolium rigidum Gaudin
+Cyperus rotundus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Carlina racemosa L,Hordeum murinum L
+Cyperus rotundus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Carlina racemosa L,Hordeum murinum L
+Cyperus rotundus L,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Phalaris minor Retz,Tragopogon hybridus L,Geropogon hybridus  (L.) Sch.Bip,Avena sterilis L
+Datura stramonium L,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Heliotropium europaeum L,Solanum nigrum L,Lactuca scariola L,Xanthium spinosum L
+Datura stramonium L,Datura stramonium L,True,Datura stramonium L,Xanthium brasilicum Vellasco,Solanum nigrum L,Raphanus raphanistrum L,Chenopodium murale L
+Datura stramonium L,Datura stramonium L,True,Datura stramonium L,Xanthium brasilicum Vellasco,Convolvulus altaeoides L,Solanum nigrum L,Chenopodium murale L
+Datura stramonium L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Datura stramonium L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Datura stramonium L,Convolvulus arvensis L,False,Convolvulus arvensis L,Datura stramonium L,Convolvulus altaeoides L,Chenopodium murale L,Lactuca scariola L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Daucus carota L,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Ridolfia segetum Moris,Bifora testiculata L,Phalaris paradoxa L,Lathyrus clymenum L
+Daucus carota L,Daucus carota L,True,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Digitaria sanguinalis,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Digitaria sanguinalis,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Digitaria sanguinalis,Digitaria sanguinalis,True,Digitaria sanguinalis,Lolium multiflorum Lam,Bupleurum lancifolium Hornem,Cynodon dactylon (L.) Pers,Bromus rigidus
+Digitaria sanguinalis,Digitaria sanguinalis,True,Digitaria sanguinalis,Lolium multiflorum Lam,Polygonum aviculare L,Bupleurum lancifolium Hornem,Cynodon dactylon (L.) Pers
+Digitaria sanguinalis,Digitaria sanguinalis,True,Digitaria sanguinalis,Lolium multiflorum Lam,Bromus rigidus,Polygonum aviculare L,Bupleurum lancifolium Hornem
+Diplotaxis catholica (L.) DC,Papaver hybridum L,False,Papaver hybridum L,Reseda alba L,Anacyclus radiatus Loisel,Papaver rhoeas L,Tribulus terrestris L
+Diplotaxis catholica (L.) DC,Ammi majus L,False,Ammi majus L,Diplotaxis catholica (L.) DC,Mercurialis annua L,Papaver rhoeas L,Vicia lutea L
+Diplotaxis catholica (L.) DC,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Picris echioides L,Coronopus squamatus (Forsk.) Ascherson,Onopordon macracanthum L,Hordeum murinum L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Cardaria draba (Cav) Desv,Rhagadiolus stellatus (L.) Gaertner,Hirschfeldia incana (L.) Lagrèze-Fossat,Papaver rhoeas L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Rhagadiolus stellatus (L.) Gaertner,Cardaria draba (Cav) Desv,Senecio vulgaris L,Papaver rhoeas L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Cardaria draba (Cav) Desv,Hirschfeldia incana (L.) Lagrèze-Fossat,Emex spinosa (L.) Campd,Lactuca scariola L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Cardaria draba (Cav) Desv,Hirschfeldia incana (L.) Lagrèze-Fossat,Centaurea diluta Aïton,Amaranthus retroflexus L
+Diplotaxis tenuisiliqua delile,Diplotaxis tenuisiliqua delile,True,Diplotaxis tenuisiliqua delile,Lactuca scariola L,Scolymus hispanicus L,Senecio vulgaris L,Aster squamatus  (Spreng.) Hieron
+Diplotaxis tenuisiliqua delile,Chenopodium murale L,False,Chenopodium murale L,Malva parviflora L,Sinapis alba L,Datura stramonium L,Senecio vulgaris L
+Ecballium elaterium  (L.) A. Rich,Sonchus oleraceus L,False,Sonchus oleraceus L,Hirschfeldia incana (L.) Lagrèze-Fossat,Sinapis alba L,Solanum nigrum L,Stachys arvensis L
+Ecballium elaterium  (L.) A. Rich,Malva parviflora L,False,Malva parviflora L,Convolvulus altaeoides L,Xanthium brasilicum Vellasco,Lavatera trimestris L,Solanum elaeagnifolium Cav
+Ecballium elaterium  (L.) A. Rich,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Echinochloa crus-galli (L.) Beauv,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Echinochloa crus-galli (L.) Beauv,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Echinochloa crus-galli (L.) Beauv,Hordeum murinum L,False,Hordeum murinum L,Bromus rigidus,Phalaris brachystachys Link,Lolium multiflorum Lam,Phalaris minor Retz
+Echinochloa crus-galli (L.) Beauv,Avena sterilis L,False,Avena sterilis L,Sorghum halepense L,Echinochloa crus-galli (L.) Beauv,Phalaris brachystachys Link,Bromus rigidus
+Echinochloa crus-galli (L.) Beauv,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Emex spinosa (L.) Campd,Emex spinosa (L.) Campd,True,Emex spinosa (L.) Campd,Lactuca scariola L,Rumex pulcher L,Xanthium spinosum L,Sonchus asper (L.) Hill
+Emex spinosa (L.) Campd,Coronopus squamatus (Forsk.) Ascherson,False,Coronopus squamatus (Forsk.) Ascherson,Onopordon macracanthum L,Scandix pecten-veneris L,Hordeum murinum L,Ricinus communis L
+Emex spinosa (L.) Campd,Rhagadiolus stellatus (L.) Gaertner,False,Rhagadiolus stellatus (L.) Gaertner,Rumex pulcher L,Lactuca scariola L,Sonchus asper (L.) Hill,Sonchus oleraceus L
+Emex spinosa (L.) Campd,Picris echioides L,False,Picris echioides L,Diplotaxis catholica (L.) DC,Onopordon macracanthum L,Emex spinosa (L.) Campd,Hordeum murinum L
+Emex spinosa (L.) Campd,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Emex spinosa (L.) Campd,Phragmites australis L,False,Phragmites australis L,Vicia benghalensis L,Daucus carota L,Cyperus rotundus L,Lathyrus cicera L
+Eryngium ilicifolium Lam,Eryngium ilicifolium Lam,True,Eryngium ilicifolium Lam,Carlina racemosa L,Silybum marianum (L.)  Gaertn,Glaucium corniculatum (L.) J. H. Rudolph,Carduus pycnocephalus L
+Eryngium ilicifolium Lam,Eryngium ilicifolium Lam,True,Eryngium ilicifolium Lam,Silybum marianum (L.)  Gaertn,Carlina racemosa L,Carduus pycnocephalus L,Sonchus asper (L.) Hill
+Eryngium ilicifolium Lam,Eryngium ilicifolium Lam,True,Eryngium ilicifolium Lam,Carlina racemosa L,Silybum marianum (L.)  Gaertn,Carduus pycnocephalus L,Glaucium corniculatum (L.) J. H. Rudolph
+Eryngium ilicifolium Lam,Carduus pycnocephalus L,False,Carduus pycnocephalus L,Scolymus hispanicus L,Senecio vulgaris L,Silene vulgaris (Moench) Garcke,Scolymus maculatus L
+Euphorbia medicaginea Boiss,Euphorbia medicaginea Boiss,True,Euphorbia medicaginea Boiss,Sinapis alba L,Rumex pulcher L,Malva parviflora L,Ammi majus L
+Euphorbia medicaginea Boiss,Euphorbia medicaginea Boiss,True,Euphorbia medicaginea Boiss,Galium verrucosum Hudson,Anagallis arvensis L,Coronilla scorpioides (L.) Koch,Sinapis alba L
+Euphorbia medicaginea Boiss,Euphorbia medicaginea Boiss,True,Euphorbia medicaginea Boiss,Coronilla scorpioides (L.) Koch,Polygonum aviculare L,Lactuca scariola L,Silene vulgaris (Moench) Garcke
+Euphorbia medicaginea Boiss,Polygonum aviculare L,False,Polygonum aviculare L,Calendula arvensis L,Galium tricornutum Dandy,Misopates orontium (L.) Rafin,Plantago afra L
+Fallopia convolvulus (L.) A. Löve,Fallopia convolvulus (L.) A. Löve,True,Xanthium brasilicum Vellasco,Fallopia convolvulus (L.) A. Löve,Xanthium spinosum L,Convolvulus altaeoides L,Convolvulus arvensis L
+Fallopia convolvulus (L.) A. Löve,Anchusa azurea Miller,False,Anchusa azurea Miller,Fallopia convolvulus (L.) A. Löve,Buglossoides arvensis (L.) I. M. Johnson,Onopordon macracanthum L,Emex spinosa (L.) Campd
+Fallopia convolvulus (L.) A. Löve,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Fedia cornucopiae (L.) Gaertner,Silene vulgaris (Moench) Garcke,False,Silene vulgaris (Moench) Garcke,Polygonum aviculare L,Centaurea eriophora L,Galium tricornutum Dandy,Portulaca oleracea L
+Fedia cornucopiae (L.) Gaertner,Fedia cornucopiae (L.) Gaertner,True,Fedia cornucopiae (L.) Gaertner,Vaccaria hispanica (Miller) Rauscher,Anagallis arvensis L,Stachys arvensis L,Misopates orontium (L.) Rafin
+Fedia cornucopiae (L.) Gaertner,Fedia cornucopiae (L.) Gaertner,True,Fedia cornucopiae (L.) Gaertner,Vaccaria hispanica (Miller) Rauscher,Stachys arvensis L,Misopates orontium (L.) Rafin,Lamium amplexicaule L
+Fedia cornucopiae (L.) Gaertner,Fedia cornucopiae (L.) Gaertner,True,Fedia cornucopiae (L.) Gaertner,Vaccaria hispanica (Miller) Rauscher,Stachys arvensis L,Anagallis arvensis L,Misopates orontium (L.) Rafin
+Fedia cornucopiae (L.) Gaertner,Silene gallica L,False,Silene gallica L,Fedia cornucopiae (L.) Gaertner,Ridolfia segetum Moris,Ammi majus L,Daucus carota L
+Fumaria agraria Lag,Torilis nodosa (L.) Gaertner,False,Torilis nodosa (L.) Gaertner,Bifora testiculata L,Fumaria agraria Lag,Coronopus squamatus (Forsk.) Ascherson,Ammi majus L
+Fumaria agraria Lag,Torilis nodosa (L.) Gaertner,False,Torilis nodosa (L.) Gaertner,Bifora testiculata L,Fumaria agraria Lag,Scandix pecten-veneris L,Ammi visnaga (L.) Lam
+Fumaria agraria Lag,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Fumaria parviflora Lam,Papaver hybridum L,False,Papaver hybridum L,Fumaria parviflora Lam,Anacyclus radiatus Loisel,Ammi visnaga (L.) Lam,Glaucium corniculatum (L.) J. H. Rudolph
+Fumaria parviflora Lam,Fumaria parviflora Lam,True,Fumaria parviflora Lam,Papaver hybridum L,Anacyclus radiatus Loisel,Ammi visnaga (L.) Lam,Scandix pecten-veneris L
+Fumaria parviflora Lam,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Fumaria parviflora Lam,Reseda alba L,False,Reseda alba L,Orobanche crenata Forsk,Vicia lutea L,Melilotus sulcata Desf,Ricinus communis L
+Galium tricornutum Dandy,Picris echioides L,False,Picris echioides L,Mercurialis annua L,Emex spinosa (L.) Campd,Scorpiurus muricatus L,Onopordon macracanthum L
+Galium tricornutum Dandy,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Galium tricornutum Dandy,Galium verrucosum Hudson,False,Galium verrucosum Hudson,Misopates orontium (L.) Rafin,Buglossoides arvensis (L.) I. M. Johnson,Calendula arvensis L,Centaurea eriophora L
+Galium tricornutum Dandy,Galium verrucosum Hudson,False,Galium verrucosum Hudson,Galium tricornutum Dandy,Fedia cornucopiae (L.) Gaertner,Senecio vulgaris L,Misopates orontium (L.) Rafin
+Galium verrucosum Hudson,Galium tricornutum Dandy,False,Galium tricornutum Dandy,Anagallis arvensis L,Misopates orontium (L.) Rafin,Galium verrucosum Hudson,Vaccaria hispanica (Miller) Rauscher
+Galium verrucosum Hudson,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Galium verrucosum Hudson,Galium verrucosum Hudson,True,Galium verrucosum Hudson,Galium tricornutum Dandy,Portulaca oleracea L,Euphorbia medicaginea Boiss,Misopates orontium (L.) Rafin
+Galium verrucosum Hudson,Anagallis arvensis L,False,Anagallis arvensis L,Galium tricornutum Dandy,Misopates orontium (L.) Rafin,Senecio vulgaris L,Galium verrucosum Hudson
+Geropogon hybridus  (L.) Sch.Bip,Tragopogon hybridus L,False,Tragopogon hybridus L,Lolium multiflorum Lam,Phalaris brachystachys Link,Phalaris minor Retz,Lathyrus clymenum L
+Geropogon hybridus  (L.) Sch.Bip,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Gladiolus italicus Miller,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Gladiolus italicus Miller,Gladiolus italicus Miller,True,Gladiolus italicus Miller,Lolium rigidum Gaudin,Silene gallica L,Phalaris minor Retz,Vaccaria hispanica (Miller) Rauscher
+Gladiolus italicus Miller,Lupinus luteus L,False,Lupinus luteus L,Scolymus maculatus L,Chenopodium vulvaria L,Tribulus terrestris L,Lactuca scariola L
+Gladiolus italicus Miller,Gladiolus italicus Miller,True,Gladiolus italicus Miller,Lolium rigidum Gaudin,Astragalus boeticus L,Phalaris minor Retz,Convolvulus arvensis L
+Glaucium corniculatum (L.) J. H. Rudolph,Chrysanthemum coronarium L,False,Chrysanthemum coronarium L,Senecio vulgaris L,Polygonum aviculare L,Portulaca oleracea L,Papaver rhoeas L
+Glaucium corniculatum (L.) J. H. Rudolph,Reseda alba L,False,Reseda alba L,Glaucium corniculatum (L.) J. H. Rudolph,Senecio vulgaris L,Capsella bursa-pastoris (L.) Medicus,Coronopus squamatus (Forsk.) Ascherson
+Glaucium corniculatum (L.) J. H. Rudolph,Reseda alba L,False,Reseda alba L,Glaucium corniculatum (L.) J. H. Rudolph,Senecio vulgaris L,Lactuca scariola L,Centaurea diluta Aïton
+Glaucium corniculatum (L.) J. H. Rudolph,Glaucium corniculatum (L.) J. H. Rudolph,True,Glaucium corniculatum (L.) J. H. Rudolph,Reseda alba L,Papaver hybridum L,Senecio vulgaris L,Anacyclus radiatus Loisel
+Glaucium corniculatum (L.) J. H. Rudolph,Solanum elaeagnifolium Cav,False,Solanum elaeagnifolium Cav,Phalaris minor Retz,Papaver hybridum L,Malope trifida Cav,Gladiolus italicus Miller
+Heliotropium europaeum L,Solanum nigrum L,False,Solanum nigrum L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Sonchus oleraceus L,Sonchus asper (L.) Hill,Chenopodium vulvaria L
+Heliotropium europaeum L,Solanum nigrum L,False,Solanum nigrum L,Amaranthus retroflexus L,Heliotropium europaeum L,Chrozophora tinctoria (L). A. Juss,Amaranthus deflexus L
+Heliotropium europaeum L,Amaranthus deflexus L,False,Amaranthus deflexus L,Heliotropium europaeum L,Chrozophora tinctoria (L). A. Juss,Reseda alba L,Amaranthus retroflexus L
+Heliotropium europaeum L,Reseda alba L,False,Solanum elaeagnifolium Cav,Reseda alba L,Sinapis alba L,Melilotus sulcata Desf,Scolymus hispanicus L
+Hibiscus trionum L,Hibiscus trionum L,True,Hibiscus trionum L,Torilis nodosa (L.) Gaertner,Bifora testiculata L,Ammi majus L,Ammi visnaga (L.) Lam
+Hibiscus trionum L,Hibiscus trionum L,True,Hibiscus trionum L,Ammi visnaga (L.) Lam,Torilis nodosa (L.) Gaertner,Papaver hybridum L,Chrysanthemum coronarium L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Cardaria draba (Cav) Desv,False,Cardaria draba (Cav) Desv,Hirschfeldia incana (L.) Lagrèze-Fossat,Calendula arvensis L,Cichorium endivia L,Senecio vulgaris L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Picris echioides L,False,Picris echioides L,Sonchus asper (L.) Hill,Sinapis alba L,Sonchus oleraceus L,Cichorium endivia L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Raphanus raphanistrum L,False,Raphanus raphanistrum L,Hirschfeldia incana (L.) Lagrèze-Fossat,Reseda alba L,Cardaria draba (Cav) Desv,Diplotaxis tenuisiliqua delile
+Hirschfeldia incana (L.) Lagrèze-Fossat,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Hirschfeldia incana (L.) Lagrèze-Fossat,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Hordeum murinum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Hordeum murinum L,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Picris echioides L,Scorpiurus muricatus L,Lactuca scariola L,Chenopodium vulvaria L
+Hordeum murinum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Hordeum murinum L,Echinochloa crus-galli (L.) Beauv,False,Echinochloa crus-galli (L.) Beauv,Avena sterilis L,Bromus rigidus,Bromus rubens L,Phalaris brachystachys Link
+Hordeum murinum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lactuca scariola L,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Sonchus oleraceus L,Diplotaxis tenuisiliqua delile,Beta macrocarpa Guss,Hirschfeldia incana (L.) Lagrèze-Fossat
+Lactuca scariola L,Glaucium corniculatum (L.) J. H. Rudolph,False,Glaucium corniculatum (L.) J. H. Rudolph,Sonchus oleraceus L,Capsella bursa-pastoris (L.) Medicus,Aster squamatus  (Spreng.) Hieron,Reseda alba L
+Lactuca scariola L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lactuca scariola L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lactuca scariola L,Chenopodium vulvaria L,False,Chenopodium vulvaria L,Lupinus luteus L,Gladiolus italicus Miller,Scolymus maculatus L,Picris echioides L
+Lamium amplexicaule L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lamium amplexicaule L,Lamium amplexicaule L,True,Lamium amplexicaule L,Urtica urens L,Stachys arvensis L,Fedia cornucopiae (L.) Gaertner,Veronica polita Fries
+Lamium amplexicaule L,Lamium amplexicaule L,True,Lamium amplexicaule L,Stachys arvensis L,Veronica polita Fries,Malope trifida Cav,Convolvulus altaeoides L
+Lamium amplexicaule L,Lamium amplexicaule L,True,Lamium amplexicaule L,Veronica polita Fries,Stachys arvensis L,Urtica urens L,Ranunculus muricatus L
+Lamium amplexicaule L,Lamium amplexicaule L,True,Lamium amplexicaule L,Stachys arvensis L,Misopates orontium (L.) Rafin,Silene gallica L,Fedia cornucopiae (L.) Gaertner
+Lathyrus cicera L,Digitaria sanguinalis,False,Digitaria sanguinalis,Cynodon dactylon (L.) Pers,Polygonum aviculare L,Lolium multiflorum Lam,Bromus rigidus
+Lathyrus cicera L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lathyrus cicera L,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Scorpiurus muricatus L,Phragmites australis L,Orobanche crenata Forsk,Vicia lutea L
+Lathyrus cicera L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lathyrus clymenum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lathyrus clymenum L,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Poa annua L,Phalaris paradoxa L,Phalaris minor Retz,Avena sterilis L
+Lathyrus clymenum L,Tragopogon hybridus L,False,Tragopogon hybridus L,Geropogon hybridus  (L.) Sch.Bip,Lolium multiflorum Lam,Phalaris minor Retz,Bromus rigidus
+Lathyrus clymenum L,Lathyrus cicera L,False,Senecio vulgaris L,Lathyrus cicera L,Scorpiurus muricatus L,Silene gallica L,Scolymus hispanicus L
+Lathyrus clymenum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lathyrus ochrus (L.) DC,Polygonum aviculare L,False,Polygonum aviculare L,Bupleurum lancifolium Hornem,Digitaria sanguinalis,Vaccaria hispanica (Miller) Rauscher,Lolium multiflorum Lam
+Lathyrus ochrus (L.) DC,Vaccaria hispanica (Miller) Rauscher,False,Vaccaria hispanica (Miller) Rauscher,Lathyrus clymenum L,Vicia lutea L,Misopates orontium (L.) Rafin,Euphorbia medicaginea Boiss
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Malope trifida Cav,Malva parviflora L,Ammi majus L,Xanthium brasilicum Vellasco
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Malva parviflora L,Malope trifida Cav,Convolvulus altaeoides L,Xanthium brasilicum Vellasco
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Vaccaria hispanica (Miller) Rauscher,Phalaris minor Retz,Convolvulus altaeoides L,Oxalis pes-caprae L
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Vaccaria hispanica (Miller) Rauscher,Phalaris minor Retz,Anchusa azurea Miller,Onopordon macracanthum L
+Lavatera trimestris L,Lavatera trimestris L,True,Lavatera trimestris L,Vaccaria hispanica (Miller) Rauscher,Phalaris minor Retz,Convolvulus altaeoides L,Malope trifida Cav
+Lavatera trimestris L,Malope trifida Cav,False,Malope trifida Cav,Lavatera trimestris L,Malva parviflora L,Convolvulus altaeoides L,Xanthium brasilicum Vellasco
+Lolium multiflorum Lam,Phalaris paradoxa L,False,Tragopogon hybridus L,Phalaris paradoxa L,Phalaris minor Retz,Lolium rigidum Gaudin,Phalaris brachystachys Link
+Lolium multiflorum Lam,Bromus rigidus,False,Bromus rigidus,Cynodon dactylon (L.) Pers,Phalaris minor Retz,Tragopogon hybridus L,Lolium rigidum Gaudin
+Lolium multiflorum Lam,Lolium multiflorum Lam,True,Lolium multiflorum Lam,Scorpiurus muricatus L,Solanum elaeagnifolium Cav,Senecio vulgaris L,Picris echioides L
+Lolium multiflorum Lam,Lolium multiflorum Lam,True,Lolium multiflorum Lam,Vicia lutea L,Melilotus sulcata Desf,Tribulus terrestris L,Solanum elaeagnifolium Cav
+Lolium multiflorum Lam,Lolium multiflorum Lam,True,Lolium multiflorum Lam,Poa annua L,Scorpiurus muricatus L,Galium tricornutum Dandy,Phalaris paradoxa L
+Lolium rigidum Gaudin,Phalaris paradoxa L,False,Phalaris paradoxa L,Lolium multiflorum Lam,Scorpiurus muricatus L,Picris echioides L,Anchusa azurea Miller
+Lolium rigidum Gaudin,Poa annua L,False,Poa annua L,Tragopogon hybridus L,Lolium multiflorum Lam,Phalaris paradoxa L,Geropogon hybridus  (L.) Sch.Bip
+Lolium rigidum Gaudin,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lolium rigidum Gaudin,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lolium rigidum Gaudin,Vaccaria hispanica (Miller) Rauscher,False,Vaccaria hispanica (Miller) Rauscher,Veronica hederifolia L,Anchusa azurea Miller,Gladiolus italicus Miller,Convolvulus altaeoides L
+Lupinus angustifolius L,Lupinus hirsutus L,False,Lupinus hirsutus L,Ridolfia segetum Moris,Lupinus luteus L,Tribulus terrestris L,Solanum elaeagnifolium Cav
+Lupinus angustifolius L,Lupinus hirsutus L,False,Lupinus hirsutus L,Lupinus luteus L,Ricinus communis L,Oxalis pes-caprae L,Melilotus sulcata Desf
+Lupinus hirsutus L,Lupinus luteus L,False,Lupinus luteus L,Lupinus hirsutus L,Lupinus angustifolius L,Tribulus terrestris L,Astragalus boeticus L
+Lupinus hirsutus L,Lupinus luteus L,False,Lupinus luteus L,Lupinus hirsutus L,Lupinus angustifolius L,Melilotus sulcata Desf,Oxalis pes-caprae L
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Lupinus luteus L,Vicia sativa L,Vicia lutea L,Misopates orontium (L.) Rafin
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Lupinus luteus L,Vicia sativa L,Melilotus sulcata Desf,Vicia lutea L
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Lupinus luteus L,Vicia sativa L,Melilotus sulcata Desf,Vicia lutea L
+Lupinus hirsutus L,Lupinus hirsutus L,True,Lupinus hirsutus L,Lupinus luteus L,Vicia sativa L,Vicia lutea L,Solanum elaeagnifolium Cav
+Lupinus hirsutus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Lupinus luteus L,Lupinus hirsutus L,False,Lupinus hirsutus L,Lupinus angustifolius L,Melilotus sulcata Desf,Oxalis pes-caprae L,Astragalus boeticus L
+Lupinus luteus L,Gladiolus italicus Miller,False,Gladiolus italicus Miller,Scolymus maculatus L,Chenopodium vulvaria L,Lactuca scariola L,Tribulus terrestris L
+Lupinus luteus L,Lupinus hirsutus L,False,Lupinus hirsutus L,Vicia sativa L,Vicia lutea L,Sinapis alba L,Melilotus sulcata Desf
+Malope trifida Cav,Lavatera trimestris L,False,Lavatera trimestris L,Xanthium brasilicum Vellasco,Malope trifida Cav,Convolvulus altaeoides L,Chrozophora tinctoria (L). A. Juss
+Malope trifida Cav,Malva parviflora L,False,Malva parviflora L,Malope trifida Cav,Lavatera trimestris L,Lamium amplexicaule L,Convolvulus altaeoides L
+Malope trifida Cav,Phalaris minor Retz,False,Phalaris minor Retz,Lavatera trimestris L,Malope trifida Cav,Convolvulus arvensis L,Vaccaria hispanica (Miller) Rauscher
+Malope trifida Cav,Malope trifida Cav,True,Malope trifida Cav,Ricinus communis L,Glaucium corniculatum (L.) J. H. Rudolph,Vaccaria hispanica (Miller) Rauscher,Lolium rigidum Gaudin
+Malva parviflora L,Malva parviflora L,True,Malva parviflora L,Malope trifida Cav,Lavatera trimestris L,Xanthium brasilicum Vellasco,Convolvulus altaeoides L
+Malva parviflora L,Malva parviflora L,True,Malva parviflora L,Lavatera trimestris L,Malope trifida Cav,Xanthium brasilicum Vellasco,Convolvulus altaeoides L
+Malva parviflora L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Malva parviflora L,Malva parviflora L,True,Malva parviflora L,Lavatera trimestris L,Malope trifida Cav,Ranunculus sardous L,Oxalis pes-caprae L
+Malva parviflora L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Malva parviflora L,Sinapis alba L,False,Sinapis alba L,Ranunculus sardous L,Bifora testiculata L,Rumex pulcher L,Malope trifida Cav
+Medicago polymorpha L,Melilotus sulcata Desf,False,Melilotus sulcata Desf,Astragalus boeticus L,Oxalis pes-caprae L,Lupinus hirsutus L,Vicia sativa L
+Medicago polymorpha L,Mercurialis annua L,False,Mercurialis annua L,Senecio vulgaris L,Picris echioides L,Galium tricornutum Dandy,Oxalis pes-caprae L
+Medicago polymorpha L,Melilotus sulcata Desf,False,Melilotus sulcata Desf,Oxalis pes-caprae L,Medicago polymorpha L,Ammi majus L,Astragalus boeticus L
+Melilotus sulcata Desf,Medicago polymorpha L,False,Medicago polymorpha L,Oxalis pes-caprae L,Astragalus boeticus L,Vicia sativa L,Lupinus hirsutus L
+Melilotus sulcata Desf,Chenopodium murale L,False,Chenopodium murale L,Emex spinosa (L.) Campd,Anchusa azurea Miller,Galium tricornutum Dandy,Medicago polymorpha L
+Melilotus sulcata Desf,Melilotus sulcata Desf,True,Melilotus sulcata Desf,Lupinus luteus L,Lupinus hirsutus L,Vicia sativa L,Vicia lutea L
+Melilotus sulcata Desf,Senecio vulgaris L,False,Senecio vulgaris L,Mercurialis annua L,Picris echioides L,Orobanche crenata Forsk,Phalaris paradoxa L
+Melilotus sulcata Desf,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Veronica polita Fries,Verbesina encelioides (Cav.) Benth. ex A. Gray,Stachys arvensis L,Xanthium brasilicum Vellasco
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Convolvulus arvensis L,Veronica polita Fries,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chenopodium murale L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Amaranthus deflexus L,Chrozophora tinctoria (L). A. Juss,Solanum nigrum L,Stachys arvensis L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Amaranthus deflexus L,Chrozophora tinctoria (L). A. Juss,Stachys arvensis L,Xanthium brasilicum Vellasco
+Mercurialis annua L,Galium tricornutum Dandy,False,Galium tricornutum Dandy,Mercurialis annua L,Medicago polymorpha L,Picris echioides L,Scorpiurus muricatus L
+Mercurialis annua L,Mercurialis annua L,True,Mercurialis annua L,Medicago polymorpha L,Galium tricornutum Dandy,Oxalis pes-caprae L,Melilotus sulcata Desf
+Mercurialis annua L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Vaccaria hispanica (Miller) Rauscher,Buglossoides arvensis (L.) I. M. Johnson,Polygonum aviculare L,Galium tricornutum Dandy
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Vaccaria hispanica (Miller) Rauscher,Conyza canadensis (L.) Cronq,Galium tricornutum Dandy,Galium verrucosum Hudson
+Misopates orontium (L.) Rafin,Galium tricornutum Dandy,False,Galium tricornutum Dandy,Buglossoides arvensis (L.) I. M. Johnson,Anagallis arvensis L,Misopates orontium (L.) Rafin,Galium verrucosum Hudson
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Phalaris minor Retz,Lathyrus clymenum L,Silene gallica L,Galium tricornutum Dandy
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Vicia sativa L,Vicia lutea L,Phalaris minor Retz,Silene gallica L
+Misopates orontium (L.) Rafin,Misopates orontium (L.) Rafin,True,Misopates orontium (L.) Rafin,Vicia sativa L,Vicia lutea L,Silene gallica L,Phalaris minor Retz
+Onopordon macracanthum L,Anchusa azurea Miller,False,Anchusa azurea Miller,Scolymus hispanicus L,Buglossoides arvensis (L.) I. M. Johnson,Carduus pycnocephalus L,Picris echioides L
+Onopordon macracanthum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Onopordon macracanthum L,Silybum marianum (L.)  Gaertn,False,Silybum marianum (L.)  Gaertn,Carduus pycnocephalus L,Sonchus asper (L.) Hill,Solanum elaeagnifolium Cav,Lolium rigidum Gaudin
+Onopordon macracanthum L,Daucus carota L,False,Phragmites australis L,Daucus carota L,Emex spinosa (L.) Campd,Vicia benghalensis L,Cyperus rotundus L
+Onopordon macracanthum L,Chrysanthemum coronarium L,False,Chrysanthemum coronarium L,Senecio vulgaris L,Picris echioides L,Galium tricornutum Dandy,Mercurialis annua L
+Orobanche crenata Forsk,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Scorpiurus muricatus L,Lathyrus cicera L,Orobanche crenata Forsk,Vicia lutea L
+Orobanche crenata Forsk,Melilotus sulcata Desf,False,Melilotus sulcata Desf,Reseda alba L,Bifora testiculata L,Scorpiurus muricatus L,Senecio vulgaris L
+Orobanche crenata Forsk,Chamaemelum mixtum (L.) All,False,Chamaemelum mixtum (L.) All,Picris echioides L,Anchusa azurea Miller,Scorpiurus muricatus L,Solanum elaeagnifolium Cav
+Orobanche crenata Forsk,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Orobanche crenata Forsk,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Melilotus sulcata Desf,Medicago polymorpha L,Lupinus hirsutus L,Lupinus luteus L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Melilotus sulcata Desf,Medicago polymorpha L,Lupinus hirsutus L,Lupinus luteus L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Melilotus sulcata Desf,Medicago polymorpha L,Lupinus luteus L,Lupinus hirsutus L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Melilotus sulcata Desf,Medicago polymorpha L,Lupinus luteus L,Lupinus hirsutus L
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Convolvulus arvensis L,Vaccaria hispanica (Miller) Rauscher,Convolvulus altaeoides L,Solanum elaeagnifolium Cav
+Oxalis pes-caprae L,Oxalis pes-caprae L,True,Oxalis pes-caprae L,Melilotus sulcata Desf,Medicago polymorpha L,Lupinus luteus L,Lupinus hirsutus L
+Oxalis pes-caprae L,Mercurialis annua L,False,Mercurialis annua L,Medicago polymorpha L,Chenopodium murale L,Bifora testiculata L,Senecio vulgaris L
+Oxalis pes-caprae L,Convolvulus arvensis L,False,Convolvulus arvensis L,Oxalis pes-caprae L,Convolvulus altaeoides L,Malope trifida Cav,Phalaris minor Retz
+Papaver hybridum L,Ammi visnaga (L.) Lam,False,Ammi visnaga (L.) Lam,Papaver hybridum L,Scandix pecten-veneris L,Anacyclus radiatus Loisel,Diplotaxis catholica (L.) DC
+Papaver hybridum L,Papaver hybridum L,True,Papaver hybridum L,Anacyclus radiatus Loisel,Fumaria parviflora Lam,Ammi visnaga (L.) Lam,Coronopus squamatus (Forsk.) Ascherson
+Papaver hybridum L,Papaver hybridum L,True,Papaver hybridum L,Anacyclus radiatus Loisel,Fumaria parviflora Lam,Ammi visnaga (L.) Lam,Coronopus squamatus (Forsk.) Ascherson
+Papaver hybridum L,Papaver hybridum L,True,Papaver hybridum L,Lavatera trimestris L,Solanum elaeagnifolium Cav,Lathyrus clymenum L,Phalaris minor Retz
+Papaver hybridum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Papaver hybridum L,Papaver hybridum L,True,Papaver hybridum L,Glaucium corniculatum (L.) J. H. Rudolph,Vaccaria hispanica (Miller) Rauscher,Scolymus hispanicus L,Phalaris minor Retz
+Papaver rhoeas L,Senecio vulgaris L,False,Senecio vulgaris L,Papaver rhoeas L,Reseda alba L,Glaucium corniculatum (L.) J. H. Rudolph,Capsella bursa-pastoris (L.) Medicus
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Ammi majus L,Capsella bursa-pastoris (L.) Medicus,Senecio vulgaris L,Reseda alba L
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Senecio vulgaris L,Chrysanthemum coronarium L,Conyza canadensis (L.) Cronq,Cardaria draba (Cav) Desv
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Senecio vulgaris L,Conyza canadensis (L.) Cronq,Chrysanthemum coronarium L,Rhagadiolus stellatus (L.) Gaertner
+Papaver rhoeas L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Conyza canadensis (L.) Cronq,Senecio vulgaris L,Beta macrocarpa Guss,Rhagadiolus stellatus (L.) Gaertner
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Beta macrocarpa Guss,Capsella bursa-pastoris (L.) Medicus,Senecio vulgaris L,Sonchus oleraceus L
+Papaver rhoeas L,Papaver rhoeas L,True,Papaver rhoeas L,Sonchus oleraceus L,Sinapis arvensis L,Sonchus asper (L.) Hill,Chenopodium murale L
+Phalaris brachystachys Link,Phalaris minor Retz,False,Phalaris minor Retz,Phalaris paradoxa L,Bromus rigidus,Phalaris brachystachys Link,Lolium multiflorum Lam
+Phalaris brachystachys Link,Phalaris minor Retz,False,Phalaris minor Retz,Lolium multiflorum Lam,Tragopogon hybridus L,Geropogon hybridus  (L.) Sch.Bip,Cyperus rotundus L
+Phalaris brachystachys Link,Phalaris paradoxa L,False,Phalaris paradoxa L,Melilotus sulcata Desf,Scorpiurus muricatus L,Ricinus communis L,Picris echioides L
+Phalaris brachystachys Link,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Phalaris minor Retz,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Phalaris paradoxa L,Bromus rigidus,Lolium multiflorum Lam,Echinochloa crus-galli (L.) Beauv
+Phalaris minor Retz,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Phalaris minor Retz,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Phalaris brachystachys Link,Tragopogon hybridus L,Avena sterilis L,Geropogon hybridus  (L.) Sch.Bip
+Phalaris minor Retz,Lavatera trimestris L,False,Lavatera trimestris L,Vaccaria hispanica (Miller) Rauscher,Senecio vulgaris L,Oxalis pes-caprae L,Picris echioides L
+Phalaris paradoxa L,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Tragopogon hybridus L,Bromus rigidus,Lolium rigidum Gaudin,Poa annua L
+Phalaris paradoxa L,Scorpiurus muricatus L,False,Scorpiurus muricatus L,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Lathyrus cicera L
+Phalaris paradoxa L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Phalaris paradoxa L,Phalaris paradoxa L,True,Phalaris paradoxa L,Phalaris brachystachys Link,Anchusa azurea Miller,Solanum elaeagnifolium Cav,Picris echioides L
+Phalaris paradoxa L,Phalaris paradoxa L,True,Phalaris paradoxa L,Phalaris brachystachys Link,Reseda alba L,Phalaris minor Retz,Lolium multiflorum Lam
+Phalaris paradoxa L,Phalaris brachystachys Link,False,Phalaris brachystachys Link,Bromus rigidus,Phalaris minor Retz,Phalaris paradoxa L,Lolium multiflorum Lam
+Phragmites australis L,Daucus carota L,False,Daucus carota L,Vicia benghalensis L,Phragmites australis L,Cyperus rotundus L,Carlina racemosa L
+Phragmites australis L,Daucus carota L,False,Daucus carota L,Vicia benghalensis L,Phragmites australis L,Cyperus rotundus L,Carlina racemosa L
+Phragmites australis L,Daucus carota L,False,Daucus carota L,Vicia benghalensis L,Phragmites australis L,Cyperus rotundus L,Carlina racemosa L
+Phragmites australis L,Vicia lutea L,False,Vicia lutea L,Vicia benghalensis L,Convolvulus arvensis L,Lathyrus cicera L,Emex spinosa (L.) Campd
+Picris echioides L,Cichorium endivia L,False,Cichorium endivia L,Hirschfeldia incana (L.) Lagrèze-Fossat,Centaurea diluta Aïton,Calendula arvensis L,Lactuca scariola L
+Picris echioides L,Ricinus communis L,False,Ricinus communis L,Galium tricornutum Dandy,Emex spinosa (L.) Campd,Onopordon macracanthum L,Scorpiurus muricatus L
+Picris echioides L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Picris echioides L,Chrysanthemum segetum L,False,Chrysanthemum segetum L,Senecio vulgaris L,Scolymus hispanicus L,Chrysanthemum coronarium L,Onopordon macracanthum L
+Picris echioides L,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Picris echioides L,Anchusa azurea Miller,Tribulus terrestris L,Lactuca scariola L
+Picris echioides L,Diplotaxis catholica (L.) DC,False,Diplotaxis catholica (L.) DC,Emex spinosa (L.) Campd,Coronopus squamatus (Forsk.) Ascherson,Onopordon macracanthum L,Hordeum murinum L
+Plantago afra L,Plantago afra L,True,Plantago afra L,Silene gallica L,Conyza canadensis (L.) Cronq,Silene vulgaris (Moench) Garcke,Centaurea diluta Aïton
+Plantago afra L,Plantago afra L,True,Plantago afra L,Conyza canadensis (L.) Cronq,Poa annua L,Coronopus squamatus (Forsk.) Ascherson,Tragopogon hybridus L
+Plantago afra L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Plantago afra L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Poa annua L,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Poa annua L,Phalaris paradoxa L,Tragopogon hybridus L,Plantago afra L
+Poa annua L,Poa annua L,True,Poa annua L,Lolium rigidum Gaudin,Tragopogon hybridus L,Lolium multiflorum Lam,Geropogon hybridus  (L.) Sch.Bip
+Poa annua L,Poa annua L,True,Poa annua L,Lolium rigidum Gaudin,Tragopogon hybridus L,Lolium multiflorum Lam,Geropogon hybridus  (L.) Sch.Bip
+Poa annua L,Phalaris paradoxa L,False,Phalaris paradoxa L,Lolium multiflorum Lam,Scorpiurus muricatus L,Convolvulus arvensis L,Vicia benghalensis L
+Polygonum aviculare L,Bupleurum lancifolium Hornem,False,Bupleurum lancifolium Hornem,Polygonum aviculare L,Vaccaria hispanica (Miller) Rauscher,Silene vulgaris (Moench) Garcke,Digitaria sanguinalis
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Silene vulgaris (Moench) Garcke,Galium tricornutum Dandy,Portulaca oleracea L,Calendula arvensis L
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Bupleurum lancifolium Hornem,Convolvulus arvensis L,Rhagadiolus stellatus (L.) Gaertner,Silene vulgaris (Moench) Garcke
+Polygonum aviculare L,Scorpiurus muricatus L,False,Scorpiurus muricatus L,Vicia lutea L,Phragmites australis L,Vicia benghalensis L,Lathyrus cicera L
+Polygonum aviculare L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Polygonum aviculare L,Solanum elaeagnifolium Cav,False,Solanum elaeagnifolium Cav,Polygonum aviculare L,Silene vulgaris (Moench) Garcke,Convolvulus arvensis L,Amaranthus blitoides S. Watson
+Polygonum aviculare L,Polygonum aviculare L,True,Polygonum aviculare L,Silene vulgaris (Moench) Garcke,Portulaca oleracea L,Lolium multiflorum Lam,Bupleurum lancifolium Hornem
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Galium tricornutum Dandy,Centaurea eriophora L,Galium verrucosum Hudson,Silene vulgaris (Moench) Garcke
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Silene gallica L,Centaurea eriophora L,Silene vulgaris (Moench) Garcke,Polygonum aviculare L
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Galium tricornutum Dandy,Silene gallica L,Centaurea eriophora L,Polygonum aviculare L
+Portulaca oleracea L,Portulaca oleracea L,True,Portulaca oleracea L,Centaurea eriophora L,Polygonum aviculare L,Silene vulgaris (Moench) Garcke,Galium tricornutum Dandy
+Portulaca oleracea L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Ranunculus muricatus L,Medicago polymorpha L,False,Medicago polymorpha L,Oxalis pes-caprae L,Solanum elaeagnifolium Cav,Melilotus sulcata Desf,Scolymus hispanicus L
+Ranunculus muricatus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Ranunculus muricatus L,Ranunculus sardous L,False,Ranunculus sardous L,Ammi majus L,Bifora testiculata L,Lamium amplexicaule L,Papaver rhoeas L
+Ranunculus sardous L,Ranunculus muricatus L,False,Ranunculus muricatus L,Ammi majus L,Bifora testiculata L,Lamium amplexicaule L,Papaver rhoeas L
+Ranunculus sardous L,Malva parviflora L,False,Malva parviflora L,Xanthium brasilicum Vellasco,Ammi majus L,Malope trifida Cav,Datura stramonium L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Stachys arvensis L,Ecballium elaterium  (L.) A. Rich,Sinapis alba L,Solanum nigrum L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Sonchus oleraceus L,Sinapis arvensis L,Reseda alba L,Senecio vulgaris L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Centaurea diluta Aïton,Reseda alba L,Hirschfeldia incana (L.) Lagrèze-Fossat,Sonchus oleraceus L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Centaurea diluta Aïton,Reseda alba L,Sonchus oleraceus L,Capsella bursa-pastoris (L.) Medicus
+Raphanus raphanistrum L,Onopordon macracanthum L,False,Onopordon macracanthum L,Phalaris minor Retz,Lavatera trimestris L,Raphanus raphanistrum L,Oxalis pes-caprae L
+Raphanus raphanistrum L,Raphanus raphanistrum L,True,Raphanus raphanistrum L,Silene gallica L,Vaccaria hispanica (Miller) Rauscher,Convolvulus arvensis L,Solanum elaeagnifolium Cav
+Reseda alba L,Capsella bursa-pastoris (L.) Medicus,False,Capsella bursa-pastoris (L.) Medicus,Papaver rhoeas L,Senecio vulgaris L,Centaurea diluta Aïton,Sonchus oleraceus L
+Reseda alba L,Reseda alba L,True,Reseda alba L,Glaucium corniculatum (L.) J. H. Rudolph,Coronopus squamatus (Forsk.) Ascherson,Capsella bursa-pastoris (L.) Medicus,Centaurea diluta Aïton
+Reseda alba L,Reseda alba L,True,Reseda alba L,Glaucium corniculatum (L.) J. H. Rudolph,Papaver hybridum L,Coronopus squamatus (Forsk.) Ascherson,Anacyclus radiatus Loisel
+Reseda alba L,Reseda alba L,True,Reseda alba L,Glaucium corniculatum (L.) J. H. Rudolph,Papaver hybridum L,Coronopus squamatus (Forsk.) Ascherson,Anacyclus radiatus Loisel
+Reseda alba L,Reseda alba L,True,Reseda alba L,Anacyclus radiatus Loisel,Ammi visnaga (L.) Lam,Torilis nodosa (L.) Gaertner,Sinapis alba L
+Reseda alba L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Reseda alba L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Reseda alba L,Fumaria parviflora Lam,False,Fumaria parviflora Lam,Melilotus sulcata Desf,Orobanche crenata Forsk,Sinapis alba L,Mercurialis annua L
+Rhagadiolus stellatus (L.) Gaertner,Rhagadiolus stellatus (L.) Gaertner,True,Rhagadiolus stellatus (L.) Gaertner,Conyza canadensis (L.) Cronq,Silene gallica L,Senecio vulgaris L,Silene vulgaris (Moench) Garcke
+Rhagadiolus stellatus (L.) Gaertner,Rhagadiolus stellatus (L.) Gaertner,True,Rhagadiolus stellatus (L.) Gaertner,Conyza canadensis (L.) Cronq,Silene gallica L,Senecio vulgaris L,Silene vulgaris (Moench) Garcke
+Rhagadiolus stellatus (L.) Gaertner,Rhagadiolus stellatus (L.) Gaertner,True,Rhagadiolus stellatus (L.) Gaertner,Conyza canadensis (L.) Cronq,Beta macrocarpa Guss,Papaver rhoeas L,Silene gallica L
+Rhagadiolus stellatus (L.) Gaertner,Rumex pulcher L,False,Rumex pulcher L,Capsella bursa-pastoris (L.) Medicus,Aster squamatus  (Spreng.) Hieron,Centaurea diluta Aïton,Emex spinosa (L.) Campd
+Rhagadiolus stellatus (L.) Gaertner,Rhagadiolus stellatus (L.) Gaertner,True,Rhagadiolus stellatus (L.) Gaertner,Ammi majus L,Diplotaxis tenuisiliqua delile,Capsella bursa-pastoris (L.) Medicus,Lactuca scariola L
+Ricinus communis L,Chrozophora tinctoria (L). A. Juss,False,Chrozophora tinctoria (L). A. Juss,Malope trifida Cav,Datura stramonium L,Emex spinosa (L.) Campd,Convolvulus arvensis L
+Ricinus communis L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Ricinus communis L,Picris echioides L,False,Picris echioides L,Emex spinosa (L.) Campd,Ricinus communis L,Onopordon macracanthum L,Diplotaxis catholica (L.) DC
+Ricinus communis L,Ricinus communis L,True,Ricinus communis L,Onopordon macracanthum L,Galium tricornutum Dandy,Emex spinosa (L.) Campd,Scorpiurus muricatus L
+Ricinus communis L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Ricinus communis L,Xanthium brasilicum Vellasco,False,Xanthium brasilicum Vellasco,Malva parviflora L,Lupinus angustifolius L,Scolymus hispanicus L,Lupinus luteus L
+Ridolfia segetum Moris,Ridolfia segetum Moris,True,Ridolfia segetum Moris,Anacyclus radiatus Loisel,Ammi visnaga (L.) Lam,Scandix pecten-veneris L,Adonis annua L
+Ridolfia segetum Moris,Ridolfia segetum Moris,True,Ridolfia segetum Moris,Geropogon hybridus  (L.) Sch.Bip,Tragopogon hybridus L,Lolium multiflorum Lam,Lathyrus clymenum L
+Ridolfia segetum Moris,Ammi visnaga (L.) Lam,False,Ammi visnaga (L.) Lam,Ammi majus L,Scandix pecten-veneris L,Bifora testiculata L,Cardaria draba (Cav) Desv
+Ridolfia segetum Moris,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Ridolfia segetum Moris,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Ridolfia segetum Moris,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Rumex pulcher L,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Lactuca scariola L,Sonchus oleraceus L,Rumex pulcher L,Sonchus asper (L.) Hill
+Rumex pulcher L,Rumex pulcher L,True,Rumex pulcher L,Aster squamatus  (Spreng.) Hieron,Capsella bursa-pastoris (L.) Medicus,Beta macrocarpa Guss,Centaurea diluta Aïton
+Rumex pulcher L,Rumex pulcher L,True,Rumex pulcher L,Beta macrocarpa Guss,Aster squamatus  (Spreng.) Hieron,Capsella bursa-pastoris (L.) Medicus,Centaurea diluta Aïton
+Rumex pulcher L,Malva parviflora L,False,Malva parviflora L,Sinapis alba L,Chenopodium murale L,Chenopodium album L,Echinochloa crus-galli (L.) Beauv
+Rumex pulcher L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Scandix pecten-veneris L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Scandix pecten-veneris L,Ammi visnaga (L.) Lam,False,Papaver hybridum L,Ammi visnaga (L.) Lam,Torilis nodosa (L.) Gaertner,Fumaria parviflora Lam,Bifora testiculata L
+Scandix pecten-veneris L,Ridolfia segetum Moris,False,Ridolfia segetum Moris,Ammi visnaga (L.) Lam,Adonis annua L,Anacyclus radiatus Loisel,Scandix pecten-veneris L
+Scandix pecten-veneris L,Emex spinosa (L.) Campd,False,Emex spinosa (L.) Campd,Ricinus communis L,Onopordon macracanthum L,Galium tricornutum Dandy,Hordeum murinum L
+Scandix pecten-veneris L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Scolymus hispanicus L,Scolymus maculatus L,False,Scolymus maculatus L,Scolymus hispanicus L,Carduus pycnocephalus L,Senecio vulgaris L,Silybum marianum (L.)  Gaertn
+Scolymus hispanicus L,Scolymus hispanicus L,True,Scolymus hispanicus L,Scolymus maculatus L,Carduus pycnocephalus L,Cichorium endivia L,Sonchus asper (L.) Hill
+Scolymus hispanicus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Scolymus hispanicus L,Senecio vulgaris L,False,Senecio vulgaris L,Picris echioides L,Solanum elaeagnifolium Cav,Scorpiurus muricatus L,Oxalis pes-caprae L
+Scolymus hispanicus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Scolymus maculatus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Scolymus maculatus L,Scolymus hispanicus L,False,Scolymus hispanicus L,Silybum marianum (L.)  Gaertn,Scolymus maculatus L,Carduus pycnocephalus L,Lactuca scariola L
+Scolymus maculatus L,Cichorium endivia L,False,Cichorium endivia L,Scolymus hispanicus L,Centaurea diluta Aïton,Senecio vulgaris L,Scolymus maculatus L
+Scolymus maculatus L,Gladiolus italicus Miller,False,Gladiolus italicus Miller,Lupinus luteus L,Chenopodium vulvaria L,Tribulus terrestris L,Lactuca scariola L
+Scolymus maculatus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Scorpiurus muricatus L,Calendula arvensis L,False,Calendula arvensis L,Picris echioides L,Cichorium endivia L,Centaurea eriophora L,Silene gallica L
+Scorpiurus muricatus L,Lolium multiflorum Lam,False,Lolium multiflorum Lam,Poa annua L,Tragopogon hybridus L,Lolium rigidum Gaudin,Geropogon hybridus  (L.) Sch.Bip
+Scorpiurus muricatus L,Phragmites australis L,False,Phragmites australis L,Daucus carota L,Hordeum murinum L,Vicia benghalensis L,Cyperus rotundus L
+Scorpiurus muricatus L,Polygonum aviculare L,False,Polygonum aviculare L,Phragmites australis L,Emex spinosa (L.) Campd,Vicia lutea L,Lathyrus cicera L
+Scorpiurus muricatus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Papaver rhoeas L,Glaucium corniculatum (L.) J. H. Rudolph,Chrysanthemum coronarium L,Conyza canadensis (L.) Cronq
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Papaver rhoeas L,Glaucium corniculatum (L.) J. H. Rudolph,Beta macrocarpa Guss,Conyza canadensis (L.) Cronq
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Papaver rhoeas L,Capsella bursa-pastoris (L.) Medicus,Beta macrocarpa Guss,Cardaria draba (Cav) Desv
+Senecio vulgaris L,Scolymus hispanicus L,False,Scolymus hispanicus L,Galium tricornutum Dandy,Calendula arvensis L,Centaurea diluta Aïton,Papaver rhoeas L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Reseda alba L,Sonchus asper (L.) Hill,Diplotaxis tenuisiliqua delile,Glaucium corniculatum (L.) J. H. Rudolph
+Senecio vulgaris L,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Senecio vulgaris L,Silybum marianum (L.)  Gaertn,Glaucium corniculatum (L.) J. H. Rudolph,Sonchus oleraceus L
+Senecio vulgaris L,Scorpiurus muricatus L,False,Scorpiurus muricatus L,Phragmites australis L,Daucus carota L,Hordeum murinum L,Vicia benghalensis L
+Senecio vulgaris L,Senecio vulgaris L,True,Senecio vulgaris L,Papaver rhoeas L,Diplotaxis tenuisiliqua delile,Chrysanthemum coronarium L,Glaucium corniculatum (L.) J. H. Rudolph
+Silene gallica L,Silene gallica L,True,Silene gallica L,Centaurea diluta Aïton,Rhagadiolus stellatus (L.) Gaertner,Silene vulgaris (Moench) Garcke,Conyza canadensis (L.) Cronq
+Silene gallica L,Silene gallica L,True,Silene gallica L,Cichorium endivia L,Centaurea diluta Aïton,Rhagadiolus stellatus (L.) Gaertner,Silene vulgaris (Moench) Garcke
+Silene gallica L,Lathyrus clymenum L,False,Lathyrus clymenum L,Phalaris minor Retz,Lolium rigidum Gaudin,Anchusa azurea Miller,Gladiolus italicus Miller
+Silene gallica L,Silene gallica L,True,Silene gallica L,Raphanus raphanistrum L,Misopates orontium (L.) Rafin,Vaccaria hispanica (Miller) Rauscher,Phalaris minor Retz
+Silene gallica L,Silene gallica L,True,Silene gallica L,Fedia cornucopiae (L.) Gaertner,Misopates orontium (L.) Rafin,Vaccaria hispanica (Miller) Rauscher,Raphanus raphanistrum L
+Silene vulgaris (Moench) Garcke,Polygonum aviculare L,False,Polygonum aviculare L,Rhagadiolus stellatus (L.) Gaertner,Conyza canadensis (L.) Cronq,Fedia cornucopiae (L.) Gaertner,Silene gallica L
+Silene vulgaris (Moench) Garcke,Silene gallica L,False,Silene gallica L,Centaurea eriophora L,Cichorium endivia L,Centaurea diluta Aïton,Beta macrocarpa Guss
+Silene vulgaris (Moench) Garcke,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Silene vulgaris (Moench) Garcke,Scorpiurus muricatus L,False,Scorpiurus muricatus L,Solanum elaeagnifolium Cav,Orobanche crenata Forsk,Vicia lutea L,Senecio vulgaris L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Scolymus maculatus L,Scolymus hispanicus L,Carduus pycnocephalus L,Sonchus asper (L.) Hill
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Scolymus hispanicus L,Carduus pycnocephalus L,Scolymus maculatus L,Senecio vulgaris L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Scolymus maculatus L,Scolymus hispanicus L,Carduus pycnocephalus L,Senecio vulgaris L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Glaucium corniculatum (L.) J. H. Rudolph,Reseda alba L,Lactuca scariola L,Carlina racemosa L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Scolymus maculatus L,Lactuca scariola L,Sonchus oleraceus L,Scolymus hispanicus L
+Silybum marianum (L.)  Gaertn,Onopordon macracanthum L,False,Onopordon macracanthum L,Daucus carota L,Senecio vulgaris L,Phragmites australis L,Vicia benghalensis L
+Silybum marianum (L.)  Gaertn,Silybum marianum (L.)  Gaertn,True,Silybum marianum (L.)  Gaertn,Onopordon macracanthum L,Carduus pycnocephalus L,Lolium rigidum Gaudin,Sonchus asper (L.) Hill
+Sinapis alba L,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Hirschfeldia incana (L.) Lagrèze-Fossat,Sonchus oleraceus L,Ecballium elaterium  (L.) A. Rich,Solanum nigrum L
+Sinapis alba L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Sinapis alba L,Capsella bursa-pastoris (L.) Medicus,False,Capsella bursa-pastoris (L.) Medicus,Lolium multiflorum Lam,Bromus rigidus,Solanum elaeagnifolium Cav,Phalaris paradoxa L
+Sinapis alba L,Melilotus sulcata Desf,False,Melilotus sulcata Desf,Reseda alba L,Bifora testiculata L,Capsella bursa-pastoris (L.) Medicus,Scolymus hispanicus L
+Sinapis arvensis L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Sinapis arvensis L,Sonchus oleraceus L,False,Sonchus oleraceus L,Centaurea diluta Aïton,Senecio vulgaris L,Papaver rhoeas L,Sonchus asper (L.) Hill
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Raphanus raphanistrum L,Datura stramonium L,Convolvulus arvensis L,Convolvulus altaeoides L
+Solanum elaeagnifolium Cav,Polygonum aviculare L,False,Polygonum aviculare L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chenopodium vulvaria L,Silene vulgaris (Moench) Garcke,Anchusa azurea Miller
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Convolvulus arvensis L,Convolvulus altaeoides L,Raphanus raphanistrum L,Onopordon macracanthum L
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Reseda alba L,Senecio vulgaris L,Chrysanthemum coronarium L,Glaucium corniculatum (L.) J. H. Rudolph
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Senecio vulgaris L,Reseda alba L,Glaucium corniculatum (L.) J. H. Rudolph,Chrysanthemum coronarium L
+Solanum elaeagnifolium Cav,Solanum elaeagnifolium Cav,True,Solanum elaeagnifolium Cav,Convolvulus arvensis L,Convolvulus altaeoides L,Datura stramonium L,Raphanus raphanistrum L
+Solanum elaeagnifolium Cav,Chenopodium vulvaria L,False,Chenopodium vulvaria L,Picris echioides L,Senecio vulgaris L,Scorpiurus muricatus L,Lactuca scariola L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Heliotropium europaeum L,Xanthium spinosum L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Xanthium brasilicum Vellasco
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Heliotropium europaeum L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chrozophora tinctoria (L). A. Juss,Xanthium spinosum L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Heliotropium europaeum L,Amaranthus retroflexus L,Amaranthus deflexus L,Xanthium brasilicum Vellasco
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Heliotropium europaeum L,Amaranthus deflexus L,Amaranthus retroflexus L,Stachys arvensis L
+Solanum nigrum L,Chenopodium murale L,False,Chenopodium murale L,Datura stramonium L,Scolymus hispanicus L,Emex spinosa (L.) Campd,Lactuca scariola L
+Solanum nigrum L,Solanum nigrum L,True,Solanum nigrum L,Raphanus raphanistrum L,Ecballium elaterium  (L.) A. Rich,Stachys arvensis L,Heliotropium europaeum L
+Sonchus asper (L.) Hill,Sonchus oleraceus L,False,Sonchus oleraceus L,Sonchus asper (L.) Hill,Sinapis alba L,Sinapis arvensis L,Convolvulus arvensis L
+Sonchus asper (L.) Hill,Sonchus asper (L.) Hill,True,Sonchus asper (L.) Hill,Sonchus oleraceus L,Lactuca scariola L,Sinapis arvensis L,Sinapis alba L
+Sonchus asper (L.) Hill,Silybum marianum (L.)  Gaertn,False,Silybum marianum (L.)  Gaertn,Lactuca scariola L,Carduus pycnocephalus L,Senecio vulgaris L,Sonchus oleraceus L
+Sonchus asper (L.) Hill,Sonchus oleraceus L,False,Sonchus oleraceus L,Onopordon macracanthum L,Diplotaxis tenuisiliqua delile,Sonchus asper (L.) Hill,Datura stramonium L
+Sonchus oleraceus L,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Sonchus oleraceus L,Ecballium elaterium  (L.) A. Rich,Sinapis alba L,Papaver rhoeas L
+Sonchus oleraceus L,Sonchus oleraceus L,True,Sonchus oleraceus L,Sonchus asper (L.) Hill,Ecballium elaterium  (L.) A. Rich,Verbesina encelioides (Cav.) Benth. ex A. Gray,Sinapis alba L
+Sonchus oleraceus L,Sonchus asper (L.) Hill,False,Sonchus asper (L.) Hill,Sonchus oleraceus L,Picris echioides L,Hirschfeldia incana (L.) Lagrèze-Fossat,Sinapis alba L
+Sonchus oleraceus L,Capsella bursa-pastoris (L.) Medicus,False,Capsella bursa-pastoris (L.) Medicus,Raphanus raphanistrum L,Sonchus oleraceus L,Reseda alba L,Glaucium corniculatum (L.) J. H. Rudolph
+Sonchus oleraceus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Sonchus oleraceus L,Sonchus asper (L.) Hill,False,Sonchus oleraceus L,Sonchus asper (L.) Hill,Picris echioides L,Emex spinosa (L.) Campd,Senecio vulgaris L
+Sonchus oleraceus L,Picris echioides L,False,Senecio vulgaris L,Picris echioides L,Onopordon macracanthum L,Sonchus asper (L.) Hill,Silybum marianum (L.)  Gaertn
+Sorghum halepense L,Convolvulus arvensis L,False,Emex spinosa (L.) Campd,Scorpiurus muricatus L,Orobanche crenata Forsk,Convolvulus arvensis L,Avena sterilis L
+Sorghum halepense L,Sorghum halepense L,True,Sorghum halepense L,Echinochloa crus-galli (L.) Beauv,Bromus rigidus,Avena sterilis L,Phalaris minor Retz
+Sorghum halepense L,Sorghum halepense L,True,Sorghum halepense L,Echinochloa crus-galli (L.) Beauv,Bromus rigidus,Avena sterilis L,Phalaris minor Retz
+Stachys arvensis L,Lamium amplexicaule L,False,Lamium amplexicaule L,Misopates orontium (L.) Rafin,Veronica hederifolia L,Fedia cornucopiae (L.) Gaertner,Orobanche crenata Forsk
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Veronica polita Fries,Solanum nigrum L,Mercurialis annua L,Ecballium elaterium  (L.) A. Rich
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Veronica polita Fries,Urtica urens L,Mercurialis annua L,Lamium amplexicaule L
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Veronica polita Fries,Lamium amplexicaule L,Sinapis alba L,Ecballium elaterium  (L.) A. Rich
+Stachys arvensis L,Stachys arvensis L,True,Stachys arvensis L,Veronica polita Fries,Urtica urens L,Lamium amplexicaule L,Mercurialis annua L
+Stachys arvensis L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Convolvulus arvensis L,Chenopodium vulvaria L,Sonchus asper (L.) Hill,Sinapis alba L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Chenopodium vulvaria L,Convolvulus arvensis L,Sonchus oleraceus L,Sonchus asper (L.) Hill
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Anagallis arvensis L,Amaranthus blitoides S. Watson,Heliotropium europaeum L,Chenopodium murale L
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Convolvulus arvensis L,Chenopodium vulvaria L,Veronica hederifolia L,Sinapis alba L
+Stellaria media (L.)Vill,Anagallis arvensis L,False,Anagallis arvensis L,Stellaria media (L.)Vill,Galium tricornutum Dandy,Vaccaria hispanica (Miller) Rauscher,Galium verrucosum Hudson
+Stellaria media (L.)Vill,Tribulus terrestris L,False,Tribulus terrestris L,Reseda alba L,Chamaemelum mixtum (L.) All,Ricinus communis L,Lolium rigidum Gaudin
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Solanum nigrum L,Xanthium brasilicum Vellasco,Sonchus oleraceus L,Sonchus asper (L.) Hill
+Stellaria media (L.)Vill,Stellaria media (L.)Vill,True,Stellaria media (L.)Vill,Papaver rhoeas L,Sonchus oleraceus L,Convolvulus arvensis L,Amaranthus blitoides S. Watson
+Torilis nodosa (L.) Gaertner,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Fumaria agraria Lag,Scandix pecten-veneris L,Bifora testiculata L,Ammi visnaga (L.) Lam
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Bifora testiculata L,Fumaria agraria Lag,Scandix pecten-veneris L,Papaver hybridum L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Ammi visnaga (L.) Lam,Fumaria agraria Lag,Bifora testiculata L,Diplotaxis catholica (L.) DC
+Torilis nodosa (L.) Gaertner,Convolvulus arvensis L,False,Scorpiurus muricatus L,Convolvulus arvensis L,Picris echioides L,Phalaris paradoxa L,Chenopodium murale L
+Torilis nodosa (L.) Gaertner,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Torilis nodosa (L.) Gaertner,Torilis nodosa (L.) Gaertner,True,Torilis nodosa (L.) Gaertner,Fumaria agraria Lag,Bifora testiculata L,Scandix pecten-veneris L,Papaver hybridum L
+Tragopogon hybridus L,Geropogon hybridus  (L.) Sch.Bip,False,Geropogon hybridus  (L.) Sch.Bip,Lolium multiflorum Lam,Lathyrus clymenum L,Phalaris brachystachys Link,Phalaris minor Retz
+Tragopogon hybridus L,Lolium rigidum Gaudin,False,Lolium rigidum Gaudin,Poa annua L,Phalaris paradoxa L,Lolium multiflorum Lam,Plantago afra L
+Tragopogon hybridus L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Misopates orontium (L.) Rafin,Vicia sativa L,Galium tricornutum Dandy,Vicia lutea L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Vicia lutea L,Vicia sativa L,Galium tricornutum Dandy,Lupinus hirsutus L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Vicia lutea L,Vicia sativa L,Diplotaxis catholica (L.) DC,Lupinus hirsutus L
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Scolymus maculatus L,Gladiolus italicus Miller,Lupinus luteus L,Chenopodium vulvaria L
+Tribulus terrestris L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Tribulus terrestris L,Sinapis alba L,False,Sinapis alba L,Ranunculus muricatus L,Solanum elaeagnifolium Cav,Picris echioides L,Melilotus sulcata Desf
+Tribulus terrestris L,Tribulus terrestris L,True,Tribulus terrestris L,Gladiolus italicus Miller,Scolymus maculatus L,Lupinus luteus L,Chenopodium vulvaria L
+Urtica urens L,Stachys arvensis L,False,Stachys arvensis L,Lamium amplexicaule L,Veronica polita Fries,Mercurialis annua L,Urtica urens L
+Urtica urens L,Urtica urens L,True,Urtica urens L,Mercurialis annua L,Stachys arvensis L,Lamium amplexicaule L,Chrozophora tinctoria (L). A. Juss
+Urtica urens L,Urtica urens L,True,Urtica urens L,Stachys arvensis L,Lamium amplexicaule L,Mercurialis annua L,Chenopodium murale L
+Urtica urens L,Urtica urens L,True,Urtica urens L,Stachys arvensis L,Lamium amplexicaule L,Mercurialis annua L,Chenopodium murale L
+Urtica urens L,Urtica urens L,True,Urtica urens L,Lamium amplexicaule L,Stachys arvensis L,Chenopodium murale L,Sinapis alba L
+Urtica urens L,Urtica urens L,True,Urtica urens L,Stachys arvensis L,Chenopodium murale L,Amaranthus deflexus L,Mercurialis annua L
+Urtica urens L,Urtica urens L,True,Urtica urens L,Chenopodium murale L,Mercurialis annua L,Stachys arvensis L,Amaranthus deflexus L
+Urtica urens L,Urtica urens L,True,Urtica urens L,Stachys arvensis L,Lamium amplexicaule L,Mercurialis annua L,Veronica polita Fries
+Vaccaria hispanica (Miller) Rauscher,Misopates orontium (L.) Rafin,False,Misopates orontium (L.) Rafin,Vaccaria hispanica (Miller) Rauscher,Polygonum aviculare L,Fedia cornucopiae (L.) Gaertner,Calendula arvensis L
+Vaccaria hispanica (Miller) Rauscher,Vaccaria hispanica (Miller) Rauscher,True,Vaccaria hispanica (Miller) Rauscher,Centaurea diluta Aïton,Rhagadiolus stellatus (L.) Gaertner,Scolymus maculatus L,Diplotaxis tenuisiliqua delile
+Vaccaria hispanica (Miller) Rauscher,Misopates orontium (L.) Rafin,False,Misopates orontium (L.) Rafin,Vaccaria hispanica (Miller) Rauscher,Buglossoides arvensis (L.) I. M. Johnson,Calendula arvensis L,Scolymus maculatus L
+Vaccaria hispanica (Miller) Rauscher,Lavatera trimestris L,False,Lavatera trimestris L,Convolvulus altaeoides L,Phalaris minor Retz,Anchusa azurea Miller,Convolvulus arvensis L
+Vaccaria hispanica (Miller) Rauscher,Bupleurum lancifolium Hornem,False,Bupleurum lancifolium Hornem,Lathyrus ochrus (L.) DC,Digitaria sanguinalis,Avena sterilis L,Ricinus communis L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Chenopodium vulvaria L,False,Chenopodium vulvaria L,Chenopodium murale L,Solanum elaeagnifolium Cav,Sonchus oleraceus L,Convolvulus arvensis L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chrysanthemum coronarium L,Chamaemelum fuscatum L,Tribulus terrestris L,Picris echioides L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chrysanthemum coronarium L,Chamaemelum fuscatum L,Tribulus terrestris L,Scolymus hispanicus L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Solanum nigrum L,Chrozophora tinctoria (L). A. Juss,Veronica polita Fries,Chenopodium album L
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chenopodium album L,Chenopodium vulvaria L,Solanum nigrum L,Chrozophora tinctoria (L). A. Juss
+Verbesina encelioides (Cav.) Benth. ex A. Gray,Verbesina encelioides (Cav.) Benth. ex A. Gray,True,Verbesina encelioides (Cav.) Benth. ex A. Gray,Veronica polita Fries,Amaranthus deflexus L,Chenopodium album L,Solanum nigrum L
+Veronica hederifolia L,Veronica hederifolia L,True,Veronica hederifolia L,Hirschfeldia incana (L.) Lagrèze-Fossat,Chenopodium vulvaria L,Veronica polita Fries,Sinapis alba L
+Veronica hederifolia L,Veronica hederifolia L,True,Veronica hederifolia L,Ecballium elaterium  (L.) A. Rich,Veronica polita Fries,Sinapis alba L,Chenopodium vulvaria L
+Veronica hederifolia L,Veronica hederifolia L,True,Veronica hederifolia L,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L
+Veronica hederifolia L,Veronica hederifolia L,True,Veronica hederifolia L,Daucus carota L,Vicia benghalensis L,Phragmites australis L,Cyperus rotundus L
+Veronica polita Fries,Veronica polita Fries,True,Veronica polita Fries,Veronica hederifolia L,Stachys arvensis L,Chenopodium album L,Lamium amplexicaule L
+Veronica polita Fries,Verbesina encelioides (Cav.) Benth. ex A. Gray,False,Verbesina encelioides (Cav.) Benth. ex A. Gray,Stachys arvensis L,Mercurialis annua L,Solanum nigrum L,Xanthium brasilicum Vellasco
+Veronica polita Fries,Veronica polita Fries,True,Veronica polita Fries,Lamium amplexicaule L,Stachys arvensis L,Urtica urens L,Veronica hederifolia L
+Veronica polita Fries,Veronica polita Fries,True,Veronica polita Fries,Stachys arvensis L,Lamium amplexicaule L,Urtica urens L,Veronica hederifolia L
+Vicia benghalensis L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Cyperus rotundus L,Carlina racemosa L,Hordeum murinum L
+Vicia benghalensis L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Cyperus rotundus L,Carlina racemosa L,Hordeum murinum L
+Vicia benghalensis L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Cyperus rotundus L,Carlina racemosa L,Hordeum murinum L
+Vicia benghalensis L,Vicia lutea L,False,Vicia lutea L,Vicia sativa L,Astragalus boeticus L,Lupinus luteus L,Tribulus terrestris L
+Vicia benghalensis L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Cyperus rotundus L,Carlina racemosa L,Hordeum murinum L
+Vicia benghalensis L,Phragmites australis L,False,Phragmites australis L,Convolvulus arvensis L,Vicia lutea L,Lactuca scariola L,Lathyrus cicera L
+Vicia lutea L,Vicia lutea L,True,Vicia lutea L,Senecio vulgaris L,Scorpiurus muricatus L,Phalaris minor Retz,Vicia sativa L
+Vicia lutea L,Phragmites australis L,False,Phragmites australis L,Vicia benghalensis L,Convolvulus arvensis L,Lathyrus cicera L,Scorpiurus muricatus L
+Vicia lutea L,Vicia sativa L,False,Vicia sativa L,Vicia lutea L,Phalaris minor Retz,Melilotus sulcata Desf,Senecio vulgaris L
+Vicia lutea L,Vicia sativa L,False,Vicia sativa L,Astragalus boeticus L,Tribulus terrestris L,Diplotaxis catholica (L.) DC,Vicia benghalensis L
+Vicia sativa L,Vicia lutea L,False,Vicia lutea L,Vicia sativa L,Astragalus boeticus L,Melilotus sulcata Desf,Tribulus terrestris L
+Vicia sativa L,Vicia lutea L,False,Vicia lutea L,Vicia sativa L,Astragalus boeticus L,Tribulus terrestris L,Melilotus sulcata Desf
+Vicia sativa L,Vicia sativa L,True,Vicia sativa L,Vicia lutea L,Lupinus hirsutus L,Lupinus luteus L,Misopates orontium (L.) Rafin
+Vicia sativa L,Vicia sativa L,True,Vicia sativa L,Vicia lutea L,Lathyrus clymenum L,Phalaris minor Retz,Gladiolus italicus Miller
+Vicia sativa L,Vicia lutea L,False,Vicia lutea L,Vicia sativa L,Astragalus boeticus L,Melilotus sulcata Desf,Lupinus luteus L
+Vicia sativa L,Vicia sativa L,True,Vicia sativa L,Vicia lutea L,Phalaris minor Retz,Anchusa azurea Miller,Senecio vulgaris L
+Xanthium brasilicum Vellasco,Ricinus communis L,False,Ricinus communis L,Lupinus angustifolius L,Malva parviflora L,Ammi majus L,Scolymus hispanicus L
+Xanthium brasilicum Vellasco,Xanthium brasilicum Vellasco,True,Xanthium brasilicum Vellasco,Solanum nigrum L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chenopodium murale L,Xanthium spinosum L
+Xanthium brasilicum Vellasco,Xanthium brasilicum Vellasco,True,Xanthium brasilicum Vellasco,Convolvulus altaeoides L,Malope trifida Cav,Datura stramonium L,Lavatera trimestris L
+Xanthium brasilicum Vellasco,Xanthium brasilicum Vellasco,True,Xanthium brasilicum Vellasco,Solanum nigrum L,Chenopodium murale L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Chrozophora tinctoria (L). A. Juss
+Xanthium brasilicum Vellasco,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L
+Xanthium brasilicum Vellasco,Xanthium brasilicum Vellasco,True,Xanthium brasilicum Vellasco,Solanum nigrum L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Sonchus oleraceus L,Chrozophora tinctoria (L). A. Juss
+Xanthium spinosum L,Chrozophora tinctoria (L). A. Juss,False,Chrozophora tinctoria (L). A. Juss,Heliotropium europaeum L,Solanum nigrum L,Verbesina encelioides (Cav.) Benth. ex A. Gray,Fallopia convolvulus (L.) A. Löve
+Xanthium spinosum L,Xanthium spinosum L,True,Xanthium spinosum L,Centaurea diluta Aïton,Capsella bursa-pastoris (L.) Medicus,Sonchus oleraceus L,Reseda alba L
+Xanthium spinosum L,Xanthium spinosum L,True,Xanthium spinosum L,Centaurea diluta Aïton,Reseda alba L,Capsella bursa-pastoris (L.) Medicus,Sonchus oleraceus L
+Xanthium spinosum L,Datura stramonium L,False,Datura stramonium L,Xanthium spinosum L,Sonchus asper (L.) Hill,Silybum marianum (L.)  Gaertn,Onopordon macracanthum L
+Xanthium spinosum L,Daucus carota L,False,Daucus carota L,Phragmites australis L,Vicia benghalensis L,Cyperus rotundus L,Carlina racemosa L

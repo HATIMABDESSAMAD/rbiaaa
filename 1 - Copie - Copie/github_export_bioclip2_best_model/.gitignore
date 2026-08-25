@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.zip
+*.rar
+*.7z
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+Bases de donnees photos*/
+Bases de données photos*/
+results_vit*/
+results_bioclip2_advanced_cv/
+results_bioclip2_linear_probe*/
+results_bioclip2_zeroshot_all_dataset/
+results_bioclip2_zeroshot_one_test_per_class/
+results_bioclip_zeroshot_one_test_per_class/

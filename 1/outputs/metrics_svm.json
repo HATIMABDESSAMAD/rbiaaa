@@ -1,0 +1,8 @@
+{
+  "classifier": "svm",
+  "samples": 631,
+  "classes": 138,
+  "top1_accuracy": 0.6275752773375595,
+  "top5_accuracy": 0.7971473851030111,
+  "macro_f1": 0.5573363361087146
+}
